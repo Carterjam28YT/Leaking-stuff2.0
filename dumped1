@@ -1,0 +1,2488 @@
+--// Dumped At https://discord.gg/AUYxfGc7JB
+
+function func_6d381f0d(...)
+	[Slots: 19, Upvalues: 0, Constants: 130]
+	[   0]	   GetGlobal	|    0 |    0 |    0 |	R0 = loadstring
+	[   1]	   GetGlobal	|    1 |    1 |    0 |	R1 = game
+	[   2]	        Self	|    1 |    1 |  258 |	R2 = R1; R1 = R1["HttpGet"]
+	[   3]	       LoadK	|    3 |    3 |    0 |	R3 = "https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"
+	[   4]	        Call	|    1 |    3 |    0 |	R1->top = R1(R2, R3)
+	[   5]	        Call	|    0 |    0 |    2 |	R0 = R0(R1->top)
+	[   6]	        Call	|    0 |    1 |    2 |	R0 = R0()
+	[   7]	   GetGlobal	|    1 |    0 |    0 |	R1 = loadstring
+	[   8]	   GetGlobal	|    2 |    1 |    0 |	R2 = game
+	[   9]	        Self	|    2 |    2 |  258 |	R3 = R2; R2 = R2["HttpGet"]
+	[  10]	       LoadK	|    4 |    4 |    0 |	R4 = "https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"
+	[  11]	        Call	|    2 |    3 |    0 |	R2->top = R2(R3, R4)
+	[  12]	        Call	|    1 |    0 |    2 |	R1 = R1(R2->top)
+	[  13]	        Call	|    1 |    1 |    2 |	R1 = R1()
+	[  14]	   GetGlobal	|    2 |    0 |    0 |	R2 = loadstring
+	[  15]	   GetGlobal	|    3 |    1 |    0 |	R3 = game
+	[  16]	        Self	|    3 |    3 |  258 |	R4 = R3; R3 = R3["HttpGet"]
+	[  17]	       LoadK	|    5 |    5 |    0 |	R5 = "https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"
+	[  18]	        Call	|    3 |    3 |    0 |	R3->top = R3(R4, R5)
+	[  19]	        Call	|    2 |    0 |    2 |	R2 = R2(R3->top)
+	[  20]	        Call	|    2 |    1 |    2 |	R2 = R2()
+	[  21]	        Self	|    3 |    0 |  262 |	R4 = R0; R3 = R0["CreateWindow"]
+	[  22]	    NewTable	|    5 |    0 |    7 |	R5 = {}
+	[  23]	       LoadK	|    6 |    7 |    0 |	R6 = "KGuestCheatsJ Hub "
+	[  24]	   GetGlobal	|    7 |    8 |    0 |	R7 = identifyexecutor
+	[  25]	        Call	|    7 |    1 |    2 |	R7 = R7()
+	[  26]	      Concat	|    6 |    6 |    7 |	R6 = R6 .. R7
+	[  27]	    SetTable	|    5 |  265 |    6 |	R5["Title"] = R6
+	[  28]	    SetTable	|    5 |  266 |  267 |	R5["SubTitle"] = "A Dusty Trip "
+	[  29]	    SetTable	|    5 |  268 |  269 |	R5["TabWidth"] = 150
+	[  30]	   GetGlobal	|    6 |   14 |    0 |	R6 = UDim2
+	[  31]	    GetTable	|    6 |    6 |  271 |	R6 = R6["fromOffset"]
+	[  32]	       LoadK	|    7 |   16 |    0 |	R7 = 435
+	[  33]	       LoadK	|    8 |   17 |    0 |	R8 = 340
+	[  34]	        Call	|    6 |    3 |    2 |	R6 = R6(R7, R8)
+	[  35]	    SetTable	|    5 |  274 |    6 |	R5["Size"] = R6
+	[  36]	    SetTable	|    5 |  275 |  276 |	R5["Acrylic"] = false
+	[  37]	    SetTable	|    5 |  277 |  278 |	R5["Theme"] = "amethyst"
+	[  38]	   GetGlobal	|    6 |   23 |    0 |	R6 = Enum
+	[  39]	    GetTable	|    6 |    6 |  280 |	R6 = R6["KeyCode"]
+	[  40]	    GetTable	|    6 |    6 |  281 |	R6 = R6["LeftControl"]
+	[  41]	    SetTable	|    5 |  282 |    6 |	R5["MinimizeKey"] = R6
+	[  42]	        Call	|    3 |    3 |    2 |	R3 = R3(R4, R5)
+	[  43]	    NewTable	|    4 |    0 |    6 |	R4 = {}
+	[  44]	        Self	|    5 |    3 |  283 |	R6 = R3; R5 = R3["AddTab"]
+	[  45]	    NewTable	|    7 |    0 |    2 |	R7 = {}
+	[  46]	    SetTable	|    7 |  265 |  284 |	R7["Title"] = "Exploits"
+	[  47]	    SetTable	|    7 |  285 |  286 |	R7["Icon"] = "delete"
+	[  48]	        Call	|    5 |    3 |    2 |	R5 = R5(R6, R7)
+	[  49]	    SetTable	|    4 |  287 |    5 |	R4["Main"] = R5
+	[  50]	        Self	|    5 |    3 |  283 |	R6 = R3; R5 = R3["AddTab"]
+	[  51]	    NewTable	|    7 |    0 |    2 |	R7 = {}
+	[  52]	    SetTable	|    7 |  265 |  288 |	R7["Title"] = "Bring Items"
+	[  53]	    SetTable	|    7 |  285 |  286 |	R7["Icon"] = "delete"
+	[  54]	        Call	|    5 |    3 |    2 |	R5 = R5(R6, R7)
+	[  55]	    SetTable	|    4 |  289 |    5 |	R4["Main2"] = R5
+	[  56]	        Self	|    5 |    3 |  283 |	R6 = R3; R5 = R3["AddTab"]
+	[  57]	    NewTable	|    7 |    0 |    2 |	R7 = {}
+	[  58]	    SetTable	|    7 |  265 |  290 |	R7["Title"] = "Gun Mods"
+	[  59]	    SetTable	|    7 |  285 |  286 |	R7["Icon"] = "delete"
+	[  60]	        Call	|    5 |    3 |    2 |	R5 = R5(R6, R7)
+	[  61]	    SetTable	|    4 |  291 |    5 |	R4["Main3"] = R5
+	[  62]	        Self	|    5 |    3 |  283 |	R6 = R3; R5 = R3["AddTab"]
+	[  63]	    NewTable	|    7 |    0 |    2 |	R7 = {}
+	[  64]	    SetTable	|    7 |  265 |  292 |	R7["Title"] = "Troll"
+	[  65]	    SetTable	|    7 |  285 |  286 |	R7["Icon"] = "delete"
+	[  66]	        Call	|    5 |    3 |    2 |	R5 = R5(R6, R7)
+	[  67]	    SetTable	|    4 |  293 |    5 |	R4["Main4"] = R5
+	[  68]	        Self	|    5 |    3 |  283 |	R6 = R3; R5 = R3["AddTab"]
+	[  69]	    NewTable	|    7 |    0 |    2 |	R7 = {}
+	[  70]	    SetTable	|    7 |  265 |  294 |	R7["Title"] = "Misc"
+	[  71]	    SetTable	|    7 |  285 |  286 |	R7["Icon"] = "delete"
+	[  72]	        Call	|    5 |    3 |    2 |	R5 = R5(R6, R7)
+	[  73]	    SetTable	|    4 |  295 |    5 |	R4["Main5"] = R5
+	[  74]	        Self	|    5 |    3 |  283 |	R6 = R3; R5 = R3["AddTab"]
+	[  75]	    NewTable	|    7 |    0 |    2 |	R7 = {}
+	[  76]	    SetTable	|    7 |  265 |  296 |	R7["Title"] = "GUI Settings"
+	[  77]	    SetTable	|    7 |  285 |  297 |	R7["Icon"] = "settings"
+	[  78]	        Call	|    5 |    3 |    2 |	R5 = R5(R6, R7)
+	[  79]	    SetTable	|    4 |  298 |    5 |	R4["Settings"] = R5
+	[  80]	    GetTable	|    5 |    4 |  287 |	R5 = R4["Main"]
+	[  81]	        Self	|    5 |    5 |  299 |	R6 = R5; R5 = R5["AddButton"]
+	[  82]	    NewTable	|    7 |    0 |    3 |	R7 = {}
+	[  83]	    SetTable	|    7 |  265 |  300 |	R7["Title"] = "Full God Mode"
+	[  84]	    SetTable	|    7 |  301 |  302 |	R7["Description"] = ""
+	[  85]	     Closure	|    8 |   11 |    0 |	R8 = func_3d4e3b6d
+	[  86]	    SetTable	|    7 |  303 |    8 |	R7["Callback"] = R8
+	[  87]	        Call	|    5 |    3 |    1 |	R5(R6, R7)
+	[  88]	    GetTable	|    5 |    4 |  287 |	R5 = R4["Main"]
+	[  89]	        Self	|    5 |    5 |  299 |	R6 = R5; R5 = R5["AddButton"]
+	[  90]	    NewTable	|    7 |    0 |    3 |	R7 = {}
+	[  91]	    SetTable	|    7 |  265 |  304 |	R7["Title"] = "INF Stamina"
+	[  92]	    SetTable	|    7 |  301 |  305 |	R7["Description"] = "Works All Executors"
+	[  93]	     Closure	|    8 |    9 |    0 |	R8 = func_b1fd7472
+	[  94]	    SetTable	|    7 |  303 |    8 |	R7["Callback"] = R8
+	[  95]	        Call	|    5 |    3 |    1 |	R5(R6, R7)
+	[  96]	    GetTable	|    5 |    4 |  287 |	R5 = R4["Main"]
+	[  97]	        Self	|    5 |    5 |  299 |	R6 = R5; R5 = R5["AddButton"]
+	[  98]	    NewTable	|    7 |    0 |    3 |	R7 = {}
+	[  99]	    SetTable	|    7 |  265 |  306 |	R7["Title"] = "INF JUMP"
+	[ 100]	    SetTable	|    7 |  301 |  302 |	R7["Description"] = ""
+	[ 101]	     Closure	|    8 |   17 |    0 |	R8 = func_ea3fb63f
+	[ 102]	    SetTable	|    7 |  303 |    8 |	R7["Callback"] = R8
+	[ 103]	        Call	|    5 |    3 |    1 |	R5(R6, R7)
+	[ 104]	    GetTable	|    5 |    0 |  307 |	R5 = R0["Options"]
+	[ 105]	    GetTable	|    6 |    4 |  287 |	R6 = R4["Main"]
+	[ 106]	        Self	|    6 |    6 |  308 |	R7 = R6; R6 = R6["AddToggle"]
+	[ 107]	       LoadK	|    8 |   53 |    0 |	R8 = "Auto2"
+	[ 108]	    NewTable	|    9 |    0 |    2 |	R9 = {}
+	[ 109]	    SetTable	|    9 |  265 |  310 |	R9["Title"] = "Flash Speed"
+	[ 110]	    SetTable	|    9 |  311 |  276 |	R9["Default"] = false
+	[ 111]	        Call	|    6 |    4 |    2 |	R6 = R6(R7, R8, R9)
+	[ 112]	        Self	|    7 |    6 |  312 |	R8 = R6; R7 = R6["OnChanged"]
+	[ 113]	     Closure	|    9 |   20 |    1 |	R9 = func_098b0f58
+	[ 114]	        Move	|    0 |    5 |    0 |	R0 = R5
+	[ 115]	        Call	|    7 |    3 |    1 |	R7(R8, R9)
+	[ 116]	    GetTable	|    7 |    4 |  295 |	R7 = R4["Main5"]
+	[ 117]	        Self	|    7 |    7 |  299 |	R8 = R7; R7 = R7["AddButton"]
+	[ 118]	    NewTable	|    9 |    0 |    3 |	R9 = {}
+	[ 119]	    SetTable	|    9 |  265 |  313 |	R9["Title"] = "Instant Intract E Button"
+	[ 120]	    SetTable	|    9 |  301 |  302 |	R9["Description"] = ""
+	[ 121]	     Closure	|   10 |   27 |    0 |	R10 = func_4f754de3
+	[ 122]	    SetTable	|    9 |  303 |   10 |	R9["Callback"] = R10
+	[ 123]	        Call	|    7 |    3 |    1 |	R7(R8, R9)
+	[ 124]	    GetTable	|    7 |    4 |  295 |	R7 = R4["Main5"]
+	[ 125]	        Self	|    7 |    7 |  299 |	R8 = R7; R7 = R7["AddButton"]
+	[ 126]	    NewTable	|    9 |    0 |    3 |	R9 = {}
+	[ 127]	    SetTable	|    9 |  265 |  314 |	R9["Title"] = "Free 8X8 Backpack"
+	[ 128]	    SetTable	|    9 |  301 |  302 |	R9["Description"] = ""
+	[ 129]	     Closure	|   10 |    5 |    0 |	R10 = func_b6dfb235
+	[ 130]	    SetTable	|    9 |  303 |   10 |	R9["Callback"] = R10
+	[ 131]	        Call	|    7 |    3 |    1 |	R7(R8, R9)
+	[ 132]	    GetTable	|    7 |    4 |  293 |	R7 = R4["Main4"]
+	[ 133]	        Self	|    7 |    7 |  299 |	R8 = R7; R7 = R7["AddButton"]
+	[ 134]	    NewTable	|    9 |    0 |    3 |	R9 = {}
+	[ 135]	    SetTable	|    9 |  265 |  315 |	R9["Title"] = "Bring All Players"
+	[ 136]	    SetTable	|    9 |  301 |  302 |	R9["Description"] = ""
+	[ 137]	     Closure	|   10 |    8 |    0 |	R10 = func_0ddee4ae
+	[ 138]	    SetTable	|    9 |  303 |   10 |	R9["Callback"] = R10
+	[ 139]	        Call	|    7 |    3 |    1 |	R7(R8, R9)
+	[ 140]	    GetTable	|    7 |    4 |  293 |	R7 = R4["Main4"]
+	[ 141]	        Self	|    7 |    7 |  299 |	R8 = R7; R7 = R7["AddButton"]
+	[ 142]	    NewTable	|    9 |    0 |    3 |	R9 = {}
+	[ 143]	    SetTable	|    9 |  265 |  316 |	R9["Title"] = "Kill All Players"
+	[ 144]	    SetTable	|    9 |  301 |  317 |	R9["Description"] = "Expect You"
+	[ 145]	     Closure	|   10 |    1 |    0 |	R10 = func_eeeecb7d
+	[ 146]	    SetTable	|    9 |  303 |   10 |	R9["Callback"] = R10
+	[ 147]	        Call	|    7 |    3 |    1 |	R7(R8, R9)
+	[ 148]	    GetTable	|    7 |    4 |  293 |	R7 = R4["Main4"]
+	[ 149]	        Self	|    7 |    7 |  299 |	R8 = R7; R7 = R7["AddButton"]
+	[ 150]	    NewTable	|    9 |    0 |    3 |	R9 = {}
+	[ 151]	    SetTable	|    9 |  265 |  318 |	R9["Title"] = "Telekinesis Tool"
+	[ 152]	    SetTable	|    9 |  301 |  302 |	R9["Description"] = ""
+	[ 153]	     Closure	|   10 |   24 |    0 |	R10 = func_b7827ed8
+	[ 154]	    SetTable	|    9 |  303 |   10 |	R9["Callback"] = R10
+	[ 155]	        Call	|    7 |    3 |    1 |	R7(R8, R9)
+	[ 156]	    GetTable	|    7 |    4 |  293 |	R7 = R4["Main4"]
+	[ 157]	        Self	|    7 |    7 |  299 |	R8 = R7; R7 = R7["AddButton"]
+	[ 158]	    NewTable	|    9 |    0 |    3 |	R9 = {}
+	[ 159]	    SetTable	|    9 |  265 |  319 |	R9["Title"] = "Telekinesis Tool 2"
+	[ 160]	    SetTable	|    9 |  301 |  320 |	R9["Description"] = "This Can Almost Move Anything"
+	[ 161]	     Closure	|   10 |    2 |    0 |	R10 = func_215ff98b
+	[ 162]	    SetTable	|    9 |  303 |   10 |	R9["Callback"] = R10
+	[ 163]	        Call	|    7 |    3 |    1 |	R7(R8, R9)
+	[ 164]	    GetTable	|    7 |    4 |  293 |	R7 = R4["Main4"]
+	[ 165]	        Self	|    7 |    7 |  299 |	R8 = R7; R7 = R7["AddButton"]
+	[ 166]	    NewTable	|    9 |    0 |    3 |	R9 = {}
+	[ 167]	    SetTable	|    9 |  265 |  321 |	R9["Title"] = "Delete Tool"
+	[ 168]	    SetTable	|    9 |  301 |  322 |	R9["Description"] = "FE U Can Delete Models"
+	[ 169]	     Closure	|   10 |    7 |    0 |	R10 = func_d19dca4a
+	[ 170]	    SetTable	|    9 |  303 |   10 |	R9["Callback"] = R10
+	[ 171]	        Call	|    7 |    3 |    1 |	R7(R8, R9)
+	[ 172]	    GetTable	|    7 |    4 |  293 |	R7 = R4["Main4"]
+	[ 173]	        Self	|    7 |    7 |  299 |	R8 = R7; R7 = R7["AddButton"]
+	[ 174]	    NewTable	|    9 |    0 |    3 |	R9 = {}
+	[ 175]	    SetTable	|    9 |  265 |  323 |	R9["Title"] = "TP Tool"
+	[ 176]	    SetTable	|    9 |  301 |  302 |	R9["Description"] = ""
+	[ 177]	     Closure	|   10 |   18 |    0 |	R10 = func_ab11975a
+	[ 178]	    SetTable	|    9 |  303 |   10 |	R9["Callback"] = R10
+	[ 179]	        Call	|    7 |    3 |    1 |	R7(R8, R9)
+	[ 180]	    GetTable	|    7 |    4 |  293 |	R7 = R4["Main4"]
+	[ 181]	        Self	|    7 |    7 |  299 |	R8 = R7; R7 = R7["AddButton"]
+	[ 182]	    NewTable	|    9 |    0 |    3 |	R9 = {}
+	[ 183]	    SetTable	|    9 |  265 |  324 |	R9["Title"] = "Damage Tool"
+	[ 184]	    SetTable	|    9 |  301 |  302 |	R9["Description"] = ""
+	[ 185]	     Closure	|   10 |   16 |    0 |	R10 = func_a2f01d95
+	[ 186]	    SetTable	|    9 |  303 |   10 |	R9["Callback"] = R10
+	[ 187]	        Call	|    7 |    3 |    1 |	R7(R8, R9)
+	[ 188]	    GetTable	|    7 |    4 |  291 |	R7 = R4["Main3"]
+	[ 189]	        Self	|    7 |    7 |  299 |	R8 = R7; R7 = R7["AddButton"]
+	[ 190]	    NewTable	|    9 |    0 |    3 |	R9 = {}
+	[ 191]	    SetTable	|    9 |  265 |  325 |	R9["Title"] = "INF Ammo For All Guns"
+	[ 192]	    SetTable	|    9 |  301 |  326 |	R9["Description"] = "For All Guns In Ground"
+	[ 193]	     Closure	|   10 |   21 |    0 |	R10 = func_a54f87e7
+	[ 194]	    SetTable	|    9 |  303 |   10 |	R9["Callback"] = R10
+	[ 195]	        Call	|    7 |    3 |    1 |	R7(R8, R9)
+	[ 196]	   GetGlobal	|    7 |    1 |    0 |	R7 = game
+	[ 197]	    GetTable	|    7 |    7 |  327 |	R7 = R7["Players"]
+	[ 198]	    GetTable	|    7 |    7 |  328 |	R7 = R7["LocalPlayer"]
+	[ 199]	    GetTable	|    8 |    7 |  329 |	R8 = R7["Character"]
+	[ 200]	        Test	|    8 |    0 |    1 |	if R8 then PC += 1
+	[ 201]	         Jmp	|    0 |    3 |    0 |	PC += 3
+	[ 202]	    GetTable	|    8 |    7 |  330 |	R8 = R7["CharacterAdded"]
+	[ 203]	        Self	|    8 |    8 |  331 |	R9 = R8; R8 = R8["Wait"]
+	[ 204]	        Call	|    8 |    2 |    2 |	R8 = R8(R9)
+	[ 205]	        Self	|    9 |    8 |  332 |	R10 = R8; R9 = R8["WaitForChild"]
+	[ 206]	       LoadK	|   11 |   77 |    0 |	R11 = "HumanoidRootPart"
+	[ 207]	        Call	|    9 |    3 |    2 |	R9 = R9(R10, R11)
+	[ 208]	   GetGlobal	|   10 |    1 |    0 |	R10 = game
+	[ 209]	        Self	|   10 |   10 |  334 |	R11 = R10; R10 = R10["GetService"]
+	[ 210]	       LoadK	|   12 |   79 |    0 |	R12 = "ReplicatedStorage"
+	[ 211]	        Call	|   10 |    3 |    2 |	R10 = R10(R11, R12)
+	[ 212]	        Self	|   10 |   10 |  332 |	R11 = R10; R10 = R10["WaitForChild"]
+	[ 213]	       LoadK	|   12 |   80 |    0 |	R12 = "movebuilding"
+	[ 214]	        Call	|   10 |    3 |    2 |	R10 = R10(R11, R12)
+	[ 215]	       LoadK	|   11 |   81 |    0 |	R11 = 10
+	[ 216]	     Closure	|   12 |    6 |    3 |	R12 = func_f7decdfc
+	[ 217]	        Move	|    0 |   11 |    0 |	R0 = R11
+	[ 218]	        Move	|    0 |    9 |    0 |	R0 = R9
+	[ 219]	        Move	|    0 |   10 |    0 |	R0 = R10
+	[ 220]	     Closure	|   13 |    0 |    0 |	R13 = func_10488784
+	[ 221]	     Closure	|   14 |   26 |    2 |	R14 = func_2ab291fc
+	[ 222]	        Move	|    0 |   13 |    0 |	R0 = R13
+	[ 223]	        Move	|    0 |   12 |    0 |	R0 = R12
+	[ 224]	    GetTable	|   15 |    4 |  289 |	R15 = R4["Main2"]
+	[ 225]	        Self	|   15 |   15 |  299 |	R16 = R15; R15 = R15["AddButton"]
+	[ 226]	    NewTable	|   17 |    0 |    3 |	R17 = {}
+	[ 227]	    SetTable	|   17 |  265 |  338 |	R17["Title"] = "Bring All Car Parts"
+	[ 228]	    SetTable	|   17 |  301 |  339 |	R17["Description"] = "Brings all car parts near you"
+	[ 229]	     Closure	|   18 |   10 |    1 |	R18 = func_49c9ae44
+	[ 230]	        Move	|    0 |   14 |    0 |	R0 = R14
+	[ 231]	    SetTable	|   17 |  303 |   18 |	R17["Callback"] = R18
+	[ 232]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[ 233]	    GetTable	|   15 |    4 |  289 |	R15 = R4["Main2"]
+	[ 234]	        Self	|   15 |   15 |  299 |	R16 = R15; R15 = R15["AddButton"]
+	[ 235]	    NewTable	|   17 |    0 |    3 |	R17 = {}
+	[ 236]	    SetTable	|   17 |  265 |  340 |	R17["Title"] = "Bring All Car Liquids"
+	[ 237]	    SetTable	|   17 |  301 |  341 |	R17["Description"] = "Brings all GasCans near you"
+	[ 238]	     Closure	|   18 |    3 |    1 |	R18 = func_edeb9056
+	[ 239]	        Move	|    0 |   14 |    0 |	R0 = R14
+	[ 240]	    SetTable	|   17 |  303 |   18 |	R17["Callback"] = R18
+	[ 241]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[ 242]	    GetTable	|   15 |    4 |  289 |	R15 = R4["Main2"]
+	[ 243]	        Self	|   15 |   15 |  299 |	R16 = R15; R15 = R15["AddButton"]
+	[ 244]	    NewTable	|   17 |    0 |    3 |	R17 = {}
+	[ 245]	    SetTable	|   17 |  265 |  342 |	R17["Title"] = "Bring All Tools"
+	[ 246]	    SetTable	|   17 |  301 |  343 |	R17["Description"] = "Brings all tools and weapons near you"
+	[ 247]	     Closure	|   18 |   14 |    1 |	R18 = func_670c8af0
+	[ 248]	        Move	|    0 |   14 |    0 |	R0 = R14
+	[ 249]	    SetTable	|   17 |  303 |   18 |	R17["Callback"] = R18
+	[ 250]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[ 251]	    GetTable	|   15 |    4 |  289 |	R15 = R4["Main2"]
+	[ 252]	        Self	|   15 |   15 |  299 |	R16 = R15; R15 = R15["AddButton"]
+	[ 253]	    NewTable	|   17 |    0 |    3 |	R17 = {}
+	[ 254]	    SetTable	|   17 |  265 |  344 |	R17["Title"] = "Bring All Food"
+	[ 255]	    SetTable	|   17 |  301 |  345 |	R17["Description"] = "Brings all food near you"
+	[ 256]	     Closure	|   18 |   23 |    2 |	R18 = func_46a90f2b
+	[ 257]	        Move	|    0 |   14 |    0 |	R0 = R14
+	[ 258]	        Move	|    0 |   12 |    0 |	R0 = R12
+	[ 259]	    SetTable	|   17 |  303 |   18 |	R17["Callback"] = R18
+	[ 260]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[ 261]	    GetTable	|   15 |    4 |  289 |	R15 = R4["Main2"]
+	[ 262]	        Self	|   15 |   15 |  299 |	R16 = R15; R15 = R15["AddButton"]
+	[ 263]	    NewTable	|   17 |    0 |    3 |	R17 = {}
+	[ 264]	    SetTable	|   17 |  265 |  346 |	R17["Title"] = "Bring BottleCaps"
+	[ 265]	    SetTable	|   17 |  301 |  347 |	R17["Description"] = "Brings all BottleCap models near you"
+	[ 266]	     Closure	|   18 |   19 |    1 |	R18 = func_9b082f9f
+	[ 267]	        Move	|    0 |   14 |    0 |	R0 = R14
+	[ 268]	    SetTable	|   17 |  303 |   18 |	R17["Callback"] = R18
+	[ 269]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[ 270]	    GetTable	|   15 |    4 |  289 |	R15 = R4["Main2"]
+	[ 271]	        Self	|   15 |   15 |  299 |	R16 = R15; R15 = R15["AddButton"]
+	[ 272]	    NewTable	|   17 |    0 |    3 |	R17 = {}
+	[ 273]	    SetTable	|   17 |  265 |  348 |	R17["Title"] = "Bring Cars"
+	[ 274]	    SetTable	|   17 |  301 |  349 |	R17["Description"] = "Sedan And Van And Ravix"
+	[ 275]	     Closure	|   18 |    4 |    1 |	R18 = func_16966fde
+	[ 276]	        Move	|    0 |   14 |    0 |	R0 = R14
+	[ 277]	    SetTable	|   17 |  303 |   18 |	R17["Callback"] = R18
+	[ 278]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[ 279]	    GetTable	|   15 |    4 |  289 |	R15 = R4["Main2"]
+	[ 280]	        Self	|   15 |   15 |  299 |	R16 = R15; R15 = R15["AddButton"]
+	[ 281]	    NewTable	|   17 |    0 |    3 |	R17 = {}
+	[ 282]	    SetTable	|   17 |  265 |  350 |	R17["Title"] = "Bring Mutants"
+	[ 283]	    SetTable	|   17 |  301 |  351 |	R17["Description"] = "Brings all Mutant models near you"
+	[ 284]	     Closure	|   18 |   22 |    1 |	R18 = func_7ef2d950
+	[ 285]	        Move	|    0 |   14 |    0 |	R0 = R14
+	[ 286]	    SetTable	|   17 |  303 |   18 |	R17["Callback"] = R18
+	[ 287]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[ 288]	    GetTable	|   15 |    4 |  295 |	R15 = R4["Main5"]
+	[ 289]	        Self	|   15 |   15 |  299 |	R16 = R15; R15 = R15["AddButton"]
+	[ 290]	    NewTable	|   17 |    0 |    3 |	R17 = {}
+	[ 291]	    SetTable	|   17 |  265 |  352 |	R17["Title"] = "TP To 20K Meter"
+	[ 292]	    SetTable	|   17 |  301 |  353 |	R17["Description"] = "U Need Atleast 10K Meter Before Clicking"
+	[ 293]	     Closure	|   18 |   28 |    0 |	R18 = func_9ed0cd02
+	[ 294]	    SetTable	|   17 |  303 |   18 |	R17["Callback"] = R18
+	[ 295]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[ 296]	    GetTable	|   15 |    4 |  295 |	R15 = R4["Main5"]
+	[ 297]	        Self	|   15 |   15 |  299 |	R16 = R15; R15 = R15["AddButton"]
+	[ 298]	    NewTable	|   17 |    0 |    3 |	R17 = {}
+	[ 299]	    SetTable	|   17 |  265 |  354 |	R17["Title"] = "TP To Spawn"
+	[ 300]	    SetTable	|   17 |  301 |  302 |	R17["Description"] = ""
+	[ 301]	     Closure	|   18 |   15 |    0 |	R18 = func_d0604b8c
+	[ 302]	    SetTable	|   17 |  303 |   18 |	R17["Callback"] = R18
+	[ 303]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[ 304]	    GetTable	|   15 |    4 |  295 |	R15 = R4["Main5"]
+	[ 305]	        Self	|   15 |   15 |  355 |	R16 = R15; R15 = R15["AddParagraph"]
+	[ 306]	    NewTable	|   17 |    0 |    2 |	R17 = {}
+	[ 307]	    SetTable	|   17 |  265 |  356 |	R17["Title"] = "Information!"
+	[ 308]	    SetTable	|   17 |  357 |  358 |	R17["Content"] = "TO Work Max Things U Need Oilcan-Watercan-Gascan Around For It Works"
+	[ 309]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[ 310]	    GetTable	|   15 |    4 |  295 |	R15 = R4["Main5"]
+	[ 311]	        Self	|   15 |   15 |  299 |	R16 = R15; R15 = R15["AddButton"]
+	[ 312]	    NewTable	|   17 |    0 |    3 |	R17 = {}
+	[ 313]	    SetTable	|   17 |  265 |  359 |	R17["Title"] = "Max Gas On Sedan"
+	[ 314]	    SetTable	|   17 |  301 |  360 |	R17["Description"] = "INF U Can Fill Anytime U Want"
+	[ 315]	     Closure	|   18 |   29 |    0 |	R18 = func_2b7f50bd
+	[ 316]	    SetTable	|   17 |  303 |   18 |	R17["Callback"] = R18
+	[ 317]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[ 318]	    GetTable	|   15 |    4 |  295 |	R15 = R4["Main5"]
+	[ 319]	        Self	|   15 |   15 |  299 |	R16 = R15; R15 = R15["AddButton"]
+	[ 320]	    NewTable	|   17 |    0 |    3 |	R17 = {}
+	[ 321]	    SetTable	|   17 |  265 |  361 |	R17["Title"] = "Max Gas On Van"
+	[ 322]	    SetTable	|   17 |  301 |  360 |	R17["Description"] = "INF U Can Fill Anytime U Want"
+	[ 323]	     Closure	|   18 |   25 |    0 |	R18 = func_77ab48ef
+	[ 324]	    SetTable	|   17 |  303 |   18 |	R17["Callback"] = R18
+	[ 325]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[ 326]	    GetTable	|   15 |    4 |  295 |	R15 = R4["Main5"]
+	[ 327]	        Self	|   15 |   15 |  299 |	R16 = R15; R15 = R15["AddButton"]
+	[ 328]	    NewTable	|   17 |    0 |    3 |	R17 = {}
+	[ 329]	    SetTable	|   17 |  265 |  362 |	R17["Title"] = "Max Oil On Engines"
+	[ 330]	    SetTable	|   17 |  301 |  360 |	R17["Description"] = "INF U Can Fill Anytime U Want"
+	[ 331]	     Closure	|   18 |   12 |    0 |	R18 = func_36150073
+	[ 332]	    SetTable	|   17 |  303 |   18 |	R17["Callback"] = R18
+	[ 333]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[ 334]	    GetTable	|   15 |    4 |  295 |	R15 = R4["Main5"]
+	[ 335]	        Self	|   15 |   15 |  299 |	R16 = R15; R15 = R15["AddButton"]
+	[ 336]	    NewTable	|   17 |    0 |    3 |	R17 = {}
+	[ 337]	    SetTable	|   17 |  265 |  363 |	R17["Title"] = "Max Water On Radiators"
+	[ 338]	    SetTable	|   17 |  301 |  360 |	R17["Description"] = "INF U Can Fill Anytime U Want"
+	[ 339]	     Closure	|   18 |   13 |    0 |	R18 = func_ca19ff13
+	[ 340]	    SetTable	|   17 |  303 |   18 |	R17["Callback"] = R18
+	[ 341]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[ 342]	    GetTable	|   15 |    5 |  309 |	R15 = R5["Auto2"]
+	[ 343]	        Self	|   15 |   15 |  364 |	R16 = R15; R15 = R15["SetValue"]
+	[ 344]	    LoadBool	|   17 |    0 |    0 |	R17 = false
+	[ 345]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[ 346]	        Self	|   15 |    1 |  365 |	R16 = R1; R15 = R1["SetLibrary"]
+	[ 347]	        Move	|   17 |    0 |    0 |	R17 = R0
+	[ 348]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[ 349]	        Self	|   15 |    2 |  365 |	R16 = R2; R15 = R2["SetLibrary"]
+	[ 350]	        Move	|   17 |    0 |    0 |	R17 = R0
+	[ 351]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[ 352]	        Self	|   15 |    1 |  366 |	R16 = R1; R15 = R1["IgnoreThemeSettings"]
+	[ 353]	        Call	|   15 |    2 |    1 |	R15(R16)
+	[ 354]	        Self	|   15 |    1 |  367 |	R16 = R1; R15 = R1["SetIgnoreIndexes"]
+	[ 355]	    NewTable	|   17 |    0 |    0 |	R17 = {}
+	[ 356]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[ 357]	        Self	|   15 |    2 |  368 |	R16 = R2; R15 = R2["SetFolder"]
+	[ 358]	       LoadK	|   17 |  113 |    0 |	R17 = "FluentScriptHub"
+	[ 359]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[ 360]	        Self	|   15 |    1 |  368 |	R16 = R1; R15 = R1["SetFolder"]
+	[ 361]	       LoadK	|   17 |  114 |    0 |	R17 = "FluentScriptHub/specific-game"
+	[ 362]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[ 363]	        Self	|   15 |    2 |  371 |	R16 = R2; R15 = R2["BuildInterfaceSection"]
+	[ 364]	    GetTable	|   17 |    4 |  298 |	R17 = R4["Settings"]
+	[ 365]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[ 366]	        Self	|   15 |    1 |  372 |	R16 = R1; R15 = R1["BuildConfigSection"]
+	[ 367]	    GetTable	|   17 |    4 |  298 |	R17 = R4["Settings"]
+	[ 368]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[ 369]	        Self	|   15 |    3 |  373 |	R16 = R3; R15 = R3["SelectTab"]
+	[ 370]	       LoadK	|   17 |  118 |    0 |	R17 = 5
+	[ 371]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[ 372]	        Self	|   15 |    0 |  375 |	R16 = R0; R15 = R0["Notify"]
+	[ 373]	    NewTable	|   17 |    0 |    3 |	R17 = {}
+	[ 374]	    SetTable	|   17 |  265 |  376 |	R17["Title"] = "KGuestCheatsJ"
+	[ 375]	    SetTable	|   17 |  357 |  377 |	R17["Content"] = "The script has been Succesfully Loaded."
+	[ 376]	    SetTable	|   17 |  378 |  337 |	R17["Duration"] = 10
+	[ 377]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[ 378]	        Self	|   15 |    1 |  379 |	R16 = R1; R15 = R1["LoadAutoloadConfig"]
+	[ 379]	        Call	|   15 |    2 |    1 |	R15(R16)
+	[ 380]	   GetGlobal	|   15 |  124 |    0 |	R15 = wait
+	[ 381]	       LoadK	|   16 |  125 |    0 |	R16 = 3
+	[ 382]	        Call	|   15 |    2 |    1 |	R15(R16)
+	[ 383]	   GetGlobal	|   15 |  126 |    0 |	R15 = setclipboard
+	[ 384]	       LoadK	|   16 |  127 |    0 |	R16 = "https://discord.gg/XmbxNB4qs6"
+	[ 385]	        Call	|   15 |    2 |    1 |	R15(R16)
+	[ 386]	        Self	|   15 |    0 |  375 |	R16 = R0; R15 = R0["Notify"]
+	[ 387]	    NewTable	|   17 |    0 |    3 |	R17 = {}
+	[ 388]	    SetTable	|   17 |  265 |  384 |	R17["Title"] = "Discord Server"
+	[ 389]	    SetTable	|   17 |  357 |  385 |	R17["Content"] = "Discord Server Link Copyied To Your Clipboard"
+	[ 390]	    SetTable	|   17 |  378 |  374 |	R17["Duration"] = 5
+	[ 391]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[ 392]	       Close	|    0 |    0 |    0 |	
+	[ 393]	      Return	|    0 |    1 |    0 |	return
+end
+function func_10488784(R0)
+	[Slots: 14, Upvalues: 0, Constants: 12]
+	[   0]	    NewTable	|    1 |    0 |    0 |	R1 = {}
+	[   1]	   GetGlobal	|    2 |    0 |    0 |	R2 = string
+	[   2]	    GetTable	|    2 |    2 |  257 |	R2 = R2["lower"]
+	[   3]	        Move	|    3 |    0 |    0 |	R3 = R0
+	[   4]	        Call	|    2 |    2 |    2 |	R2 = R2(R3)
+	[   5]	   GetGlobal	|    3 |    2 |    0 |	R3 = pairs
+	[   6]	   GetGlobal	|    4 |    3 |    0 |	R4 = workspace
+	[   7]	        Self	|    4 |    4 |  260 |	R5 = R4; R4 = R4["GetDescendants"]
+	[   8]	        Call	|    4 |    2 |    0 |	R4->top = R4(R5)
+	[   9]	        Call	|    3 |    0 |    4 |	R3, R4, R5 = R3(R4->top)
+	[  10]	         Jmp	|    0 |   23 |    0 |	PC += 23
+	[  11]	        Self	|    8 |    7 |  261 |	R9 = R7; R8 = R7["IsA"]
+	[  12]	       LoadK	|   10 |    6 |    0 |	R10 = "Model"
+	[  13]	        Call	|    8 |    3 |    2 |	R8 = R8(R9, R10)
+	[  14]	        Test	|    8 |    0 |    0 |	if not R8 then PC += 1
+	[  15]	         Jmp	|    0 |   18 |    0 |	PC += 18
+	[  16]	   GetGlobal	|    8 |    0 |    0 |	R8 = string
+	[  17]	    GetTable	|    8 |    8 |  257 |	R8 = R8["lower"]
+	[  18]	    GetTable	|    9 |    7 |  263 |	R9 = R7["Name"]
+	[  19]	        Call	|    8 |    2 |    2 |	R8 = R8(R9)
+	[  20]	   GetGlobal	|    9 |    0 |    0 |	R9 = string
+	[  21]	    GetTable	|    9 |    9 |  264 |	R9 = R9["find"]
+	[  22]	        Move	|   10 |    8 |    0 |	R10 = R8
+	[  23]	        Move	|   11 |    2 |    0 |	R11 = R2
+	[  24]	       LoadK	|   12 |    9 |    0 |	R12 = 1
+	[  25]	    LoadBool	|   13 |    1 |    0 |	R13 = true
+	[  26]	        Call	|    9 |    5 |    2 |	R9 = R9(R10, R11, R12, R13)
+	[  27]	        Test	|    9 |    0 |    0 |	if not R9 then PC += 1
+	[  28]	         Jmp	|    0 |    5 |    0 |	PC += 5
+	[  29]	   GetGlobal	|    9 |   10 |    0 |	R9 = table
+	[  30]	    GetTable	|    9 |    9 |  267 |	R9 = R9["insert"]
+	[  31]	        Move	|   10 |    1 |    0 |	R10 = R1
+	[  32]	        Move	|   11 |    7 |    0 |	R11 = R7
+	[  33]	        Call	|    9 |    3 |    1 |	R9(R10, R11)
+	[  34]	    TForLoop	|    3 |    0 |    2 |	R6, R7 = R3(R4, R5); if R6 ~= nil then R5 = R6 else PC += 1 end
+	[  35]	         Jmp	|    0 |  -25 |    0 |	PC += -25
+	[  36]	      Return	|    1 |    2 |    0 |	return R1
+end
+function func_eeeecb7d()
+	[Slots: 15, Upvalues: 0, Constants: 20]
+	[   0]	   GetGlobal	|    0 |    0 |    0 |	R0 = game
+	[   1]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["GetService"]
+	[   2]	       LoadK	|    2 |    2 |    0 |	R2 = "ReplicatedStorage"
+	[   3]	        Call	|    0 |    3 |    2 |	R0 = R0(R1, R2)
+	[   4]	   GetGlobal	|    1 |    0 |    0 |	R1 = game
+	[   5]	        Self	|    1 |    1 |  257 |	R2 = R1; R1 = R1["GetService"]
+	[   6]	       LoadK	|    3 |    3 |    0 |	R3 = "Players"
+	[   7]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[   8]	    GetTable	|    2 |    1 |  260 |	R2 = R1["LocalPlayer"]
+	[   9]	        Self	|    3 |    0 |  261 |	R4 = R0; R3 = R0["WaitForChild"]
+	[  10]	       LoadK	|    5 |    6 |    0 |	R5 = "teleport"
+	[  11]	        Call	|    3 |    3 |    2 |	R3 = R3(R4, R5)
+	[  12]	   GetGlobal	|    4 |    7 |    0 |	R4 = ipairs
+	[  13]	        Self	|    5 |    1 |  264 |	R6 = R1; R5 = R1["GetPlayers"]
+	[  14]	        Call	|    5 |    2 |    0 |	R5->top = R5(R6)
+	[  15]	        Call	|    4 |    0 |    4 |	R4, R5, R6 = R4(R5->top)
+	[  16]	         Jmp	|    0 |   27 |    0 |	PC += 27
+	[  17]	          Eq	|    1 |    8 |    2 |	if R8 ~= R2 then PC += 1
+	[  18]	         Jmp	|    0 |   25 |    0 |	PC += 25
+	[  19]	    GetTable	|    9 |    8 |  265 |	R9 = R8["Character"]
+	[  20]	        Test	|    9 |    0 |    0 |	if not R9 then PC += 1
+	[  21]	         Jmp	|    0 |   22 |    0 |	PC += 22
+	[  22]	        Self	|   10 |    9 |  266 |	R11 = R9; R10 = R9["IsA"]
+	[  23]	       LoadK	|   12 |   11 |    0 |	R12 = "Model"
+	[  24]	        Call	|   10 |    3 |    2 |	R10 = R10(R11, R12)
+	[  25]	        Test	|   10 |    0 |    0 |	if not R10 then PC += 1
+	[  26]	         Jmp	|    0 |   17 |    0 |	PC += 17
+	[  27]	    NewTable	|   10 |    0 |    2 |	R10 = {}
+	[  28]	    SetTable	|   10 |  268 |    9 |	R10[1] = R9
+	[  29]	   GetGlobal	|   11 |   13 |    0 |	R11 = Vector3
+	[  30]	    GetTable	|   11 |   11 |  270 |	R11 = R11["new"]
+	[  31]	   GetGlobal	|   12 |   15 |    0 |	R12 = math
+	[  32]	    GetTable	|   12 |   12 |  272 |	R12 = R12["huge"]
+	[  33]	   GetGlobal	|   13 |   15 |    0 |	R13 = math
+	[  34]	    GetTable	|   13 |   13 |  272 |	R13 = R13["huge"]
+	[  35]	   GetGlobal	|   14 |   15 |    0 |	R14 = math
+	[  36]	    GetTable	|   14 |   14 |  272 |	R14 = R14["huge"]
+	[  37]	        Call	|   11 |    4 |    2 |	R11 = R11(R12, R13, R14)
+	[  38]	    SetTable	|   10 |  273 |   11 |	R10[2] = R11
+	[  39]	        Self	|   11 |    3 |  274 |	R12 = R3; R11 = R3["FireServer"]
+	[  40]	   GetGlobal	|   13 |   19 |    0 |	R13 = unpack
+	[  41]	        Move	|   14 |   10 |    0 |	R14 = R10
+	[  42]	        Call	|   13 |    2 |    0 |	R13->top = R13(R14)
+	[  43]	        Call	|   11 |    0 |    1 |	R11(R12->top)
+	[  44]	    TForLoop	|    4 |    0 |    2 |	R7, R8 = R4(R5, R6); if R7 ~= nil then R6 = R7 else PC += 1 end
+	[  45]	         Jmp	|    0 |  -29 |    0 |	PC += -29
+	[  46]	      Return	|    0 |    1 |    0 |	return
+end
+function func_215ff98b()
+	[Slots: 17, Upvalues: 0, Constants: 25]
+	[   0]	   GetGlobal	|    0 |    0 |    0 |	R0 = game
+	[   1]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["GetService"]
+	[   2]	       LoadK	|    2 |    2 |    0 |	R2 = "Players"
+	[   3]	        Call	|    0 |    3 |    2 |	R0 = R0(R1, R2)
+	[   4]	   GetGlobal	|    1 |    0 |    0 |	R1 = game
+	[   5]	        Self	|    1 |    1 |  257 |	R2 = R1; R1 = R1["GetService"]
+	[   6]	       LoadK	|    3 |    3 |    0 |	R3 = "RunService"
+	[   7]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[   8]	   GetGlobal	|    2 |    0 |    0 |	R2 = game
+	[   9]	        Self	|    2 |    2 |  257 |	R3 = R2; R2 = R2["GetService"]
+	[  10]	       LoadK	|    4 |    4 |    0 |	R4 = "UserInputService"
+	[  11]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  12]	    GetTable	|    3 |    0 |  261 |	R3 = R0["LocalPlayer"]
+	[  13]	        Self	|    4 |    3 |  262 |	R5 = R3; R4 = R3["GetMouse"]
+	[  14]	        Call	|    4 |    2 |    2 |	R4 = R4(R5)
+	[  15]	   GetGlobal	|    5 |    0 |    0 |	R5 = game
+	[  16]	        Self	|    5 |    5 |  257 |	R6 = R5; R5 = R5["GetService"]
+	[  17]	       LoadK	|    7 |    7 |    0 |	R7 = "ReplicatedStorage"
+	[  18]	        Call	|    5 |    3 |    2 |	R5 = R5(R6, R7)
+	[  19]	   GetGlobal	|    6 |    8 |    0 |	R6 = Instance
+	[  20]	    GetTable	|    6 |    6 |  265 |	R6 = R6["new"]
+	[  21]	       LoadK	|    7 |   10 |    0 |	R7 = "Tool"
+	[  22]	        Call	|    6 |    2 |    2 |	R6 = R6(R7)
+	[  23]	    SetTable	|    6 |  267 |  268 |	R6["Name"] = "Telekinesis Tool 2"
+	[  24]	    SetTable	|    6 |  269 |  270 |	R6["RequiresHandle"] = false
+	[  25]	        Self	|    7 |    3 |  271 |	R8 = R3; R7 = R3["WaitForChild"]
+	[  26]	       LoadK	|    9 |   16 |    0 |	R9 = "Backpack"
+	[  27]	        Call	|    7 |    3 |    2 |	R7 = R7(R8, R9)
+	[  28]	    SetTable	|    6 |  273 |    7 |	R6["Parent"] = R7
+	[  29]	     LoadNil	|    7 |    7 |    0 |	R7 = nil
+	[  30]	   GetGlobal	|    8 |   18 |    0 |	R8 = Vector3
+	[  31]	    GetTable	|    8 |    8 |  265 |	R8 = R8["new"]
+	[  32]	        Call	|    8 |    1 |    2 |	R8 = R8()
+	[  33]	     LoadNil	|    9 |    9 |    0 |	R9 = nil
+	[  34]	     Closure	|   10 |    4 |    0 |	R10 = func_6ba2c0f7
+	[  35]	     Closure	|   11 |    2 |    1 |	R11 = func_12ee0cac
+	[  36]	        Move	|    0 |    4 |    0 |	R0 = R4
+	[  37]	    GetTable	|   12 |    1 |  275 |	R12 = R1["RenderStepped"]
+	[  38]	        Self	|   12 |   12 |  276 |	R13 = R12; R12 = R12["Connect"]
+	[  39]	     Closure	|   14 |    0 |    6 |	R14 = func_df73aa84
+	[  40]	        Move	|    0 |    7 |    0 |	R0 = R7
+	[  41]	        Move	|    0 |    2 |    0 |	R0 = R2
+	[  42]	        Move	|    0 |   11 |    0 |	R0 = R11
+	[  43]	        Move	|    0 |    8 |    0 |	R0 = R8
+	[  44]	        Move	|    0 |    4 |    0 |	R0 = R4
+	[  45]	        Move	|    0 |    9 |    0 |	R0 = R9
+	[  46]	        Call	|   12 |    3 |    1 |	R12(R13, R14)
+	[  47]	     Closure	|   12 |    1 |    6 |	R12 = func_5f93b6f1
+	[  48]	        Move	|    0 |    2 |    0 |	R0 = R2
+	[  49]	        Move	|    0 |    4 |    0 |	R0 = R4
+	[  50]	        Move	|    0 |    7 |    0 |	R0 = R7
+	[  51]	        Move	|    0 |    8 |    0 |	R0 = R8
+	[  52]	        Move	|    0 |    9 |    0 |	R0 = R9
+	[  53]	        Move	|    0 |   10 |    0 |	R0 = R10
+	[  54]	     Closure	|   13 |    3 |    2 |	R13 = func_69da68d8
+	[  55]	        Move	|    0 |    7 |    0 |	R0 = R7
+	[  56]	        Move	|    0 |    9 |    0 |	R0 = R9
+	[  57]	    GetTable	|   14 |    6 |  277 |	R14 = R6["Activated"]
+	[  58]	        Self	|   14 |   14 |  276 |	R15 = R14; R14 = R14["Connect"]
+	[  59]	        Move	|   16 |   12 |    0 |	R16 = R12
+	[  60]	        Call	|   14 |    3 |    1 |	R14(R15, R16)
+	[  61]	    GetTable	|   14 |    6 |  278 |	R14 = R6["Deactivated"]
+	[  62]	        Self	|   14 |   14 |  276 |	R15 = R14; R14 = R14["Connect"]
+	[  63]	        Move	|   16 |   13 |    0 |	R16 = R13
+	[  64]	        Call	|   14 |    3 |    1 |	R14(R15, R16)
+	[  65]	   GetGlobal	|   14 |   23 |    0 |	R14 = print
+	[  66]	       LoadK	|   15 |   24 |    0 |	R15 = "Telekinesis Tool ready!"
+	[  67]	        Call	|   14 |    2 |    1 |	R14(R15)
+	[  68]	      Return	|    0 |    1 |    0 |	return
+end
+function func_df73aa84()
+	[Slots: 5, Upvalues: 6, Constants: 12]
+	[   0]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   1]	        Test	|    0 |    0 |    0 |	if not R0 then PC += 1
+	[   2]	         Jmp	|    0 |   47 |    0 |	PC += 47
+	[   3]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   4]	    GetTable	|    0 |    0 |  256 |	R0 = R0["Parent"]
+	[   5]	        Test	|    0 |    0 |    0 |	if not R0 then PC += 1
+	[   6]	         Jmp	|    0 |   43 |    0 |	PC += 43
+	[   7]	     LoadNil	|    0 |    0 |    0 |	R0 = nil
+	[   8]	    GetUpval	|    1 |    1 |    0 |	R1 = UPVALUE_1
+	[   9]	    GetTable	|    1 |    1 |  257 |	R1 = R1["TouchEnabled"]
+	[  10]	        Test	|    1 |    0 |    0 |	if not R1 then PC += 1
+	[  11]	         Jmp	|    0 |   16 |    0 |	PC += 16
+	[  12]	    GetUpval	|    1 |    1 |    0 |	R1 = UPVALUE_1
+	[  13]	    GetTable	|    1 |    1 |  257 |	R1 = R1["TouchEnabled"]
+	[  14]	          Eq	|    0 |    1 |  258 |	if R1 == true then PC += 1
+	[  15]	         Jmp	|    0 |   12 |    0 |	PC += 12
+	[  16]	    GetUpval	|    1 |    1 |    0 |	R1 = UPVALUE_1
+	[  17]	        Self	|    1 |    1 |  259 |	R2 = R1; R1 = R1["GetTouches"]
+	[  18]	        Call	|    1 |    2 |    2 |	R1 = R1(R2)
+	[  19]	         Len	|    2 |    1 |    0 |	R2 = #R1
+	[  20]	          Lt	|    0 |  260 |    2 |	if 0 < R2 then PC += 1
+	[  21]	         Jmp	|    0 |   11 |    0 |	PC += 11
+	[  22]	    GetUpval	|    2 |    2 |    0 |	R2 = UPVALUE_2
+	[  23]	    GetTable	|    3 |    1 |  261 |	R3 = R1[1]
+	[  24]	        Call	|    2 |    2 |    2 |	R2 = R2(R3)
+	[  25]	    GetUpval	|    3 |    3 |    0 |	R3 = UPVALUE_3
+	[  26]	         Add	|    0 |    2 |    3 |	R0 = R2 + R3
+	[  27]	         Jmp	|    0 |    5 |    0 |	PC += 5
+	[  28]	    GetUpval	|    1 |    4 |    0 |	R1 = UPVALUE_4
+	[  29]	    GetTable	|    1 |    1 |  262 |	R1 = R1["Hit"]
+	[  30]	    GetTable	|    1 |    1 |  263 |	R1 = R1["Position"]
+	[  31]	    GetUpval	|    2 |    3 |    0 |	R2 = UPVALUE_3
+	[  32]	         Add	|    0 |    1 |    2 |	R0 = R1 + R2
+	[  33]	        Test	|    0 |    0 |    0 |	if not R0 then PC += 1
+	[  34]	         Jmp	|    0 |   15 |    0 |	PC += 15
+	[  35]	    GetUpval	|    1 |    0 |    0 |	R1 = UPVALUE_0
+	[  36]	        Self	|    1 |    1 |  264 |	R2 = R1; R1 = R1["SetPrimaryPartCFrame"]
+	[  37]	   GetGlobal	|    3 |    9 |    0 |	R3 = CFrame
+	[  38]	    GetTable	|    3 |    3 |  266 |	R3 = R3["new"]
+	[  39]	        Move	|    4 |    0 |    0 |	R4 = R0
+	[  40]	        Call	|    3 |    2 |    0 |	R3->top = R3(R4)
+	[  41]	        Call	|    1 |    0 |    1 |	R1(R2->top)
+	[  42]	    GetUpval	|    1 |    5 |    0 |	R1 = UPVALUE_5
+	[  43]	        Test	|    1 |    0 |    0 |	if not R1 then PC += 1
+	[  44]	         Jmp	|    0 |    5 |    0 |	PC += 5
+	[  45]	    GetUpval	|    1 |    5 |    0 |	R1 = UPVALUE_5
+	[  46]	    GetUpval	|    2 |    0 |    0 |	R2 = UPVALUE_0
+	[  47]	    GetTable	|    2 |    2 |  267 |	R2 = R2["PrimaryPart"]
+	[  48]	    GetTable	|    2 |    2 |  263 |	R2 = R2["Position"]
+	[  49]	    SetTable	|    1 |  263 |    2 |	R1["Position"] = R2
+	[  50]	      Return	|    0 |    1 |    0 |	return
+end
+function func_5f93b6f1()
+	[Slots: 6, Upvalues: 6, Constants: 22]
+	[   0]	    GetUpval	|    1 |    0 |    0 |	R1 = UPVALUE_0
+	[   1]	    GetTable	|    1 |    1 |  256 |	R1 = R1["TouchEnabled"]
+	[   2]	        Test	|    1 |    0 |    0 |	if not R1 then PC += 1
+	[   3]	         Jmp	|    0 |   26 |    0 |	PC += 26
+	[   4]	    GetUpval	|    1 |    0 |    0 |	R1 = UPVALUE_0
+	[   5]	    GetTable	|    1 |    1 |  256 |	R1 = R1["TouchEnabled"]
+	[   6]	          Eq	|    0 |    1 |  257 |	if R1 == true then PC += 1
+	[   7]	         Jmp	|    0 |   22 |    0 |	PC += 22
+	[   8]	    GetUpval	|    1 |    0 |    0 |	R1 = UPVALUE_0
+	[   9]	        Self	|    1 |    1 |  258 |	R2 = R1; R1 = R1["GetTouches"]
+	[  10]	        Call	|    1 |    2 |    2 |	R1 = R1(R2)
+	[  11]	         Len	|    2 |    1 |    0 |	R2 = #R1
+	[  12]	          Lt	|    0 |  259 |    2 |	if 0 < R2 then PC += 1
+	[  13]	         Jmp	|    0 |   18 |    0 |	PC += 18
+	[  14]	   GetGlobal	|    2 |    4 |    0 |	R2 = workspace
+	[  15]	    GetTable	|    2 |    2 |  261 |	R2 = R2["CurrentCamera"]
+	[  16]	        Self	|    2 |    2 |  262 |	R3 = R2; R2 = R2["ScreenPointToRay"]
+	[  17]	    GetTable	|    4 |    1 |  263 |	R4 = R1[1]
+	[  18]	    GetTable	|    4 |    4 |  264 |	R4 = R4["Position"]
+	[  19]	    GetTable	|    4 |    4 |  265 |	R4 = R4["X"]
+	[  20]	    GetTable	|    5 |    1 |  263 |	R5 = R1[1]
+	[  21]	    GetTable	|    5 |    5 |  264 |	R5 = R5["Position"]
+	[  22]	    GetTable	|    5 |    5 |  266 |	R5 = R5["Y"]
+	[  23]	        Call	|    2 |    4 |    2 |	R2 = R2(R3, R4, R5)
+	[  24]	   GetGlobal	|    3 |    4 |    0 |	R3 = workspace
+	[  25]	        Self	|    3 |    3 |  267 |	R4 = R3; R3 = R3["FindPartOnRay"]
+	[  26]	        Move	|    5 |    2 |    0 |	R5 = R2
+	[  27]	        Call	|    3 |    3 |    2 |	R3 = R3(R4, R5)
+	[  28]	        Move	|    0 |    3 |    0 |	R0 = R3
+	[  29]	         Jmp	|    0 |    2 |    0 |	PC += 2
+	[  30]	    GetUpval	|    1 |    1 |    0 |	R1 = UPVALUE_1
+	[  31]	    GetTable	|    0 |    1 |  268 |	R0 = R1["Target"]
+	[  32]	        Test	|    0 |    0 |    0 |	if not R0 then PC += 1
+	[  33]	         Jmp	|    0 |   45 |    0 |	PC += 45
+	[  34]	        Self	|    1 |    0 |  269 |	R2 = R0; R1 = R0["IsDescendantOf"]
+	[  35]	   GetGlobal	|    3 |    4 |    0 |	R3 = workspace
+	[  36]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[  37]	        Test	|    1 |    0 |    0 |	if not R1 then PC += 1
+	[  38]	         Jmp	|    0 |   40 |    0 |	PC += 40
+	[  39]	    GetTable	|    1 |    0 |  270 |	R1 = R0["Anchored"]
+	[  40]	        Test	|    1 |    0 |    1 |	if R1 then PC += 1
+	[  41]	         Jmp	|    0 |   37 |    0 |	PC += 37
+	[  42]	        Self	|    1 |    0 |  271 |	R2 = R0; R1 = R0["FindFirstAncestorOfClass"]
+	[  43]	       LoadK	|    3 |   16 |    0 |	R3 = "Model"
+	[  44]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[  45]	        Test	|    1 |    0 |    1 |	if R1 then PC += 1
+	[  46]	         Jmp	|    0 |    1 |    0 |	PC += 1
+	[  47]	        Move	|    1 |    0 |    0 |	R1 = R0
+	[  48]	    GetTable	|    2 |    1 |  273 |	R2 = R1["PrimaryPart"]
+	[  49]	          Eq	|    0 |    2 |  274 |	if R2 == nil then PC += 1
+	[  50]	         Jmp	|    0 |   15 |    0 |	PC += 15
+	[  51]	        Self	|    2 |    0 |  275 |	R3 = R0; R2 = R0["IsA"]
+	[  52]	       LoadK	|    4 |   20 |    0 |	R4 = "BasePart"
+	[  53]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  54]	        Test	|    2 |    0 |    0 |	if not R2 then PC += 1
+	[  55]	         Jmp	|    0 |    2 |    0 |	PC += 2
+	[  56]	    SetTable	|    1 |  273 |    0 |	R1["PrimaryPart"] = R0
+	[  57]	         Jmp	|    0 |    8 |    0 |	PC += 8
+	[  58]	        Self	|    2 |    1 |  277 |	R3 = R1; R2 = R1["FindFirstChildWhichIsA"]
+	[  59]	       LoadK	|    4 |   20 |    0 |	R4 = "BasePart"
+	[  60]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  61]	        Test	|    2 |    0 |    0 |	if not R2 then PC += 1
+	[  62]	         Jmp	|    0 |    2 |    0 |	PC += 2
+	[  63]	    SetTable	|    1 |  273 |    2 |	R1["PrimaryPart"] = R2
+	[  64]	         Jmp	|    0 |    1 |    0 |	PC += 1
+	[  65]	      Return	|    0 |    1 |    0 |	return
+	[  66]	    SetUpval	|    1 |    2 |    0 |	UPVALUE_2 = R1
+	[  67]	    GetUpval	|    2 |    2 |    0 |	R2 = UPVALUE_2
+	[  68]	    GetTable	|    2 |    2 |  273 |	R2 = R2["PrimaryPart"]
+	[  69]	    GetTable	|    2 |    2 |  264 |	R2 = R2["Position"]
+	[  70]	    GetTable	|    3 |    0 |  264 |	R3 = R0["Position"]
+	[  71]	         Sub	|    2 |    2 |    3 |	R2 = R2 - R3
+	[  72]	    SetUpval	|    2 |    3 |    0 |	UPVALUE_3 = R2
+	[  73]	    GetUpval	|    2 |    4 |    0 |	R2 = UPVALUE_4
+	[  74]	        Test	|    2 |    0 |    1 |	if R2 then PC += 1
+	[  75]	         Jmp	|    0 |    3 |    0 |	PC += 3
+	[  76]	    GetUpval	|    2 |    5 |    0 |	R2 = UPVALUE_5
+	[  77]	        Call	|    2 |    1 |    2 |	R2 = R2()
+	[  78]	    SetUpval	|    2 |    4 |    0 |	UPVALUE_4 = R2
+	[  79]	      Return	|    0 |    1 |    0 |	return
+end
+function func_12ee0cac(R0)
+	[Slots: 5, Upvalues: 1, Constants: 14]
+	[   0]	    GetTable	|    1 |    0 |  256 |	R1 = R0["UserInputType"]
+	[   1]	   GetGlobal	|    2 |    1 |    0 |	R2 = Enum
+	[   2]	    GetTable	|    2 |    2 |  256 |	R2 = R2["UserInputType"]
+	[   3]	    GetTable	|    2 |    2 |  258 |	R2 = R2["MouseMovement"]
+	[   4]	          Eq	|    0 |    1 |    2 |	if R1 == R2 then PC += 1
+	[   5]	         Jmp	|    0 |    4 |    0 |	PC += 4
+	[   6]	    GetUpval	|    1 |    0 |    0 |	R1 = UPVALUE_0
+	[   7]	    GetTable	|    1 |    1 |  259 |	R1 = R1["Hit"]
+	[   8]	    GetTable	|    1 |    1 |  260 |	R1 = R1["Position"]
+	[   9]	      Return	|    1 |    2 |    0 |	return R1
+	[  10]	    GetTable	|    1 |    0 |  256 |	R1 = R0["UserInputType"]
+	[  11]	   GetGlobal	|    2 |    1 |    0 |	R2 = Enum
+	[  12]	    GetTable	|    2 |    2 |  256 |	R2 = R2["UserInputType"]
+	[  13]	    GetTable	|    2 |    2 |  261 |	R2 = R2["Touch"]
+	[  14]	          Eq	|    0 |    1 |    2 |	if R1 == R2 then PC += 1
+	[  15]	         Jmp	|    0 |   13 |    0 |	PC += 13
+	[  16]	   GetGlobal	|    1 |    6 |    0 |	R1 = workspace
+	[  17]	    GetTable	|    1 |    1 |  263 |	R1 = R1["CurrentCamera"]
+	[  18]	        Self	|    1 |    1 |  264 |	R2 = R1; R1 = R1["ScreenPointToRay"]
+	[  19]	    GetTable	|    3 |    0 |  260 |	R3 = R0["Position"]
+	[  20]	    GetTable	|    3 |    3 |  265 |	R3 = R3["X"]
+	[  21]	    GetTable	|    4 |    0 |  260 |	R4 = R0["Position"]
+	[  22]	    GetTable	|    4 |    4 |  266 |	R4 = R4["Y"]
+	[  23]	        Call	|    1 |    4 |    2 |	R1 = R1(R2, R3, R4)
+	[  24]	    GetTable	|    2 |    1 |  267 |	R2 = R1["Origin"]
+	[  25]	    GetTable	|    3 |    1 |  268 |	R3 = R1["Direction"]
+	[  26]	         Mul	|    3 |    3 |  269 |	R3 = R3 * 50
+	[  27]	         Add	|    2 |    2 |    3 |	R2 = R2 + R3
+	[  28]	      Return	|    2 |    2 |    0 |	return R2
+	[  29]	      Return	|    0 |    1 |    0 |	return
+end
+function func_69da68d8()
+	[Slots: 1, Upvalues: 2, Constants: 1]
+	[   0]	    SetUpval	|    0 |    0 |    0 |	UPVALUE_0 = R0
+	[   1]	    GetUpval	|    0 |    1 |    0 |	R0 = UPVALUE_1
+	[   2]	        Test	|    0 |    0 |    0 |	if not R0 then PC += 1
+	[   3]	         Jmp	|    0 |    5 |    0 |	PC += 5
+	[   4]	    GetUpval	|    0 |    1 |    0 |	R0 = UPVALUE_1
+	[   5]	        Self	|    0 |    0 |  256 |	R1 = R0; R0 = R0["Destroy"]
+	[   6]	        Call	|    0 |    2 |    1 |	R0(R1)
+	[   7]	     LoadNil	|    0 |    0 |    0 |	R0 = nil
+	[   8]	    SetUpval	|    0 |    1 |    0 |	UPVALUE_1 = R0
+	[   9]	      Return	|    0 |    1 |    0 |	return
+end
+function func_6ba2c0f7()
+	[Slots: 5, Upvalues: 0, Constants: 20]
+	[   0]	   GetGlobal	|    0 |    0 |    0 |	R0 = Instance
+	[   1]	    GetTable	|    0 |    0 |  257 |	R0 = R0["new"]
+	[   2]	       LoadK	|    1 |    2 |    0 |	R1 = "Part"
+	[   3]	        Call	|    0 |    2 |    2 |	R0 = R0(R1)
+	[   4]	   GetGlobal	|    1 |    3 |    0 |	R1 = Enum
+	[   5]	    GetTable	|    1 |    1 |  260 |	R1 = R1["PartType"]
+	[   6]	    GetTable	|    1 |    1 |  261 |	R1 = R1["Ball"]
+	[   7]	    SetTable	|    0 |  262 |    1 |	R0["Shape"] = R1
+	[   8]	   GetGlobal	|    1 |    7 |    0 |	R1 = Vector3
+	[   9]	    GetTable	|    1 |    1 |  257 |	R1 = R1["new"]
+	[  10]	       LoadK	|    2 |    8 |    0 |	R2 = 0.5
+	[  11]	       LoadK	|    3 |    8 |    0 |	R3 = 0.5
+	[  12]	       LoadK	|    4 |    8 |    0 |	R4 = 0.5
+	[  13]	        Call	|    1 |    4 |    2 |	R1 = R1(R2, R3, R4)
+	[  14]	    SetTable	|    0 |  265 |    1 |	R0["Size"] = R1
+	[  15]	    SetTable	|    0 |  266 |  267 |	R0["Anchored"] = true
+	[  16]	    SetTable	|    0 |  268 |  269 |	R0["CanCollide"] = false
+	[  17]	   GetGlobal	|    1 |   14 |    0 |	R1 = BrickColor
+	[  18]	    GetTable	|    1 |    1 |  257 |	R1 = R1["new"]
+	[  19]	       LoadK	|    2 |   15 |    0 |	R2 = "Bright green"
+	[  20]	        Call	|    1 |    2 |    2 |	R1 = R1(R2)
+	[  21]	    SetTable	|    0 |  270 |    1 |	R0["BrickColor"] = R1
+	[  22]	   GetGlobal	|    1 |    3 |    0 |	R1 = Enum
+	[  23]	    GetTable	|    1 |    1 |  272 |	R1 = R1["Material"]
+	[  24]	    GetTable	|    1 |    1 |  273 |	R1 = R1["Neon"]
+	[  25]	    SetTable	|    0 |  272 |    1 |	R0["Material"] = R1
+	[  26]	   GetGlobal	|    1 |   18 |    0 |	R1 = workspace
+	[  27]	    SetTable	|    0 |  275 |    1 |	R0["Parent"] = R1
+	[  28]	      Return	|    0 |    2 |    0 |	return R0
+end
+function func_edeb9056()
+	[Slots: 8, Upvalues: 1, Constants: 6]
+	[   0]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   1]	    NewTable	|    1 |    6 |    0 |	R1 = {}
+	[   2]	       LoadK	|    2 |    0 |    0 |	R2 = "GasCan"
+	[   3]	       LoadK	|    3 |    1 |    0 |	R3 = "DieselCan"
+	[   4]	       LoadK	|    4 |    2 |    0 |	R4 = "radiator"
+	[   5]	       LoadK	|    5 |    3 |    0 |	R5 = "OilCan"
+	[   6]	       LoadK	|    6 |    4 |    0 |	R6 = "WaterCan"
+	[   7]	       LoadK	|    7 |    5 |    0 |	R7 = "GasCanFireStarter"
+	[   8]	     SetList	|    1 |    6 |    1 |	
+	[   9]	        Call	|    0 |    2 |    1 |	R0(R1)
+	[  10]	      Return	|    0 |    1 |    0 |	return
+end
+function func_16966fde()
+	[Slots: 5, Upvalues: 1, Constants: 3]
+	[   0]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   1]	    NewTable	|    1 |    3 |    0 |	R1 = {}
+	[   2]	       LoadK	|    2 |    0 |    0 |	R2 = "Sedan"
+	[   3]	       LoadK	|    3 |    1 |    0 |	R3 = "Van"
+	[   4]	       LoadK	|    4 |    2 |    0 |	R4 = "Ravix"
+	[   5]	     SetList	|    1 |    3 |    1 |	
+	[   6]	        Call	|    0 |    2 |    1 |	R0(R1)
+	[   7]	      Return	|    0 |    1 |    0 |	return
+end
+function func_b6dfb235()
+	[Slots: 7, Upvalues: 0, Constants: 11]
+	[   0]	   GetGlobal	|    0 |    0 |    0 |	R0 = game
+	[   1]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["GetService"]
+	[   2]	       LoadK	|    2 |    2 |    0 |	R2 = "ReplicatedStorage"
+	[   3]	        Call	|    0 |    3 |    2 |	R0 = R0(R1, R2)
+	[   4]	        Self	|    1 |    0 |  259 |	R2 = R0; R1 = R0["WaitForChild"]
+	[   5]	       LoadK	|    3 |    4 |    0 |	R3 = "BackpackFakeModels"
+	[   6]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[   7]	        Self	|    1 |    1 |  259 |	R2 = R1; R1 = R1["WaitForChild"]
+	[   8]	       LoadK	|    3 |    5 |    0 |	R3 = "Backpack_8"
+	[   9]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[  10]	        Self	|    2 |    0 |  259 |	R3 = R0; R2 = R0["WaitForChild"]
+	[  11]	       LoadK	|    4 |    6 |    0 |	R4 = "Network"
+	[  12]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  13]	        Self	|    2 |    2 |  259 |	R3 = R2; R2 = R2["WaitForChild"]
+	[  14]	       LoadK	|    4 |    7 |    0 |	R4 = "BACKPACK_CREATE"
+	[  15]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  16]	        Self	|    3 |    2 |  264 |	R4 = R2; R3 = R2["InvokeServer"]
+	[  17]	        Move	|    5 |    1 |    0 |	R5 = R1
+	[  18]	        Call	|    3 |    3 |    2 |	R3 = R3(R4, R5)
+	[  19]	   GetGlobal	|    4 |    9 |    0 |	R4 = print
+	[  20]	       LoadK	|    5 |   10 |    0 |	R5 = "BACKPACK_CREATE result:"
+	[  21]	        Move	|    6 |    3 |    0 |	R6 = R3
+	[  22]	        Call	|    4 |    3 |    1 |	R4(R5, R6)
+	[  23]	      Return	|    0 |    1 |    0 |	return
+end
+function func_f7decdfc(R0, R1)
+	[Slots: 10, Upvalues: 3, Constants: 12]
+	[   0]	        Test	|    0 |    0 |    0 |	if not R0 then PC += 1
+	[   1]	         Jmp	|    0 |   37 |    0 |	PC += 37
+	[   2]	         Div	|    2 |    1 |  256 |	R2 = R1 / 10
+	[   3]	   GetGlobal	|    3 |    1 |    0 |	R3 = math
+	[   4]	    GetTable	|    3 |    3 |  258 |	R3 = R3["pi"]
+	[   5]	         Mul	|    2 |    2 |    3 |	R2 = R2 * R3
+	[   6]	         Mul	|    2 |    2 |  259 |	R2 = R2 * 2
+	[   7]	   GetGlobal	|    3 |    4 |    0 |	R3 = Vector3
+	[   8]	    GetTable	|    3 |    3 |  261 |	R3 = R3["new"]
+	[   9]	   GetGlobal	|    4 |    1 |    0 |	R4 = math
+	[  10]	    GetTable	|    4 |    4 |  262 |	R4 = R4["cos"]
+	[  11]	        Move	|    5 |    2 |    0 |	R5 = R2
+	[  12]	        Call	|    4 |    2 |    2 |	R4 = R4(R5)
+	[  13]	    GetUpval	|    5 |    0 |    0 |	R5 = UPVALUE_0
+	[  14]	         Mul	|    4 |    4 |    5 |	R4 = R4 * R5
+	[  15]	       LoadK	|    5 |    3 |    0 |	R5 = 2
+	[  16]	   GetGlobal	|    6 |    1 |    0 |	R6 = math
+	[  17]	    GetTable	|    6 |    6 |  263 |	R6 = R6["sin"]
+	[  18]	        Move	|    7 |    2 |    0 |	R7 = R2
+	[  19]	        Call	|    6 |    2 |    2 |	R6 = R6(R7)
+	[  20]	    GetUpval	|    7 |    0 |    0 |	R7 = UPVALUE_0
+	[  21]	         Mul	|    6 |    6 |    7 |	R6 = R6 * R7
+	[  22]	        Call	|    3 |    4 |    2 |	R3 = R3(R4, R5, R6)
+	[  23]	    GetUpval	|    4 |    1 |    0 |	R4 = UPVALUE_1
+	[  24]	    GetTable	|    4 |    4 |  264 |	R4 = R4["Position"]
+	[  25]	         Add	|    4 |    4 |    3 |	R4 = R4 + R3
+	[  26]	    NewTable	|    5 |    1 |    0 |	R5 = {}
+	[  27]	        Move	|    6 |    0 |    0 |	R6 = R0
+	[  28]	   GetGlobal	|    7 |    9 |    0 |	R7 = CFrame
+	[  29]	    GetTable	|    7 |    7 |  261 |	R7 = R7["new"]
+	[  30]	        Move	|    8 |    4 |    0 |	R8 = R4
+	[  31]	        Call	|    7 |    2 |    0 |	R7->top = R7(R8)
+	[  32]	     SetList	|    5 |    0 |    1 |	
+	[  33]	    GetUpval	|    6 |    2 |    0 |	R6 = UPVALUE_2
+	[  34]	        Self	|    6 |    6 |  266 |	R7 = R6; R6 = R6["FireServer"]
+	[  35]	   GetGlobal	|    8 |   11 |    0 |	R8 = unpack
+	[  36]	        Move	|    9 |    5 |    0 |	R9 = R5
+	[  37]	        Call	|    8 |    2 |    0 |	R8->top = R8(R9)
+	[  38]	        Call	|    6 |    0 |    1 |	R6(R7->top)
+	[  39]	      Return	|    0 |    1 |    0 |	return
+end
+function func_d19dca4a()
+	[Slots: 12, Upvalues: 0, Constants: 23]
+	[   0]	   GetGlobal	|    0 |    0 |    0 |	R0 = game
+	[   1]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["GetService"]
+	[   2]	       LoadK	|    2 |    2 |    0 |	R2 = "ReplicatedStorage"
+	[   3]	        Call	|    0 |    3 |    2 |	R0 = R0(R1, R2)
+	[   4]	   GetGlobal	|    1 |    0 |    0 |	R1 = game
+	[   5]	        Self	|    1 |    1 |  257 |	R2 = R1; R1 = R1["GetService"]
+	[   6]	       LoadK	|    3 |    3 |    0 |	R3 = "Players"
+	[   7]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[   8]	    GetTable	|    2 |    1 |  260 |	R2 = R1["LocalPlayer"]
+	[   9]	        Self	|    3 |    2 |  261 |	R4 = R2; R3 = R2["GetMouse"]
+	[  10]	        Call	|    3 |    2 |    2 |	R3 = R3(R4)
+	[  11]	   GetGlobal	|    4 |    6 |    0 |	R4 = workspace
+	[  12]	    GetTable	|    4 |    4 |  263 |	R4 = R4["CurrentCamera"]
+	[  13]	   GetGlobal	|    5 |    8 |    0 |	R5 = Instance
+	[  14]	    GetTable	|    5 |    5 |  265 |	R5 = R5["new"]
+	[  15]	       LoadK	|    6 |   10 |    0 |	R6 = "Tool"
+	[  16]	        Call	|    5 |    2 |    2 |	R5 = R5(R6)
+	[  17]	    SetTable	|    5 |  267 |  268 |	R5["Name"] = "Delete Tool"
+	[  18]	    SetTable	|    5 |  269 |  270 |	R5["RequiresHandle"] = false
+	[  19]	        Self	|    6 |    2 |  271 |	R7 = R2; R6 = R2["WaitForChild"]
+	[  20]	       LoadK	|    8 |   16 |    0 |	R8 = "Backpack"
+	[  21]	        Call	|    6 |    3 |    2 |	R6 = R6(R7, R8)
+	[  22]	    SetTable	|    5 |  273 |    6 |	R5["Parent"] = R6
+	[  23]	        Self	|    6 |    0 |  271 |	R7 = R0; R6 = R0["WaitForChild"]
+	[  24]	       LoadK	|    8 |   18 |    0 |	R8 = "teleport"
+	[  25]	        Call	|    6 |    3 |    2 |	R6 = R6(R7, R8)
+	[  26]	     Closure	|    7 |    0 |    2 |	R7 = func_e3f8e39f
+	[  27]	        Move	|    0 |    4 |    0 |	R0 = R4
+	[  28]	        Move	|    0 |    3 |    0 |	R0 = R3
+	[  29]	     Closure	|    8 |    1 |    2 |	R8 = func_299a180a
+	[  30]	        Move	|    0 |    7 |    0 |	R0 = R7
+	[  31]	        Move	|    0 |    6 |    0 |	R0 = R6
+	[  32]	    GetTable	|    9 |    5 |  275 |	R9 = R5["Activated"]
+	[  33]	        Self	|    9 |    9 |  276 |	R10 = R9; R9 = R9["Connect"]
+	[  34]	        Move	|   11 |    8 |    0 |	R11 = R8
+	[  35]	        Call	|    9 |    3 |    1 |	R9(R10, R11)
+	[  36]	   GetGlobal	|    9 |   21 |    0 |	R9 = print
+	[  37]	       LoadK	|   10 |   22 |    0 |	R10 = "Delete Tool Ready!"
+	[  38]	        Call	|    9 |    2 |    1 |	R9(R10)
+	[  39]	      Return	|    0 |    1 |    0 |	return
+end
+function func_e3f8e39f()
+	[Slots: 6, Upvalues: 2, Constants: 18]
+	[   0]	   GetGlobal	|    0 |    0 |    0 |	R0 = game
+	[   1]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["GetService"]
+	[   2]	       LoadK	|    2 |    2 |    0 |	R2 = "UserInputService"
+	[   3]	        Call	|    0 |    3 |    2 |	R0 = R0(R1, R2)
+	[   4]	    GetTable	|    0 |    0 |  259 |	R0 = R0["TouchEnabled"]
+	[   5]	        Test	|    0 |    0 |    0 |	if not R0 then PC += 1
+	[   6]	         Jmp	|    0 |   33 |    0 |	PC += 33
+	[   7]	   GetGlobal	|    0 |    0 |    0 |	R0 = game
+	[   8]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["GetService"]
+	[   9]	       LoadK	|    2 |    2 |    0 |	R2 = "UserInputService"
+	[  10]	        Call	|    0 |    3 |    2 |	R0 = R0(R1, R2)
+	[  11]	        Self	|    0 |    0 |  260 |	R1 = R0; R0 = R0["GetTouches"]
+	[  12]	        Call	|    0 |    2 |    2 |	R0 = R0(R1)
+	[  13]	         Len	|    0 |    0 |    0 |	R0 = #R0
+	[  14]	          Lt	|    0 |  261 |    0 |	if 0 < R0 then PC += 1
+	[  15]	         Jmp	|    0 |   24 |    0 |	PC += 24
+	[  16]	   GetGlobal	|    0 |    0 |    0 |	R0 = game
+	[  17]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["GetService"]
+	[  18]	       LoadK	|    2 |    2 |    0 |	R2 = "UserInputService"
+	[  19]	        Call	|    0 |    3 |    2 |	R0 = R0(R1, R2)
+	[  20]	        Self	|    0 |    0 |  260 |	R1 = R0; R0 = R0["GetTouches"]
+	[  21]	        Call	|    0 |    2 |    2 |	R0 = R0(R1)
+	[  22]	    GetTable	|    0 |    0 |  262 |	R0 = R0[1]
+	[  23]	    GetUpval	|    1 |    0 |    0 |	R1 = UPVALUE_0
+	[  24]	        Self	|    1 |    1 |  263 |	R2 = R1; R1 = R1["ScreenPointToRay"]
+	[  25]	    GetTable	|    3 |    0 |  264 |	R3 = R0["Position"]
+	[  26]	    GetTable	|    3 |    3 |  265 |	R3 = R3["X"]
+	[  27]	    GetTable	|    4 |    0 |  264 |	R4 = R0["Position"]
+	[  28]	    GetTable	|    4 |    4 |  266 |	R4 = R4["Y"]
+	[  29]	        Call	|    1 |    4 |    2 |	R1 = R1(R2, R3, R4)
+	[  30]	   GetGlobal	|    2 |   11 |    0 |	R2 = workspace
+	[  31]	        Self	|    2 |    2 |  268 |	R3 = R2; R2 = R2["Raycast"]
+	[  32]	    GetTable	|    4 |    1 |  269 |	R4 = R1["Origin"]
+	[  33]	    GetTable	|    5 |    1 |  270 |	R5 = R1["Direction"]
+	[  34]	         Mul	|    5 |    5 |  271 |	R5 = R5 * 500
+	[  35]	        Call	|    2 |    4 |    2 |	R2 = R2(R3, R4, R5)
+	[  36]	     TestSet	|    3 |    2 |    0 |	if not R2 then R3 = R2 else PC += 1
+	[  37]	         Jmp	|    0 |    1 |    0 |	PC += 1
+	[  38]	    GetTable	|    3 |    2 |  272 |	R3 = R2["Instance"]
+	[  39]	      Return	|    3 |    2 |    0 |	return R3
+	[  40]	    GetUpval	|    0 |    1 |    0 |	R0 = UPVALUE_1
+	[  41]	    GetTable	|    0 |    0 |  273 |	R0 = R0["Target"]
+	[  42]	      Return	|    0 |    2 |    0 |	return R0
+end
+function func_299a180a()
+	[Slots: 7, Upvalues: 2, Constants: 13]
+	[   0]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   1]	        Call	|    0 |    1 |    2 |	R0 = R0()
+	[   2]	        Test	|    0 |    0 |    0 |	if not R0 then PC += 1
+	[   3]	         Jmp	|    0 |   27 |    0 |	PC += 27
+	[   4]	        Self	|    1 |    0 |  256 |	R2 = R0; R1 = R0["FindFirstAncestorOfClass"]
+	[   5]	       LoadK	|    3 |    1 |    0 |	R3 = "Model"
+	[   6]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[   7]	        Test	|    1 |    0 |    0 |	if not R1 then PC += 1
+	[   8]	         Jmp	|    0 |   22 |    0 |	PC += 22
+	[   9]	    NewTable	|    2 |    0 |    2 |	R2 = {}
+	[  10]	    SetTable	|    2 |  258 |    1 |	R2[1] = R1
+	[  11]	   GetGlobal	|    3 |    3 |    0 |	R3 = Vector3
+	[  12]	    GetTable	|    3 |    3 |  260 |	R3 = R3["new"]
+	[  13]	   GetGlobal	|    4 |    5 |    0 |	R4 = math
+	[  14]	    GetTable	|    4 |    4 |  262 |	R4 = R4["huge"]
+	[  15]	   GetGlobal	|    5 |    5 |    0 |	R5 = math
+	[  16]	    GetTable	|    5 |    5 |  262 |	R5 = R5["huge"]
+	[  17]	   GetGlobal	|    6 |    5 |    0 |	R6 = math
+	[  18]	    GetTable	|    6 |    6 |  262 |	R6 = R6["huge"]
+	[  19]	        Call	|    3 |    4 |    2 |	R3 = R3(R4, R5, R6)
+	[  20]	    SetTable	|    2 |  263 |    3 |	R2[2] = R3
+	[  21]	    GetUpval	|    3 |    1 |    0 |	R3 = UPVALUE_1
+	[  22]	        Self	|    3 |    3 |  264 |	R4 = R3; R3 = R3["FireServer"]
+	[  23]	   GetGlobal	|    5 |    9 |    0 |	R5 = unpack
+	[  24]	        Move	|    6 |    2 |    0 |	R6 = R2
+	[  25]	        Call	|    5 |    2 |    0 |	R5->top = R5(R6)
+	[  26]	        Call	|    3 |    0 |    1 |	R3(R4->top)
+	[  27]	   GetGlobal	|    3 |   10 |    0 |	R3 = print
+	[  28]	       LoadK	|    4 |   11 |    0 |	R4 = "Teleported model:"
+	[  29]	    GetTable	|    5 |    1 |  268 |	R5 = R1["Name"]
+	[  30]	        Call	|    3 |    3 |    1 |	R3(R4, R5)
+	[  31]	      Return	|    0 |    1 |    0 |	return
+end
+function func_0ddee4ae()
+	[Slots: 15, Upvalues: 0, Constants: 21]
+	[   0]	   GetGlobal	|    0 |    0 |    0 |	R0 = game
+	[   1]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["GetService"]
+	[   2]	       LoadK	|    2 |    2 |    0 |	R2 = "Players"
+	[   3]	        Call	|    0 |    3 |    2 |	R0 = R0(R1, R2)
+	[   4]	   GetGlobal	|    1 |    0 |    0 |	R1 = game
+	[   5]	        Self	|    1 |    1 |  257 |	R2 = R1; R1 = R1["GetService"]
+	[   6]	       LoadK	|    3 |    3 |    0 |	R3 = "ReplicatedStorage"
+	[   7]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[   8]	        Self	|    2 |    1 |  260 |	R3 = R1; R2 = R1["FindFirstChild"]
+	[   9]	       LoadK	|    4 |    5 |    0 |	R4 = "movebuilding"
+	[  10]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  11]	        Test	|    2 |    0 |    1 |	if R2 then PC += 1
+	[  12]	         Jmp	|    0 |    4 |    0 |	PC += 4
+	[  13]	   GetGlobal	|    3 |    6 |    0 |	R3 = warn
+	[  14]	       LoadK	|    4 |    7 |    0 |	R4 = "Remote 'movebuilding' not found"
+	[  15]	        Call	|    3 |    2 |    1 |	R3(R4)
+	[  16]	      Return	|    0 |    1 |    0 |	return
+	[  17]	    GetTable	|    3 |    0 |  264 |	R3 = R0["LocalPlayer"]
+	[  18]	    GetTable	|    4 |    3 |  265 |	R4 = R3["Character"]
+	[  19]	        Test	|    4 |    0 |    1 |	if R4 then PC += 1
+	[  20]	         Jmp	|    0 |    3 |    0 |	PC += 3
+	[  21]	    GetTable	|    4 |    3 |  266 |	R4 = R3["CharacterAdded"]
+	[  22]	        Self	|    4 |    4 |  267 |	R5 = R4; R4 = R4["Wait"]
+	[  23]	        Call	|    4 |    2 |    2 |	R4 = R4(R5)
+	[  24]	        Self	|    5 |    4 |  268 |	R6 = R4; R5 = R4["WaitForChild"]
+	[  25]	       LoadK	|    7 |   13 |    0 |	R7 = "HumanoidRootPart"
+	[  26]	        Call	|    5 |    3 |    2 |	R5 = R5(R6, R7)
+	[  27]	   GetGlobal	|    6 |   14 |    0 |	R6 = ipairs
+	[  28]	        Self	|    7 |    0 |  271 |	R8 = R0; R7 = R0["GetPlayers"]
+	[  29]	        Call	|    7 |    2 |    0 |	R7->top = R7(R8)
+	[  30]	        Call	|    6 |    0 |    4 |	R6, R7, R8 = R6(R7->top)
+	[  31]	         Jmp	|    0 |   19 |    0 |	PC += 19
+	[  32]	          Eq	|    1 |   10 |    3 |	if R10 ~= R3 then PC += 1
+	[  33]	         Jmp	|    0 |   17 |    0 |	PC += 17
+	[  34]	    GetTable	|   11 |   10 |  265 |	R11 = R10["Character"]
+	[  35]	        Test	|   11 |    0 |    0 |	if not R11 then PC += 1
+	[  36]	         Jmp	|    0 |   14 |    0 |	PC += 14
+	[  37]	    GetTable	|   11 |   10 |  265 |	R11 = R10["Character"]
+	[  38]	        Self	|   11 |   11 |  260 |	R12 = R11; R11 = R11["FindFirstChild"]
+	[  39]	       LoadK	|   13 |   13 |    0 |	R13 = "HumanoidRootPart"
+	[  40]	        Call	|   11 |    3 |    2 |	R11 = R11(R12, R13)
+	[  41]	        Test	|   11 |    0 |    0 |	if not R11 then PC += 1
+	[  42]	         Jmp	|    0 |    8 |    0 |	PC += 8
+	[  43]	        Self	|   11 |    2 |  272 |	R12 = R2; R11 = R2["FireServer"]
+	[  44]	    GetTable	|   13 |   10 |  265 |	R13 = R10["Character"]
+	[  45]	    GetTable	|   14 |    5 |  273 |	R14 = R5["CFrame"]
+	[  46]	        Call	|   11 |    4 |    1 |	R11(R12, R13, R14)
+	[  47]	   GetGlobal	|   11 |   18 |    0 |	R11 = print
+	[  48]	       LoadK	|   12 |   19 |    0 |	R12 = "Requested move for:"
+	[  49]	    GetTable	|   13 |   10 |  276 |	R13 = R10["Name"]
+	[  50]	        Call	|   11 |    3 |    1 |	R11(R12, R13)
+	[  51]	    TForLoop	|    6 |    0 |    2 |	R9, R10 = R6(R7, R8); if R9 ~= nil then R8 = R9 else PC += 1 end
+	[  52]	         Jmp	|    0 |  -21 |    0 |	PC += -21
+	[  53]	      Return	|    0 |    1 |    0 |	return
+end
+function func_b1fd7472()
+	[Slots: 12, Upvalues: 0, Constants: 20]
+	[   0]	   GetGlobal	|    0 |    0 |    0 |	R0 = game
+	[   1]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["GetService"]
+	[   2]	       LoadK	|    2 |    2 |    0 |	R2 = "Players"
+	[   3]	        Call	|    0 |    3 |    2 |	R0 = R0(R1, R2)
+	[   4]	   GetGlobal	|    1 |    0 |    0 |	R1 = game
+	[   5]	        Self	|    1 |    1 |  257 |	R2 = R1; R1 = R1["GetService"]
+	[   6]	       LoadK	|    3 |    3 |    0 |	R3 = "UserInputService"
+	[   7]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[   8]	    GetTable	|    2 |    0 |  260 |	R2 = R0["LocalPlayer"]
+	[   9]	    GetTable	|    3 |    2 |  261 |	R3 = R2["Character"]
+	[  10]	        Test	|    3 |    0 |    1 |	if R3 then PC += 1
+	[  11]	         Jmp	|    0 |    3 |    0 |	PC += 3
+	[  12]	    GetTable	|    3 |    2 |  262 |	R3 = R2["CharacterAdded"]
+	[  13]	        Self	|    3 |    3 |  263 |	R4 = R3; R3 = R3["Wait"]
+	[  14]	        Call	|    3 |    2 |    2 |	R3 = R3(R4)
+	[  15]	        Self	|    4 |    3 |  264 |	R5 = R3; R4 = R3["WaitForChild"]
+	[  16]	       LoadK	|    6 |    9 |    0 |	R6 = "Humanoid"
+	[  17]	        Call	|    4 |    3 |    2 |	R4 = R4(R5, R6)
+	[  18]	        Self	|    5 |    4 |  266 |	R6 = R4; R5 = R4["SetAttribute"]
+	[  19]	       LoadK	|    7 |   11 |    0 |	R7 = "Stamina"
+	[  20]	       LoadK	|    8 |   12 |    0 |	R8 = 1
+	[  21]	        Call	|    5 |    4 |    1 |	R5(R6, R7, R8)
+	[  22]	       LoadK	|    5 |   13 |    0 |	R5 = 10
+	[  23]	       LoadK	|    6 |   14 |    0 |	R6 = 19.2
+	[  24]	     Closure	|    7 |    3 |    1 |	R7 = func_75682156
+	[  25]	        Move	|    0 |    4 |    0 |	R0 = R4
+	[  26]	     Closure	|    8 |    0 |    3 |	R8 = func_2097bb8f
+	[  27]	        Move	|    0 |    4 |    0 |	R0 = R4
+	[  28]	        Move	|    0 |    6 |    0 |	R0 = R6
+	[  29]	        Move	|    0 |    5 |    0 |	R0 = R5
+	[  30]	    GetTable	|    9 |    1 |  271 |	R9 = R1["InputBegan"]
+	[  31]	        Self	|    9 |    9 |  272 |	R10 = R9; R9 = R9["Connect"]
+	[  32]	     Closure	|   11 |    2 |    1 |	R11 = func_0d1cb3b4
+	[  33]	        Move	|    0 |    8 |    0 |	R0 = R8
+	[  34]	        Call	|    9 |    3 |    1 |	R9(R10, R11)
+	[  35]	    GetTable	|    9 |    1 |  273 |	R9 = R1["InputEnded"]
+	[  36]	        Self	|    9 |    9 |  272 |	R10 = R9; R9 = R9["Connect"]
+	[  37]	     Closure	|   11 |    1 |    1 |	R11 = func_ab1002cd
+	[  38]	        Move	|    0 |    8 |    0 |	R0 = R8
+	[  39]	        Call	|    9 |    3 |    1 |	R9(R10, R11)
+	[  40]	   GetGlobal	|    9 |   18 |    0 |	R9 = task
+	[  41]	    GetTable	|    9 |    9 |  275 |	R9 = R9["spawn"]
+	[  42]	        Move	|   10 |    7 |    0 |	R10 = R7
+	[  43]	        Call	|    9 |    2 |    1 |	R9(R10)
+	[  44]	      Return	|    0 |    1 |    0 |	return
+end
+function func_2097bb8f(R0)
+	[Slots: 3, Upvalues: 3, Constants: 1]
+	[   0]	        Test	|    0 |    0 |    0 |	if not R0 then PC += 1
+	[   1]	         Jmp	|    0 |    4 |    0 |	PC += 4
+	[   2]	    GetUpval	|    1 |    0 |    0 |	R1 = UPVALUE_0
+	[   3]	    GetUpval	|    2 |    1 |    0 |	R2 = UPVALUE_1
+	[   4]	    SetTable	|    1 |  256 |    2 |	R1["WalkSpeed"] = R2
+	[   5]	         Jmp	|    0 |    3 |    0 |	PC += 3
+	[   6]	    GetUpval	|    1 |    0 |    0 |	R1 = UPVALUE_0
+	[   7]	    GetUpval	|    2 |    2 |    0 |	R2 = UPVALUE_2
+	[   8]	    SetTable	|    1 |  256 |    2 |	R1["WalkSpeed"] = R2
+	[   9]	      Return	|    0 |    1 |    0 |	return
+end
+function func_ab1002cd(R0, R1)
+	[Slots: 4, Upvalues: 1, Constants: 4]
+	[   0]	        Test	|    1 |    0 |    0 |	if not R1 then PC += 1
+	[   1]	         Jmp	|    0 |    1 |    0 |	PC += 1
+	[   2]	      Return	|    0 |    1 |    0 |	return
+	[   3]	    GetTable	|    2 |    0 |  256 |	R2 = R0["KeyCode"]
+	[   4]	   GetGlobal	|    3 |    1 |    0 |	R3 = Enum
+	[   5]	    GetTable	|    3 |    3 |  256 |	R3 = R3["KeyCode"]
+	[   6]	    GetTable	|    3 |    3 |  258 |	R3 = R3["LeftShift"]
+	[   7]	          Eq	|    1 |    2 |    3 |	if R2 ~= R3 then PC += 1
+	[   8]	         Jmp	|    0 |    6 |    0 |	PC += 6
+	[   9]	    GetTable	|    2 |    0 |  256 |	R2 = R0["KeyCode"]
+	[  10]	   GetGlobal	|    3 |    1 |    0 |	R3 = Enum
+	[  11]	    GetTable	|    3 |    3 |  256 |	R3 = R3["KeyCode"]
+	[  12]	    GetTable	|    3 |    3 |  259 |	R3 = R3["ButtonL3"]
+	[  13]	          Eq	|    0 |    2 |    3 |	if R2 == R3 then PC += 1
+	[  14]	         Jmp	|    0 |    3 |    0 |	PC += 3
+	[  15]	    GetUpval	|    2 |    0 |    0 |	R2 = UPVALUE_0
+	[  16]	    LoadBool	|    3 |    0 |    0 |	R3 = false
+	[  17]	        Call	|    2 |    2 |    1 |	R2(R3)
+	[  18]	      Return	|    0 |    1 |    0 |	return
+end
+function func_0d1cb3b4(R0, R1)
+	[Slots: 4, Upvalues: 1, Constants: 4]
+	[   0]	        Test	|    1 |    0 |    0 |	if not R1 then PC += 1
+	[   1]	         Jmp	|    0 |    1 |    0 |	PC += 1
+	[   2]	      Return	|    0 |    1 |    0 |	return
+	[   3]	    GetTable	|    2 |    0 |  256 |	R2 = R0["KeyCode"]
+	[   4]	   GetGlobal	|    3 |    1 |    0 |	R3 = Enum
+	[   5]	    GetTable	|    3 |    3 |  256 |	R3 = R3["KeyCode"]
+	[   6]	    GetTable	|    3 |    3 |  258 |	R3 = R3["LeftShift"]
+	[   7]	          Eq	|    1 |    2 |    3 |	if R2 ~= R3 then PC += 1
+	[   8]	         Jmp	|    0 |    6 |    0 |	PC += 6
+	[   9]	    GetTable	|    2 |    0 |  256 |	R2 = R0["KeyCode"]
+	[  10]	   GetGlobal	|    3 |    1 |    0 |	R3 = Enum
+	[  11]	    GetTable	|    3 |    3 |  256 |	R3 = R3["KeyCode"]
+	[  12]	    GetTable	|    3 |    3 |  259 |	R3 = R3["ButtonL3"]
+	[  13]	          Eq	|    0 |    2 |    3 |	if R2 == R3 then PC += 1
+	[  14]	         Jmp	|    0 |    3 |    0 |	PC += 3
+	[  15]	    GetUpval	|    2 |    0 |    0 |	R2 = UPVALUE_0
+	[  16]	    LoadBool	|    3 |    1 |    0 |	R3 = true
+	[  17]	        Call	|    2 |    2 |    1 |	R2(R3)
+	[  18]	      Return	|    0 |    1 |    0 |	return
+end
+function func_75682156()
+	[Slots: 4, Upvalues: 1, Constants: 5]
+	[   0]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   1]	        Self	|    0 |    0 |  256 |	R1 = R0; R0 = R0["SetAttribute"]
+	[   2]	       LoadK	|    2 |    1 |    0 |	R2 = "Stamina"
+	[   3]	       LoadK	|    3 |    2 |    0 |	R3 = 1
+	[   4]	        Call	|    0 |    4 |    1 |	R0(R1, R2, R3)
+	[   5]	   GetGlobal	|    0 |    3 |    0 |	R0 = wait
+	[   6]	       LoadK	|    1 |    4 |    0 |	R1 = 0.1
+	[   7]	        Call	|    0 |    2 |    1 |	R0(R1)
+	[   8]	         Jmp	|    0 |   -9 |    0 |	PC += -9
+	[   9]	      Return	|    0 |    1 |    0 |	return
+end
+function func_49c9ae44()
+	[Slots: 9, Upvalues: 1, Constants: 7]
+	[   0]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   1]	    NewTable	|    1 |    7 |    0 |	R1 = {}
+	[   2]	       LoadK	|    2 |    0 |    0 |	R2 = "Wheel"
+	[   3]	       LoadK	|    3 |    1 |    0 |	R3 = "Engine"
+	[   4]	       LoadK	|    4 |    2 |    0 |	R4 = "radiator"
+	[   5]	       LoadK	|    5 |    3 |    0 |	R5 = "LeftLight"
+	[   6]	       LoadK	|    6 |    4 |    0 |	R6 = "RightLight"
+	[   7]	       LoadK	|    7 |    5 |    0 |	R7 = "Fan"
+	[   8]	       LoadK	|    8 |    6 |    0 |	R8 = "Rocket"
+	[   9]	     SetList	|    1 |    7 |    1 |	
+	[  10]	        Call	|    0 |    2 |    1 |	R0(R1)
+	[  11]	      Return	|    0 |    1 |    0 |	return
+end
+function func_3d4e3b6d()
+	[Slots: 5, Upvalues: 0, Constants: 11]
+	[   0]	    NewTable	|    0 |    0 |    1 |	R0 = {}
+	[   1]	   GetGlobal	|    1 |    0 |    0 |	R1 = math
+	[   2]	    GetTable	|    1 |    1 |  257 |	R1 = R1["huge"]
+	[   3]	         Unm	|    1 |    1 |    0 |	R1 = -R1
+	[   4]	    SetTable	|    0 |  258 |    1 |	R0[1] = R1
+	[   5]	   GetGlobal	|    1 |    3 |    0 |	R1 = game
+	[   6]	        Self	|    1 |    1 |  260 |	R2 = R1; R1 = R1["GetService"]
+	[   7]	       LoadK	|    3 |    5 |    0 |	R3 = "ReplicatedStorage"
+	[   8]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[   9]	        Self	|    1 |    1 |  262 |	R2 = R1; R1 = R1["WaitForChild"]
+	[  10]	       LoadK	|    3 |    7 |    0 |	R3 = "Network"
+	[  11]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[  12]	        Self	|    1 |    1 |  262 |	R2 = R1; R1 = R1["WaitForChild"]
+	[  13]	       LoadK	|    3 |    8 |    0 |	R3 = "DamagePlayerBullet"
+	[  14]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[  15]	        Self	|    1 |    1 |  265 |	R2 = R1; R1 = R1["FireServer"]
+	[  16]	   GetGlobal	|    3 |   10 |    0 |	R3 = unpack
+	[  17]	        Move	|    4 |    0 |    0 |	R4 = R0
+	[  18]	        Call	|    3 |    2 |    0 |	R3->top = R3(R4)
+	[  19]	        Call	|    1 |    0 |    1 |	R1(R2->top)
+	[  20]	      Return	|    0 |    1 |    0 |	return
+end
+function func_36150073()
+	[Slots: 15, Upvalues: 0, Constants: 21]
+	[   0]	   GetGlobal	|    0 |    0 |    0 |	R0 = game
+	[   1]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["GetService"]
+	[   2]	       LoadK	|    2 |    2 |    0 |	R2 = "ReplicatedStorage"
+	[   3]	        Call	|    0 |    3 |    2 |	R0 = R0(R1, R2)
+	[   4]	   GetGlobal	|    1 |    3 |    0 |	R1 = workspace
+	[   5]	        Self	|    1 |    1 |  260 |	R2 = R1; R1 = R1["WaitForChild"]
+	[   6]	       LoadK	|    3 |    5 |    0 |	R3 = "Engine"
+	[   7]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[   8]	        Self	|    1 |    1 |  260 |	R2 = R1; R1 = R1["WaitForChild"]
+	[   9]	       LoadK	|    3 |    6 |    0 |	R3 = "tank"
+	[  10]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[  11]	        Self	|    1 |    1 |  260 |	R2 = R1; R1 = R1["WaitForChild"]
+	[  12]	       LoadK	|    3 |    7 |    0 |	R3 = "main"
+	[  13]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[  14]	        Self	|    1 |    1 |  260 |	R2 = R1; R1 = R1["WaitForChild"]
+	[  15]	       LoadK	|    3 |    6 |    0 |	R3 = "tank"
+	[  16]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[  17]	        Self	|    2 |    0 |  260 |	R3 = R0; R2 = R0["WaitForChild"]
+	[  18]	       LoadK	|    4 |    8 |    0 |	R4 = "Assets"
+	[  19]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  20]	        Self	|    2 |    2 |  260 |	R3 = R2; R2 = R2["WaitForChild"]
+	[  21]	       LoadK	|    4 |    9 |    0 |	R4 = "Liquids"
+	[  22]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  23]	        Self	|    2 |    2 |  260 |	R3 = R2; R2 = R2["WaitForChild"]
+	[  24]	       LoadK	|    4 |   10 |    0 |	R4 = "OilCan"
+	[  25]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  26]	        Self	|    2 |    2 |  260 |	R3 = R2; R2 = R2["WaitForChild"]
+	[  27]	       LoadK	|    4 |    7 |    0 |	R4 = "main"
+	[  28]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  29]	        Self	|    2 |    2 |  260 |	R3 = R2; R2 = R2["WaitForChild"]
+	[  30]	       LoadK	|    4 |    6 |    0 |	R4 = "tank"
+	[  31]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  32]	        Self	|    3 |    0 |  260 |	R4 = R0; R3 = R0["WaitForChild"]
+	[  33]	       LoadK	|    5 |   11 |    0 |	R5 = "fill"
+	[  34]	        Call	|    3 |    3 |    2 |	R3 = R3(R4, R5)
+	[  35]	        Test	|    1 |    0 |    0 |	if not R1 then PC += 1
+	[  36]	         Jmp	|    0 |   27 |    0 |	PC += 27
+	[  37]	        Test	|    2 |    0 |    0 |	if not R2 then PC += 1
+	[  38]	         Jmp	|    0 |   25 |    0 |	PC += 25
+	[  39]	        Test	|    3 |    0 |    0 |	if not R3 then PC += 1
+	[  40]	         Jmp	|    0 |   23 |    0 |	PC += 23
+	[  41]	       LoadK	|    4 |   12 |    0 |	R4 = 1
+	[  42]	       LoadK	|    5 |   13 |    0 |	R5 = 200
+	[  43]	       LoadK	|    6 |   12 |    0 |	R6 = 1
+	[  44]	     ForPrep	|    4 |   18 |    0 |	R4 -= R6; PC += 18
+	[  45]	   GetGlobal	|    8 |   14 |    0 |	R8 = pcall
+	[  46]	     Closure	|    9 |    0 |    3 |	R9 = func_380537ca
+	[  47]	        Move	|    0 |    3 |    0 |	R0 = R3
+	[  48]	        Move	|    0 |    1 |    0 |	R0 = R1
+	[  49]	        Move	|    0 |    2 |    0 |	R0 = R2
+	[  50]	        Call	|    8 |    2 |    3 |	R8, R9 = R8(R9)
+	[  51]	        Test	|    8 |    0 |    1 |	if R8 then PC += 1
+	[  52]	         Jmp	|    0 |    6 |    0 |	PC += 6
+	[  53]	   GetGlobal	|   10 |   15 |    0 |	R10 = warn
+	[  54]	       LoadK	|   11 |   16 |    0 |	R11 = "Fill failed at attempt"
+	[  55]	        Move	|   12 |    7 |    0 |	R12 = R7
+	[  56]	       LoadK	|   13 |   17 |    0 |	R13 = ":"
+	[  57]	        Move	|   14 |    9 |    0 |	R14 = R9
+	[  58]	        Call	|   10 |    5 |    1 |	R10(R11, R12, R13, R14)
+	[  59]	   GetGlobal	|   10 |   18 |    0 |	R10 = task
+	[  60]	    GetTable	|   10 |   10 |  275 |	R10 = R10["wait"]
+	[  61]	       LoadK	|   11 |   20 |    0 |	R11 = 0.2
+	[  62]	        Call	|   10 |    2 |    1 |	R10(R11)
+	[  63]	     ForLoop	|    4 |  -19 |    0 |	R4 += R6; if loop continues then PC += -19; R7 = R4;
+	[  64]	      Return	|    0 |    1 |    0 |	return
+end
+function func_380537ca()
+	[Slots: 4, Upvalues: 3, Constants: 1]
+	[   0]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   1]	        Self	|    0 |    0 |  256 |	R1 = R0; R0 = R0["FireServer"]
+	[   2]	    GetUpval	|    2 |    1 |    0 |	R2 = UPVALUE_1
+	[   3]	    GetUpval	|    3 |    2 |    0 |	R3 = UPVALUE_2
+	[   4]	        Call	|    0 |    4 |    1 |	R0(R1, R2, R3)
+	[   5]	      Return	|    0 |    1 |    0 |	return
+end
+function func_ca19ff13()
+	[Slots: 15, Upvalues: 0, Constants: 22]
+	[   0]	   GetGlobal	|    0 |    0 |    0 |	R0 = game
+	[   1]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["GetService"]
+	[   2]	       LoadK	|    2 |    2 |    0 |	R2 = "ReplicatedStorage"
+	[   3]	        Call	|    0 |    3 |    2 |	R0 = R0(R1, R2)
+	[   4]	   GetGlobal	|    1 |    3 |    0 |	R1 = workspace
+	[   5]	        Self	|    1 |    1 |  260 |	R2 = R1; R1 = R1["WaitForChild"]
+	[   6]	       LoadK	|    3 |    5 |    0 |	R3 = "radiator"
+	[   7]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[   8]	        Self	|    1 |    1 |  260 |	R2 = R1; R1 = R1["WaitForChild"]
+	[   9]	       LoadK	|    3 |    6 |    0 |	R3 = "water"
+	[  10]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[  11]	        Self	|    1 |    1 |  260 |	R2 = R1; R1 = R1["WaitForChild"]
+	[  12]	       LoadK	|    3 |    7 |    0 |	R3 = "main"
+	[  13]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[  14]	        Self	|    1 |    1 |  260 |	R2 = R1; R1 = R1["WaitForChild"]
+	[  15]	       LoadK	|    3 |    8 |    0 |	R3 = "tank"
+	[  16]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[  17]	        Self	|    2 |    0 |  260 |	R3 = R0; R2 = R0["WaitForChild"]
+	[  18]	       LoadK	|    4 |    9 |    0 |	R4 = "Assets"
+	[  19]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  20]	        Self	|    2 |    2 |  260 |	R3 = R2; R2 = R2["WaitForChild"]
+	[  21]	       LoadK	|    4 |   10 |    0 |	R4 = "Liquids"
+	[  22]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  23]	        Self	|    2 |    2 |  260 |	R3 = R2; R2 = R2["WaitForChild"]
+	[  24]	       LoadK	|    4 |   11 |    0 |	R4 = "WaterCan"
+	[  25]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  26]	        Self	|    2 |    2 |  260 |	R3 = R2; R2 = R2["WaitForChild"]
+	[  27]	       LoadK	|    4 |    7 |    0 |	R4 = "main"
+	[  28]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  29]	        Self	|    2 |    2 |  260 |	R3 = R2; R2 = R2["WaitForChild"]
+	[  30]	       LoadK	|    4 |    8 |    0 |	R4 = "tank"
+	[  31]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  32]	        Self	|    3 |    0 |  260 |	R4 = R0; R3 = R0["WaitForChild"]
+	[  33]	       LoadK	|    5 |   12 |    0 |	R5 = "fill"
+	[  34]	        Call	|    3 |    3 |    2 |	R3 = R3(R4, R5)
+	[  35]	        Test	|    1 |    0 |    0 |	if not R1 then PC += 1
+	[  36]	         Jmp	|    0 |   27 |    0 |	PC += 27
+	[  37]	        Test	|    2 |    0 |    0 |	if not R2 then PC += 1
+	[  38]	         Jmp	|    0 |   25 |    0 |	PC += 25
+	[  39]	        Test	|    3 |    0 |    0 |	if not R3 then PC += 1
+	[  40]	         Jmp	|    0 |   23 |    0 |	PC += 23
+	[  41]	       LoadK	|    4 |   13 |    0 |	R4 = 1
+	[  42]	       LoadK	|    5 |   14 |    0 |	R5 = 200
+	[  43]	       LoadK	|    6 |   13 |    0 |	R6 = 1
+	[  44]	     ForPrep	|    4 |   18 |    0 |	R4 -= R6; PC += 18
+	[  45]	   GetGlobal	|    8 |   15 |    0 |	R8 = pcall
+	[  46]	     Closure	|    9 |    0 |    3 |	R9 = func_b6d00d14
+	[  47]	        Move	|    0 |    3 |    0 |	R0 = R3
+	[  48]	        Move	|    0 |    1 |    0 |	R0 = R1
+	[  49]	        Move	|    0 |    2 |    0 |	R0 = R2
+	[  50]	        Call	|    8 |    2 |    3 |	R8, R9 = R8(R9)
+	[  51]	        Test	|    8 |    0 |    1 |	if R8 then PC += 1
+	[  52]	         Jmp	|    0 |    6 |    0 |	PC += 6
+	[  53]	   GetGlobal	|   10 |   16 |    0 |	R10 = warn
+	[  54]	       LoadK	|   11 |   17 |    0 |	R11 = "Fill failed at attempt"
+	[  55]	        Move	|   12 |    7 |    0 |	R12 = R7
+	[  56]	       LoadK	|   13 |   18 |    0 |	R13 = ":"
+	[  57]	        Move	|   14 |    9 |    0 |	R14 = R9
+	[  58]	        Call	|   10 |    5 |    1 |	R10(R11, R12, R13, R14)
+	[  59]	   GetGlobal	|   10 |   19 |    0 |	R10 = task
+	[  60]	    GetTable	|   10 |   10 |  276 |	R10 = R10["wait"]
+	[  61]	       LoadK	|   11 |   21 |    0 |	R11 = 0.2
+	[  62]	        Call	|   10 |    2 |    1 |	R10(R11)
+	[  63]	     ForLoop	|    4 |  -19 |    0 |	R4 += R6; if loop continues then PC += -19; R7 = R4;
+	[  64]	      Return	|    0 |    1 |    0 |	return
+end
+function func_b6d00d14()
+	[Slots: 4, Upvalues: 3, Constants: 1]
+	[   0]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   1]	        Self	|    0 |    0 |  256 |	R1 = R0; R0 = R0["FireServer"]
+	[   2]	    GetUpval	|    2 |    1 |    0 |	R2 = UPVALUE_1
+	[   3]	    GetUpval	|    3 |    2 |    0 |	R3 = UPVALUE_2
+	[   4]	        Call	|    0 |    4 |    1 |	R0(R1, R2, R3)
+	[   5]	      Return	|    0 |    1 |    0 |	return
+end
+function func_670c8af0()
+	[Slots: 33, Upvalues: 1, Constants: 31]
+	[   0]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   1]	    NewTable	|    1 |   24 |    0 |	R1 = {}
+	[   2]	       LoadK	|    2 |    0 |    0 |	R2 = "Pistol"
+	[   3]	       LoadK	|    3 |    1 |    0 |	R3 = "Water Gun"
+	[   4]	       LoadK	|    4 |    2 |    0 |	R4 = "RareItemSpawner"
+	[   5]	       LoadK	|    5 |    3 |    0 |	R5 = "Swarm Grenade"
+	[   6]	       LoadK	|    6 |    4 |    0 |	R6 = "C4"
+	[   7]	       LoadK	|    7 |    5 |    0 |	R7 = "Katana"
+	[   8]	       LoadK	|    8 |    6 |    0 |	R8 = "dynamite"
+	[   9]	       LoadK	|    9 |    7 |    0 |	R9 = "axe"
+	[  10]	       LoadK	|   10 |    8 |    0 |	R10 = "bomb"
+	[  11]	       LoadK	|   11 |    9 |    0 |	R11 = "ak"
+	[  12]	       LoadK	|   12 |   10 |    0 |	R12 = "ak47"
+	[  13]	       LoadK	|   13 |   11 |    0 |	R13 = "AK-47"
+	[  14]	       LoadK	|   14 |   12 |    0 |	R14 = "Golden AK-47"
+	[  15]	       LoadK	|   15 |   13 |    0 |	R15 = "Minigun"
+	[  16]	       LoadK	|   16 |   14 |    0 |	R16 = "Raygun"
+	[  17]	       LoadK	|   17 |   15 |    0 |	R17 = "Transmorph Gun"
+	[  18]	       LoadK	|   18 |   16 |    0 |	R18 = "Godly Deagle"
+	[  19]	       LoadK	|   19 |   17 |    0 |	R19 = "Assault Rifle"
+	[  20]	       LoadK	|   20 |   18 |    0 |	R20 = "Mac10"
+	[  21]	       LoadK	|   21 |   19 |    0 |	R21 = "Deagle"
+	[  22]	       LoadK	|   22 |   20 |    0 |	R22 = "PumpShotgun"
+	[  23]	       LoadK	|   23 |   21 |    0 |	R23 = "Crossbow"
+	[  24]	       LoadK	|   24 |   22 |    0 |	R24 = "Rocket Launcher"
+	[  25]	       LoadK	|   25 |   23 |    0 |	R25 = "Nuke Launcher"
+	[  26]	       LoadK	|   26 |   24 |    0 |	R26 = "K-4.7"
+	[  27]	       LoadK	|   27 |   25 |    0 |	R27 = "RPG"
+	[  28]	       LoadK	|   28 |   26 |    0 |	R28 = "Double Barrel Shotgun"
+	[  29]	       LoadK	|   29 |   27 |    0 |	R29 = "Sword"
+	[  30]	       LoadK	|   30 |   28 |    0 |	R30 = "Binoculars"
+	[  31]	       LoadK	|   31 |   29 |    0 |	R31 = "Superlight"
+	[  32]	       LoadK	|   32 |   30 |    0 |	R32 = "Dagger"
+	[  33]	     SetList	|    1 |   31 |    1 |	
+	[  34]	        Call	|    0 |    2 |    1 |	R0(R1)
+	[  35]	      Return	|    0 |    1 |    0 |	return
+end
+function func_d0604b8c()
+	[Slots: 16, Upvalues: 0, Constants: 24]
+	[   0]	   GetGlobal	|    0 |    0 |    0 |	R0 = game
+	[   1]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["GetService"]
+	[   2]	       LoadK	|    2 |    2 |    0 |	R2 = "ReplicatedStorage"
+	[   3]	        Call	|    0 |    3 |    2 |	R0 = R0(R1, R2)
+	[   4]	   GetGlobal	|    1 |    0 |    0 |	R1 = game
+	[   5]	        Self	|    1 |    1 |  257 |	R2 = R1; R1 = R1["GetService"]
+	[   6]	       LoadK	|    3 |    3 |    0 |	R3 = "Players"
+	[   7]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[   8]	    GetTable	|    2 |    1 |  260 |	R2 = R1["LocalPlayer"]
+	[   9]	        Self	|    3 |    0 |  261 |	R4 = R0; R3 = R0["WaitForChild"]
+	[  10]	       LoadK	|    5 |    6 |    0 |	R5 = "teleport"
+	[  11]	        Call	|    3 |    3 |    2 |	R3 = R3(R4, R5)
+	[  12]	   GetGlobal	|    4 |    7 |    0 |	R4 = Vector3
+	[  13]	    GetTable	|    4 |    4 |  264 |	R4 = R4["new"]
+	[  14]	       LoadK	|    5 |    9 |    0 |	R5 = 129.90415954589844
+	[  15]	       LoadK	|    6 |   10 |    0 |	R6 = 7.006973743438721
+	[  16]	       LoadK	|    7 |   11 |    0 |	R7 = 7849.4638671875
+	[  17]	        Call	|    4 |    4 |    2 |	R4 = R4(R5, R6, R7)
+	[  18]	    GetTable	|    5 |    2 |  268 |	R5 = R2["Character"]
+	[  19]	        Test	|    5 |    0 |    0 |	if not R5 then PC += 1
+	[  20]	         Jmp	|    0 |   26 |    0 |	PC += 26
+	[  21]	        Self	|    6 |    5 |  269 |	R7 = R5; R6 = R5["IsA"]
+	[  22]	       LoadK	|    8 |   14 |    0 |	R8 = "Model"
+	[  23]	        Call	|    6 |    3 |    2 |	R6 = R6(R7, R8)
+	[  24]	        Test	|    6 |    0 |    0 |	if not R6 then PC += 1
+	[  25]	         Jmp	|    0 |   21 |    0 |	PC += 21
+	[  26]	       LoadK	|    6 |   15 |    0 |	R6 = 1
+	[  27]	       LoadK	|    7 |   16 |    0 |	R7 = 3
+	[  28]	       LoadK	|    8 |   15 |    0 |	R8 = 1
+	[  29]	     ForPrep	|    6 |   16 |    0 |	R6 -= R8; PC += 16
+	[  30]	         Mul	|   10 |    9 |  272 |	R10 = R9 * 3
+	[  31]	   GetGlobal	|   11 |    7 |    0 |	R11 = Vector3
+	[  32]	    GetTable	|   11 |   11 |  264 |	R11 = R11["new"]
+	[  33]	    GetTable	|   12 |    4 |  273 |	R12 = R4["X"]
+	[  34]	    GetTable	|   13 |    4 |  274 |	R13 = R4["Y"]
+	[  35]	         Add	|   13 |   13 |   10 |	R13 = R13 + R10
+	[  36]	    GetTable	|   14 |    4 |  275 |	R14 = R4["Z"]
+	[  37]	        Call	|   11 |    4 |    2 |	R11 = R11(R12, R13, R14)
+	[  38]	        Self	|   12 |    3 |  276 |	R13 = R3; R12 = R3["FireServer"]
+	[  39]	        Move	|   14 |    5 |    0 |	R14 = R5
+	[  40]	        Move	|   15 |   11 |    0 |	R15 = R11
+	[  41]	        Call	|   12 |    4 |    1 |	R12(R13, R14, R15)
+	[  42]	   GetGlobal	|   12 |   21 |    0 |	R12 = task
+	[  43]	    GetTable	|   12 |   12 |  278 |	R12 = R12["wait"]
+	[  44]	       LoadK	|   13 |   23 |    0 |	R13 = 0.3
+	[  45]	        Call	|   12 |    2 |    1 |	R12(R13)
+	[  46]	     ForLoop	|    6 |  -17 |    0 |	R6 += R8; if loop continues then PC += -17; R9 = R6;
+	[  47]	      Return	|    0 |    1 |    0 |	return
+end
+function func_a2f01d95()
+	[Slots: 12, Upvalues: 0, Constants: 28]
+	[   0]	   GetGlobal	|    0 |    0 |    0 |	R0 = game
+	[   1]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["GetService"]
+	[   2]	       LoadK	|    2 |    2 |    0 |	R2 = "Players"
+	[   3]	        Call	|    0 |    3 |    2 |	R0 = R0(R1, R2)
+	[   4]	   GetGlobal	|    1 |    0 |    0 |	R1 = game
+	[   5]	        Self	|    1 |    1 |  257 |	R2 = R1; R1 = R1["GetService"]
+	[   6]	       LoadK	|    3 |    3 |    0 |	R3 = "ReplicatedStorage"
+	[   7]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[   8]	   GetGlobal	|    2 |    0 |    0 |	R2 = game
+	[   9]	        Self	|    2 |    2 |  257 |	R3 = R2; R2 = R2["GetService"]
+	[  10]	       LoadK	|    4 |    4 |    0 |	R4 = "UserInputService"
+	[  11]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  12]	    GetTable	|    3 |    0 |  261 |	R3 = R0["LocalPlayer"]
+	[  13]	        Self	|    4 |    3 |  262 |	R5 = R3; R4 = R3["WaitForChild"]
+	[  14]	       LoadK	|    6 |    7 |    0 |	R6 = "Backpack"
+	[  15]	        Call	|    4 |    3 |    2 |	R4 = R4(R5, R6)
+	[  16]	   GetGlobal	|    5 |    8 |    0 |	R5 = Instance
+	[  17]	    GetTable	|    5 |    5 |  265 |	R5 = R5["new"]
+	[  18]	       LoadK	|    6 |   10 |    0 |	R6 = "Tool"
+	[  19]	        Call	|    5 |    2 |    2 |	R5 = R5(R6)
+	[  20]	    SetTable	|    5 |  267 |  268 |	R5["Name"] = "Damage Tool"
+	[  21]	    SetTable	|    5 |  269 |  270 |	R5["RequiresHandle"] = false
+	[  22]	    SetTable	|    5 |  271 |  270 |	R5["CanBeDropped"] = false
+	[  23]	    SetTable	|    5 |  272 |    4 |	R5["Parent"] = R4
+	[  24]	        Self	|    6 |    1 |  262 |	R7 = R1; R6 = R1["WaitForChild"]
+	[  25]	       LoadK	|    8 |   17 |    0 |	R8 = "Network"
+	[  26]	        Call	|    6 |    3 |    2 |	R6 = R6(R7, R8)
+	[  27]	        Self	|    6 |    6 |  262 |	R7 = R6; R6 = R6["WaitForChild"]
+	[  28]	       LoadK	|    8 |   18 |    0 |	R8 = "GunFramework_RequestDamage"
+	[  29]	        Call	|    6 |    3 |    2 |	R6 = R6(R7, R8)
+	[  30]	        Self	|    7 |    1 |  262 |	R8 = R1; R7 = R1["WaitForChild"]
+	[  31]	       LoadK	|    9 |   19 |    0 |	R9 = "Assets"
+	[  32]	        Call	|    7 |    3 |    2 |	R7 = R7(R8, R9)
+	[  33]	        Self	|    7 |    7 |  262 |	R8 = R7; R7 = R7["WaitForChild"]
+	[  34]	       LoadK	|    9 |   20 |    0 |	R9 = "Tools"
+	[  35]	        Call	|    7 |    3 |    2 |	R7 = R7(R8, R9)
+	[  36]	        Self	|    7 |    7 |  262 |	R8 = R7; R7 = R7["WaitForChild"]
+	[  37]	       LoadK	|    9 |   21 |    0 |	R9 = "Weapons"
+	[  38]	        Call	|    7 |    3 |    2 |	R7 = R7(R8, R9)
+	[  39]	        Self	|    7 |    7 |  262 |	R8 = R7; R7 = R7["WaitForChild"]
+	[  40]	       LoadK	|    9 |   22 |    0 |	R9 = "Pistol"
+	[  41]	        Call	|    7 |    3 |    2 |	R7 = R7(R8, R9)
+	[  42]	     Closure	|    8 |    1 |    2 |	R8 = func_e28cbe68
+	[  43]	        Move	|    0 |    6 |    0 |	R0 = R6
+	[  44]	        Move	|    0 |    7 |    0 |	R0 = R7
+	[  45]	    GetTable	|    9 |    5 |  279 |	R9 = R5["Activated"]
+	[  46]	        Self	|    9 |    9 |  280 |	R10 = R9; R9 = R9["Connect"]
+	[  47]	     Closure	|   11 |    0 |    2 |	R11 = func_00d35119
+	[  48]	        Move	|    0 |    3 |    0 |	R0 = R3
+	[  49]	        Move	|    0 |    8 |    0 |	R0 = R8
+	[  50]	        Call	|    9 |    3 |    1 |	R9(R10, R11)
+	[  51]	    GetTable	|    9 |    2 |  281 |	R9 = R2["InputBegan"]
+	[  52]	        Self	|    9 |    9 |  280 |	R10 = R9; R9 = R9["Connect"]
+	[  53]	     Closure	|   11 |    2 |    2 |	R11 = func_9174aae1
+	[  54]	        Move	|    0 |    3 |    0 |	R0 = R3
+	[  55]	        Move	|    0 |    8 |    0 |	R0 = R8
+	[  56]	        Call	|    9 |    3 |    1 |	R9(R10, R11)
+	[  57]	   GetGlobal	|    9 |   26 |    0 |	R9 = print
+	[  58]	       LoadK	|   10 |   27 |    0 |	R10 = "Damage Tool loaded and ready."
+	[  59]	        Call	|    9 |    2 |    1 |	R9(R10)
+	[  60]	      Return	|    0 |    1 |    0 |	return
+end
+function func_00d35119()
+	[Slots: 4, Upvalues: 2, Constants: 4]
+	[   0]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   1]	        Self	|    0 |    0 |  256 |	R1 = R0; R0 = R0["GetMouse"]
+	[   2]	        Call	|    0 |    2 |    2 |	R0 = R0(R1)
+	[   3]	    GetTable	|    0 |    0 |  257 |	R0 = R0["Target"]
+	[   4]	        Test	|    0 |    0 |    0 |	if not R0 then PC += 1
+	[   5]	         Jmp	|    0 |    6 |    0 |	PC += 6
+	[   6]	        Self	|    1 |    0 |  258 |	R2 = R0; R1 = R0["FindFirstAncestorOfClass"]
+	[   7]	       LoadK	|    3 |    3 |    0 |	R3 = "Model"
+	[   8]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[   9]	    GetUpval	|    2 |    1 |    0 |	R2 = UPVALUE_1
+	[  10]	        Move	|    3 |    1 |    0 |	R3 = R1
+	[  11]	        Call	|    2 |    2 |    1 |	R2(R3)
+	[  12]	      Return	|    0 |    1 |    0 |	return
+end
+function func_e28cbe68(R0)
+	[Slots: 9, Upvalues: 2, Constants: 5]
+	[   0]	        Test	|    0 |    0 |    0 |	if not R0 then PC += 1
+	[   1]	         Jmp	|    0 |   15 |    0 |	PC += 15
+	[   2]	        Self	|    1 |    0 |  256 |	R2 = R0; R1 = R0["IsA"]
+	[   3]	       LoadK	|    3 |    1 |    0 |	R3 = "Model"
+	[   4]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[   5]	        Test	|    1 |    0 |    0 |	if not R1 then PC += 1
+	[   6]	         Jmp	|    0 |   10 |    0 |	PC += 10
+	[   7]	       LoadK	|    1 |    2 |    0 |	R1 = 1
+	[   8]	       LoadK	|    2 |    3 |    0 |	R2 = 20
+	[   9]	       LoadK	|    3 |    2 |    0 |	R3 = 1
+	[  10]	     ForPrep	|    1 |    5 |    0 |	R1 -= R3; PC += 5
+	[  11]	    GetUpval	|    5 |    0 |    0 |	R5 = UPVALUE_0
+	[  12]	        Self	|    5 |    5 |  260 |	R6 = R5; R5 = R5["FireServer"]
+	[  13]	    GetUpval	|    7 |    1 |    0 |	R7 = UPVALUE_1
+	[  14]	        Move	|    8 |    0 |    0 |	R8 = R0
+	[  15]	        Call	|    5 |    4 |    1 |	R5(R6, R7, R8)
+	[  16]	     ForLoop	|    1 |   -6 |    0 |	R1 += R3; if loop continues then PC += -6; R4 = R1;
+	[  17]	      Return	|    0 |    1 |    0 |	return
+end
+function func_9174aae1(R0, R1)
+	[Slots: 11, Upvalues: 2, Constants: 23]
+	[   0]	        Test	|    1 |    0 |    0 |	if not R1 then PC += 1
+	[   1]	         Jmp	|    0 |    1 |    0 |	PC += 1
+	[   2]	      Return	|    0 |    1 |    0 |	return
+	[   3]	    GetTable	|    2 |    0 |  256 |	R2 = R0["UserInputType"]
+	[   4]	   GetGlobal	|    3 |    1 |    0 |	R3 = Enum
+	[   5]	    GetTable	|    3 |    3 |  256 |	R3 = R3["UserInputType"]
+	[   6]	    GetTable	|    3 |    3 |  258 |	R3 = R3["Touch"]
+	[   7]	          Eq	|    0 |    2 |    3 |	if R2 == R3 then PC += 1
+	[   8]	         Jmp	|    0 |   38 |    0 |	PC += 38
+	[   9]	    GetTable	|    2 |    0 |  259 |	R2 = R0["Position"]
+	[  10]	   GetGlobal	|    3 |    4 |    0 |	R3 = workspace
+	[  11]	    GetTable	|    3 |    3 |  261 |	R3 = R3["CurrentCamera"]
+	[  12]	        Self	|    4 |    3 |  262 |	R5 = R3; R4 = R3["ScreenPointToRay"]
+	[  13]	    GetTable	|    6 |    2 |  263 |	R6 = R2["X"]
+	[  14]	    GetTable	|    7 |    2 |  264 |	R7 = R2["Y"]
+	[  15]	        Call	|    4 |    4 |    2 |	R4 = R4(R5, R6, R7)
+	[  16]	   GetGlobal	|    5 |    9 |    0 |	R5 = RaycastParams
+	[  17]	    GetTable	|    5 |    5 |  266 |	R5 = R5["new"]
+	[  18]	        Call	|    5 |    1 |    2 |	R5 = R5()
+	[  19]	    NewTable	|    6 |    1 |    0 |	R6 = {}
+	[  20]	    GetUpval	|    7 |    0 |    0 |	R7 = UPVALUE_0
+	[  21]	    GetTable	|    7 |    7 |  267 |	R7 = R7["Character"]
+	[  22]	     SetList	|    6 |    1 |    1 |	
+	[  23]	    SetTable	|    5 |  268 |    6 |	R5["FilterDescendantsInstances"] = R6
+	[  24]	   GetGlobal	|    6 |    1 |    0 |	R6 = Enum
+	[  25]	    GetTable	|    6 |    6 |  269 |	R6 = R6["RaycastFilterType"]
+	[  26]	    GetTable	|    6 |    6 |  270 |	R6 = R6["Blacklist"]
+	[  27]	    SetTable	|    5 |  271 |    6 |	R5["FilterType"] = R6
+	[  28]	   GetGlobal	|    6 |    4 |    0 |	R6 = workspace
+	[  29]	        Self	|    6 |    6 |  272 |	R7 = R6; R6 = R6["Raycast"]
+	[  30]	    GetTable	|    8 |    4 |  273 |	R8 = R4["Origin"]
+	[  31]	    GetTable	|    9 |    4 |  274 |	R9 = R4["Direction"]
+	[  32]	         Mul	|    9 |    9 |  275 |	R9 = R9 * 1000
+	[  33]	        Move	|   10 |    5 |    0 |	R10 = R5
+	[  34]	        Call	|    6 |    5 |    2 |	R6 = R6(R7, R8, R9, R10)
+	[  35]	        Test	|    6 |    0 |    0 |	if not R6 then PC += 1
+	[  36]	         Jmp	|    0 |   10 |    0 |	PC += 10
+	[  37]	    GetTable	|    7 |    6 |  276 |	R7 = R6["Instance"]
+	[  38]	        Test	|    7 |    0 |    0 |	if not R7 then PC += 1
+	[  39]	         Jmp	|    0 |    7 |    0 |	PC += 7
+	[  40]	    GetTable	|    7 |    6 |  276 |	R7 = R6["Instance"]
+	[  41]	        Self	|    7 |    7 |  277 |	R8 = R7; R7 = R7["FindFirstAncestorOfClass"]
+	[  42]	       LoadK	|    9 |   22 |    0 |	R9 = "Model"
+	[  43]	        Call	|    7 |    3 |    2 |	R7 = R7(R8, R9)
+	[  44]	    GetUpval	|    8 |    1 |    0 |	R8 = UPVALUE_1
+	[  45]	        Move	|    9 |    7 |    0 |	R9 = R7
+	[  46]	        Call	|    8 |    2 |    1 |	R8(R9)
+	[  47]	      Return	|    0 |    1 |    0 |	return
+end
+function func_ea3fb63f()
+	[Slots: 5, Upvalues: 0, Constants: 7]
+	[   0]	   GetGlobal	|    0 |    0 |    0 |	R0 = game
+	[   1]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["GetService"]
+	[   2]	       LoadK	|    2 |    2 |    0 |	R2 = "Players"
+	[   3]	        Call	|    0 |    3 |    2 |	R0 = R0(R1, R2)
+	[   4]	    GetTable	|    0 |    0 |  259 |	R0 = R0["LocalPlayer"]
+	[   5]	   GetGlobal	|    1 |    0 |    0 |	R1 = game
+	[   6]	        Self	|    1 |    1 |  257 |	R2 = R1; R1 = R1["GetService"]
+	[   7]	       LoadK	|    3 |    4 |    0 |	R3 = "UserInputService"
+	[   8]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[   9]	    GetTable	|    2 |    1 |  261 |	R2 = R1["JumpRequest"]
+	[  10]	        Self	|    2 |    2 |  262 |	R3 = R2; R2 = R2["Connect"]
+	[  11]	     Closure	|    4 |    0 |    1 |	R4 = func_86bfd26d
+	[  12]	        Move	|    0 |    0 |    0 |	R0 = R0
+	[  13]	        Call	|    2 |    3 |    1 |	R2(R3, R4)
+	[  14]	      Return	|    0 |    1 |    0 |	return
+end
+function func_86bfd26d()
+	[Slots: 3, Upvalues: 1, Constants: 7]
+	[   0]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   1]	        Test	|    0 |    0 |    0 |	if not R0 then PC += 1
+	[   2]	         Jmp	|    0 |   21 |    0 |	PC += 21
+	[   3]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   4]	    GetTable	|    0 |    0 |  256 |	R0 = R0["Character"]
+	[   5]	        Test	|    0 |    0 |    0 |	if not R0 then PC += 1
+	[   6]	         Jmp	|    0 |   17 |    0 |	PC += 17
+	[   7]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   8]	    GetTable	|    0 |    0 |  256 |	R0 = R0["Character"]
+	[   9]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["FindFirstChildOfClass"]
+	[  10]	       LoadK	|    2 |    2 |    0 |	R2 = "Humanoid"
+	[  11]	        Call	|    0 |    3 |    2 |	R0 = R0(R1, R2)
+	[  12]	        Test	|    0 |    0 |    0 |	if not R0 then PC += 1
+	[  13]	         Jmp	|    0 |   10 |    0 |	PC += 10
+	[  14]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[  15]	    GetTable	|    0 |    0 |  256 |	R0 = R0["Character"]
+	[  16]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["FindFirstChildOfClass"]
+	[  17]	       LoadK	|    2 |    2 |    0 |	R2 = "Humanoid"
+	[  18]	        Call	|    0 |    3 |    2 |	R0 = R0(R1, R2)
+	[  19]	        Self	|    0 |    0 |  259 |	R1 = R0; R0 = R0["ChangeState"]
+	[  20]	   GetGlobal	|    2 |    4 |    0 |	R2 = Enum
+	[  21]	    GetTable	|    2 |    2 |  261 |	R2 = R2["HumanoidStateType"]
+	[  22]	    GetTable	|    2 |    2 |  262 |	R2 = R2["Jumping"]
+	[  23]	        Call	|    0 |    3 |    1 |	R0(R1, R2)
+	[  24]	      Return	|    0 |    1 |    0 |	return
+end
+function func_ab11975a()
+	[Slots: 11, Upvalues: 0, Constants: 22]
+	[   0]	   GetGlobal	|    0 |    0 |    0 |	R0 = game
+	[   1]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["GetService"]
+	[   2]	       LoadK	|    2 |    2 |    0 |	R2 = "Players"
+	[   3]	        Call	|    0 |    3 |    2 |	R0 = R0(R1, R2)
+	[   4]	   GetGlobal	|    1 |    0 |    0 |	R1 = game
+	[   5]	        Self	|    1 |    1 |  257 |	R2 = R1; R1 = R1["GetService"]
+	[   6]	       LoadK	|    3 |    3 |    0 |	R3 = "UserInputService"
+	[   7]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[   8]	    GetTable	|    2 |    0 |  260 |	R2 = R0["LocalPlayer"]
+	[   9]	   GetGlobal	|    3 |    5 |    0 |	R3 = workspace
+	[  10]	    GetTable	|    3 |    3 |  262 |	R3 = R3["CurrentCamera"]
+	[  11]	        Self	|    4 |    2 |  263 |	R5 = R2; R4 = R2["GetMouse"]
+	[  12]	        Call	|    4 |    2 |    2 |	R4 = R4(R5)
+	[  13]	   GetGlobal	|    5 |    8 |    0 |	R5 = Instance
+	[  14]	    GetTable	|    5 |    5 |  265 |	R5 = R5["new"]
+	[  15]	       LoadK	|    6 |   10 |    0 |	R6 = "Tool"
+	[  16]	        Call	|    5 |    2 |    2 |	R5 = R5(R6)
+	[  17]	    SetTable	|    5 |  267 |  268 |	R5["Name"] = "TP Tool"
+	[  18]	    SetTable	|    5 |  269 |  270 |	R5["RequiresHandle"] = false
+	[  19]	        Self	|    6 |    2 |  271 |	R7 = R2; R6 = R2["WaitForChild"]
+	[  20]	       LoadK	|    8 |   16 |    0 |	R8 = "Backpack"
+	[  21]	        Call	|    6 |    3 |    2 |	R6 = R6(R7, R8)
+	[  22]	    SetTable	|    5 |  273 |    6 |	R5["Parent"] = R6
+	[  23]	     Closure	|    6 |    1 |    3 |	R6 = func_8285864e
+	[  24]	        Move	|    0 |    1 |    0 |	R0 = R1
+	[  25]	        Move	|    0 |    3 |    0 |	R0 = R3
+	[  26]	        Move	|    0 |    4 |    0 |	R0 = R4
+	[  27]	     Closure	|    7 |    0 |    2 |	R7 = func_7c0fab05
+	[  28]	        Move	|    0 |    2 |    0 |	R0 = R2
+	[  29]	        Move	|    0 |    6 |    0 |	R0 = R6
+	[  30]	    GetTable	|    8 |    5 |  274 |	R8 = R5["Activated"]
+	[  31]	        Self	|    8 |    8 |  275 |	R9 = R8; R8 = R8["Connect"]
+	[  32]	        Move	|   10 |    7 |    0 |	R10 = R7
+	[  33]	        Call	|    8 |    3 |    1 |	R8(R9, R10)
+	[  34]	   GetGlobal	|    8 |   20 |    0 |	R8 = print
+	[  35]	       LoadK	|    9 |   21 |    0 |	R9 = "Teleport Tool ready! Click or tap to teleport."
+	[  36]	        Call	|    8 |    2 |    1 |	R8(R9)
+	[  37]	      Return	|    0 |    1 |    0 |	return
+end
+function func_7c0fab05()
+	[Slots: 7, Upvalues: 2, Constants: 11]
+	[   0]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   1]	    GetTable	|    0 |    0 |  256 |	R0 = R0["Character"]
+	[   2]	     TestSet	|    1 |    0 |    0 |	if not R0 then R1 = R0 else PC += 1
+	[   3]	         Jmp	|    0 |    3 |    0 |	PC += 3
+	[   4]	        Self	|    1 |    0 |  257 |	R2 = R0; R1 = R0["FindFirstChild"]
+	[   5]	       LoadK	|    3 |    2 |    0 |	R3 = "HumanoidRootPart"
+	[   6]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[   7]	        Test	|    1 |    0 |    1 |	if R1 then PC += 1
+	[   8]	         Jmp	|    0 |    1 |    0 |	PC += 1
+	[   9]	      Return	|    0 |    1 |    0 |	return
+	[  10]	    GetUpval	|    2 |    1 |    0 |	R2 = UPVALUE_1
+	[  11]	        Call	|    2 |    1 |    2 |	R2 = R2()
+	[  12]	        Test	|    2 |    0 |    0 |	if not R2 then PC += 1
+	[  13]	         Jmp	|    0 |   12 |    0 |	PC += 12
+	[  14]	   GetGlobal	|    3 |    3 |    0 |	R3 = CFrame
+	[  15]	    GetTable	|    3 |    3 |  260 |	R3 = R3["new"]
+	[  16]	    GetTable	|    4 |    2 |  261 |	R4 = R2["X"]
+	[  17]	    GetTable	|    5 |    2 |  262 |	R5 = R2["Y"]
+	[  18]	         Add	|    5 |    5 |  263 |	R5 = R5 + 3
+	[  19]	    GetTable	|    6 |    2 |  264 |	R6 = R2["Z"]
+	[  20]	        Call	|    3 |    4 |    2 |	R3 = R3(R4, R5, R6)
+	[  21]	    SetTable	|    1 |  259 |    3 |	R1["CFrame"] = R3
+	[  22]	   GetGlobal	|    4 |    9 |    0 |	R4 = print
+	[  23]	       LoadK	|    5 |   10 |    0 |	R5 = "Teleported to:"
+	[  24]	        Move	|    6 |    2 |    0 |	R6 = R2
+	[  25]	        Call	|    4 |    3 |    1 |	R4(R5, R6)
+	[  26]	      Return	|    0 |    1 |    0 |	return
+end
+function func_8285864e()
+	[Slots: 6, Upvalues: 3, Constants: 15]
+	[   0]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   1]	    GetTable	|    0 |    0 |  256 |	R0 = R0["TouchEnabled"]
+	[   2]	        Test	|    0 |    0 |    0 |	if not R0 then PC += 1
+	[   3]	         Jmp	|    0 |   32 |    0 |	PC += 32
+	[   4]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   5]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["GetTouches"]
+	[   6]	        Call	|    0 |    2 |    2 |	R0 = R0(R1)
+	[   7]	         Len	|    0 |    0 |    0 |	R0 = #R0
+	[   8]	          Lt	|    0 |  258 |    0 |	if 0 < R0 then PC += 1
+	[   9]	         Jmp	|    0 |   26 |    0 |	PC += 26
+	[  10]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[  11]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["GetTouches"]
+	[  12]	        Call	|    0 |    2 |    2 |	R0 = R0(R1)
+	[  13]	    GetTable	|    0 |    0 |  259 |	R0 = R0[1]
+	[  14]	    GetUpval	|    1 |    1 |    0 |	R1 = UPVALUE_1
+	[  15]	        Self	|    1 |    1 |  260 |	R2 = R1; R1 = R1["ScreenPointToRay"]
+	[  16]	    GetTable	|    3 |    0 |  261 |	R3 = R0["Position"]
+	[  17]	    GetTable	|    3 |    3 |  262 |	R3 = R3["X"]
+	[  18]	    GetTable	|    4 |    0 |  261 |	R4 = R0["Position"]
+	[  19]	    GetTable	|    4 |    4 |  263 |	R4 = R4["Y"]
+	[  20]	        Call	|    1 |    4 |    2 |	R1 = R1(R2, R3, R4)
+	[  21]	   GetGlobal	|    2 |    8 |    0 |	R2 = workspace
+	[  22]	        Self	|    2 |    2 |  265 |	R3 = R2; R2 = R2["Raycast"]
+	[  23]	    GetTable	|    4 |    1 |  266 |	R4 = R1["Origin"]
+	[  24]	    GetTable	|    5 |    1 |  267 |	R5 = R1["Direction"]
+	[  25]	         Mul	|    5 |    5 |  268 |	R5 = R5 * 500
+	[  26]	        Call	|    2 |    4 |    2 |	R2 = R2(R3, R4, R5)
+	[  27]	        Test	|    2 |    0 |    0 |	if not R2 then PC += 1
+	[  28]	         Jmp	|    0 |    2 |    0 |	PC += 2
+	[  29]	    GetTable	|    3 |    2 |  261 |	R3 = R2["Position"]
+	[  30]	      Return	|    3 |    2 |    0 |	return R3
+	[  31]	    GetTable	|    3 |    1 |  266 |	R3 = R1["Origin"]
+	[  32]	    GetTable	|    4 |    1 |  267 |	R4 = R1["Direction"]
+	[  33]	         Mul	|    4 |    4 |  269 |	R4 = R4 * 20
+	[  34]	         Add	|    3 |    3 |    4 |	R3 = R3 + R4
+	[  35]	      Return	|    3 |    2 |    0 |	return R3
+	[  36]	    GetUpval	|    0 |    2 |    0 |	R0 = UPVALUE_2
+	[  37]	    GetTable	|    0 |    0 |  270 |	R0 = R0["Hit"]
+	[  38]	    GetTable	|    0 |    0 |  261 |	R0 = R0["Position"]
+	[  39]	      Return	|    0 |    2 |    0 |	return R0
+end
+function func_9b082f9f()
+	[Slots: 4, Upvalues: 1, Constants: 2]
+	[   0]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   1]	    NewTable	|    1 |    2 |    0 |	R1 = {}
+	[   2]	       LoadK	|    2 |    0 |    0 |	R2 = "BottleCap"
+	[   3]	       LoadK	|    3 |    1 |    0 |	R3 = "Caps"
+	[   4]	     SetList	|    1 |    2 |    1 |	
+	[   5]	        Call	|    0 |    2 |    1 |	R0(R1)
+	[   6]	      Return	|    0 |    1 |    0 |	return
+end
+function func_098b0f58()
+	[Slots: 3, Upvalues: 1, Constants: 14]
+	[   0]	   GetGlobal	|    0 |    0 |    0 |	R0 = print
+	[   1]	       LoadK	|    1 |    1 |    0 |	R1 = "Toggle changed:"
+	[   2]	    GetUpval	|    2 |    0 |    0 |	R2 = UPVALUE_0
+	[   3]	    GetTable	|    2 |    2 |  258 |	R2 = R2["Auto2"]
+	[   4]	    GetTable	|    2 |    2 |  259 |	R2 = R2["Value"]
+	[   5]	        Call	|    0 |    3 |    1 |	R0(R1, R2)
+	[   6]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   7]	    GetTable	|    0 |    0 |  258 |	R0 = R0["Auto2"]
+	[   8]	    GetTable	|    0 |    0 |  259 |	R0 = R0["Value"]
+	[   9]	        Test	|    0 |    0 |    0 |	if not R0 then PC += 1
+	[  10]	         Jmp	|    0 |   11 |    0 |	PC += 11
+	[  11]	   GetGlobal	|    0 |    4 |    0 |	R0 = game
+	[  12]	    GetTable	|    0 |    0 |  261 |	R0 = R0["Players"]
+	[  13]	    GetTable	|    0 |    0 |  262 |	R0 = R0["LocalPlayer"]
+	[  14]	    GetTable	|    0 |    0 |  263 |	R0 = R0["Character"]
+	[  15]	    GetTable	|    0 |    0 |  264 |	R0 = R0["Humanoid"]
+	[  16]	    SetTable	|    0 |  265 |  266 |	R0["WalkSpeed"] = 500
+	[  17]	   GetGlobal	|    0 |   11 |    0 |	R0 = task
+	[  18]	    GetTable	|    0 |    0 |  268 |	R0 = R0["wait"]
+	[  19]	       LoadK	|    1 |   13 |    0 |	R1 = 0.01
+	[  20]	        Call	|    0 |    2 |    1 |	R0(R1)
+	[  21]	         Jmp	|    0 |  -16 |    0 |	PC += -16
+	[  22]	      Return	|    0 |    1 |    0 |	return
+end
+function func_a54f87e7()
+	[Slots: 19, Upvalues: 0, Constants: 22]
+	[   0]	   GetGlobal	|    0 |    0 |    0 |	R0 = game
+	[   1]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["GetService"]
+	[   2]	       LoadK	|    2 |    2 |    0 |	R2 = "ReplicatedStorage"
+	[   3]	        Call	|    0 |    3 |    2 |	R0 = R0(R1, R2)
+	[   4]	        Self	|    1 |    0 |  259 |	R2 = R0; R1 = R0["WaitForChild"]
+	[   5]	       LoadK	|    3 |    4 |    0 |	R3 = "Network"
+	[   6]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[   7]	        Self	|    2 |    1 |  259 |	R3 = R1; R2 = R1["WaitForChild"]
+	[   8]	       LoadK	|    4 |    5 |    0 |	R4 = "GunFramework_AdjustAmount"
+	[   9]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  10]	    NewTable	|    3 |    2 |    0 |	R3 = {}
+	[  11]	       LoadK	|    4 |    6 |    0 |	R4 = "MagSize"
+	[  12]	       LoadK	|    5 |    7 |    0 |	R5 = "CurrentMagSize"
+	[  13]	     SetList	|    3 |    2 |    1 |	
+	[  14]	   GetGlobal	|    4 |    8 |    0 |	R4 = ipairs
+	[  15]	   GetGlobal	|    5 |    9 |    0 |	R5 = workspace
+	[  16]	        Self	|    5 |    5 |  266 |	R6 = R5; R5 = R5["GetDescendants"]
+	[  17]	        Call	|    5 |    2 |    0 |	R5->top = R5(R6)
+	[  18]	        Call	|    4 |    0 |    4 |	R4, R5, R6 = R4(R5->top)
+	[  19]	         Jmp	|    0 |   33 |    0 |	PC += 33
+	[  20]	        Self	|    9 |    8 |  267 |	R10 = R8; R9 = R8["IsA"]
+	[  21]	       LoadK	|   11 |   12 |    0 |	R11 = "Model"
+	[  22]	        Call	|    9 |    3 |    2 |	R9 = R9(R10, R11)
+	[  23]	        Test	|    9 |    0 |    0 |	if not R9 then PC += 1
+	[  24]	         Jmp	|    0 |   28 |    0 |	PC += 28
+	[  25]	   GetGlobal	|    9 |    8 |    0 |	R9 = ipairs
+	[  26]	        Move	|   10 |    3 |    0 |	R10 = R3
+	[  27]	        Call	|    9 |    2 |    4 |	R9, R10, R11 = R9(R10)
+	[  28]	         Jmp	|    0 |   22 |    0 |	PC += 22
+	[  29]	        Self	|   14 |    8 |  269 |	R15 = R8; R14 = R8["GetAttribute"]
+	[  30]	        Move	|   16 |   13 |    0 |	R16 = R13
+	[  31]	        Call	|   14 |    3 |    2 |	R14 = R14(R15, R16)
+	[  32]	          Eq	|    1 |   14 |  270 |	if R14 ~= nil then PC += 1
+	[  33]	         Jmp	|    0 |   17 |    0 |	PC += 17
+	[  34]	    NewTable	|   14 |    4 |    0 |	R14 = {}
+	[  35]	        Move	|   15 |    8 |    0 |	R15 = R8
+	[  36]	         Div	|   16 |  271 |  271 |	R16 = 0 / 0
+	[  37]	         Div	|   17 |  271 |  271 |	R17 = 0 / 0
+	[  38]	         Div	|   18 |  271 |  271 |	R18 = 0 / 0
+	[  39]	     SetList	|   14 |    4 |    1 |	
+	[  40]	        Self	|   15 |    2 |  272 |	R16 = R2; R15 = R2["FireServer"]
+	[  41]	   GetGlobal	|   17 |   17 |    0 |	R17 = unpack
+	[  42]	        Move	|   18 |   14 |    0 |	R18 = R14
+	[  43]	        Call	|   17 |    2 |    0 |	R17->top = R17(R18)
+	[  44]	        Call	|   15 |    0 |    1 |	R15(R16->top)
+	[  45]	   GetGlobal	|   15 |   18 |    0 |	R15 = print
+	[  46]	       LoadK	|   16 |   19 |    0 |	R16 = "Fired server for model:"
+	[  47]	        Self	|   17 |    8 |  276 |	R18 = R8; R17 = R8["GetFullName"]
+	[  48]	        Call	|   17 |    2 |    0 |	R17->top = R17(R18)
+	[  49]	        Call	|   15 |    0 |    1 |	R15(R16->top)
+	[  50]	         Jmp	|    0 |    2 |    0 |	PC += 2
+	[  51]	    TForLoop	|    9 |    0 |    2 |	R12, R13 = R9(R10, R11); if R12 ~= nil then R11 = R12 else PC += 1 end
+	[  52]	         Jmp	|    0 |  -24 |    0 |	PC += -24
+	[  53]	    TForLoop	|    4 |    0 |    2 |	R7, R8 = R4(R5, R6); if R7 ~= nil then R6 = R7 else PC += 1 end
+	[  54]	         Jmp	|    0 |  -35 |    0 |	PC += -35
+	[  55]	   GetGlobal	|    4 |   18 |    0 |	R4 = print
+	[  56]	       LoadK	|    5 |   21 |    0 |	R5 = "Finished"
+	[  57]	        Call	|    4 |    2 |    1 |	R4(R5)
+	[  58]	      Return	|    0 |    1 |    0 |	return
+end
+function func_7ef2d950()
+	[Slots: 3, Upvalues: 1, Constants: 1]
+	[   0]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   1]	    NewTable	|    1 |    1 |    0 |	R1 = {}
+	[   2]	       LoadK	|    2 |    0 |    0 |	R2 = "Mutant"
+	[   3]	     SetList	|    1 |    1 |    1 |	
+	[   4]	        Call	|    0 |    2 |    1 |	R0(R1)
+	[   5]	      Return	|    0 |    1 |    0 |	return
+end
+function func_46a90f2b()
+	[Slots: 10, Upvalues: 2, Constants: 14]
+	[   0]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   1]	    NewTable	|    1 |    8 |    0 |	R1 = {}
+	[   2]	       LoadK	|    2 |    0 |    0 |	R2 = "banana"
+	[   3]	       LoadK	|    3 |    1 |    0 |	R3 = "Apple"
+	[   4]	       LoadK	|    4 |    2 |    0 |	R4 = "Pizza"
+	[   5]	       LoadK	|    5 |    3 |    0 |	R5 = "Peper"
+	[   6]	       LoadK	|    6 |    4 |    0 |	R6 = "Onion"
+	[   7]	       LoadK	|    7 |    5 |    0 |	R7 = "Food"
+	[   8]	       LoadK	|    8 |    6 |    0 |	R8 = "Donut"
+	[   9]	       LoadK	|    9 |    7 |    0 |	R9 = "Bread"
+	[  10]	     SetList	|    1 |    8 |    1 |	
+	[  11]	        Call	|    0 |    2 |    1 |	R0(R1)
+	[  12]	   GetGlobal	|    0 |    8 |    0 |	R0 = workspace
+	[  13]	        Self	|    0 |    0 |  265 |	R1 = R0; R0 = R0["FindFirstChild"]
+	[  14]	       LoadK	|    2 |   10 |    0 |	R2 = "t"
+	[  15]	        Call	|    0 |    3 |    2 |	R0 = R0(R1, R2)
+	[  16]	        Test	|    0 |    0 |    0 |	if not R0 then PC += 1
+	[  17]	         Jmp	|    0 |    9 |    0 |	PC += 9
+	[  18]	        Self	|    1 |    0 |  267 |	R2 = R0; R1 = R0["IsA"]
+	[  19]	       LoadK	|    3 |   12 |    0 |	R3 = "Model"
+	[  20]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[  21]	        Test	|    1 |    0 |    0 |	if not R1 then PC += 1
+	[  22]	         Jmp	|    0 |    4 |    0 |	PC += 4
+	[  23]	    GetUpval	|    1 |    1 |    0 |	R1 = UPVALUE_1
+	[  24]	        Move	|    2 |    0 |    0 |	R2 = R0
+	[  25]	       LoadK	|    3 |   13 |    0 |	R3 = 0
+	[  26]	        Call	|    1 |    3 |    1 |	R1(R2, R3)
+	[  27]	      Return	|    0 |    1 |    0 |	return
+end
+function func_b7827ed8()
+	[Slots: 20, Upvalues: 0, Constants: 28]
+	[   0]	   GetGlobal	|    0 |    0 |    0 |	R0 = game
+	[   1]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["GetService"]
+	[   2]	       LoadK	|    2 |    2 |    0 |	R2 = "Players"
+	[   3]	        Call	|    0 |    3 |    2 |	R0 = R0(R1, R2)
+	[   4]	   GetGlobal	|    1 |    0 |    0 |	R1 = game
+	[   5]	        Self	|    1 |    1 |  257 |	R2 = R1; R1 = R1["GetService"]
+	[   6]	       LoadK	|    3 |    3 |    0 |	R3 = "RunService"
+	[   7]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[   8]	   GetGlobal	|    2 |    0 |    0 |	R2 = game
+	[   9]	        Self	|    2 |    2 |  257 |	R3 = R2; R2 = R2["GetService"]
+	[  10]	       LoadK	|    4 |    4 |    0 |	R4 = "UserInputService"
+	[  11]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  12]	    GetTable	|    3 |    0 |  261 |	R3 = R0["LocalPlayer"]
+	[  13]	        Self	|    4 |    3 |  262 |	R5 = R3; R4 = R3["GetMouse"]
+	[  14]	        Call	|    4 |    2 |    2 |	R4 = R4(R5)
+	[  15]	   GetGlobal	|    5 |    0 |    0 |	R5 = game
+	[  16]	        Self	|    5 |    5 |  257 |	R6 = R5; R5 = R5["GetService"]
+	[  17]	       LoadK	|    7 |    7 |    0 |	R7 = "ReplicatedStorage"
+	[  18]	        Call	|    5 |    3 |    2 |	R5 = R5(R6, R7)
+	[  19]	   GetGlobal	|    6 |    8 |    0 |	R6 = workspace
+	[  20]	    GetTable	|    6 |    6 |  265 |	R6 = R6["CurrentCamera"]
+	[  21]	   GetGlobal	|    7 |   10 |    0 |	R7 = Instance
+	[  22]	    GetTable	|    7 |    7 |  267 |	R7 = R7["new"]
+	[  23]	       LoadK	|    8 |   12 |    0 |	R8 = "Tool"
+	[  24]	        Call	|    7 |    2 |    2 |	R7 = R7(R8)
+	[  25]	    SetTable	|    7 |  269 |  270 |	R7["Name"] = "Telekinesis Tool"
+	[  26]	    SetTable	|    7 |  271 |  272 |	R7["RequiresHandle"] = false
+	[  27]	        Self	|    8 |    3 |  273 |	R9 = R3; R8 = R3["WaitForChild"]
+	[  28]	       LoadK	|   10 |   18 |    0 |	R10 = "Backpack"
+	[  29]	        Call	|    8 |    3 |    2 |	R8 = R8(R9, R10)
+	[  30]	    SetTable	|    7 |  275 |    8 |	R7["Parent"] = R8
+	[  31]	     LoadNil	|    8 |    8 |    0 |	R8 = nil
+	[  32]	   GetGlobal	|    9 |   20 |    0 |	R9 = Vector3
+	[  33]	    GetTable	|    9 |    9 |  267 |	R9 = R9["new"]
+	[  34]	        Call	|    9 |    1 |    2 |	R9 = R9()
+	[  35]	     LoadNil	|   10 |   11 |    0 |	R10->R11 = nil
+	[  36]	       LoadK	|   12 |   21 |    0 |	R12 = 100
+	[  37]	     Closure	|   13 |    3 |    0 |	R13 = func_4bab135a
+	[  38]	     Closure	|   14 |    1 |    3 |	R14 = func_b48cc071
+	[  39]	        Move	|    0 |    2 |    0 |	R0 = R2
+	[  40]	        Move	|    0 |    6 |    0 |	R0 = R6
+	[  41]	        Move	|    0 |    4 |    0 |	R0 = R4
+	[  42]	    GetTable	|   15 |    1 |  278 |	R15 = R1["RenderStepped"]
+	[  43]	        Self	|   15 |   15 |  279 |	R16 = R15; R15 = R15["Connect"]
+	[  44]	     Closure	|   17 |    4 |    5 |	R17 = func_3dc5e03e
+	[  45]	        Move	|    0 |    8 |    0 |	R0 = R8
+	[  46]	        Move	|    0 |   14 |    0 |	R0 = R14
+	[  47]	        Move	|    0 |    9 |    0 |	R0 = R9
+	[  48]	        Move	|    0 |   11 |    0 |	R0 = R11
+	[  49]	        Move	|    0 |   10 |    0 |	R0 = R10
+	[  50]	        Call	|   15 |    3 |    1 |	R15(R16, R17)
+	[  51]	     Closure	|   15 |    2 |   10 |	R15 = func_d6cdf55b
+	[  52]	        Move	|    0 |    2 |    0 |	R0 = R2
+	[  53]	        Move	|    0 |    6 |    0 |	R0 = R6
+	[  54]	        Move	|    0 |    4 |    0 |	R0 = R4
+	[  55]	        Move	|    0 |    3 |    0 |	R0 = R3
+	[  56]	        Move	|    0 |   12 |    0 |	R0 = R12
+	[  57]	        Move	|    0 |    8 |    0 |	R0 = R8
+	[  58]	        Move	|    0 |    9 |    0 |	R0 = R9
+	[  59]	        Move	|    0 |   11 |    0 |	R0 = R11
+	[  60]	        Move	|    0 |   10 |    0 |	R0 = R10
+	[  61]	        Move	|    0 |   13 |    0 |	R0 = R13
+	[  62]	     Closure	|   16 |    0 |    3 |	R16 = func_4efe7115
+	[  63]	        Move	|    0 |   11 |    0 |	R0 = R11
+	[  64]	        Move	|    0 |    8 |    0 |	R0 = R8
+	[  65]	        Move	|    0 |   10 |    0 |	R0 = R10
+	[  66]	    GetTable	|   17 |    7 |  280 |	R17 = R7["Activated"]
+	[  67]	        Self	|   17 |   17 |  279 |	R18 = R17; R17 = R17["Connect"]
+	[  68]	        Move	|   19 |   15 |    0 |	R19 = R15
+	[  69]	        Call	|   17 |    3 |    1 |	R17(R18, R19)
+	[  70]	    GetTable	|   17 |    7 |  281 |	R17 = R7["Deactivated"]
+	[  71]	        Self	|   17 |   17 |  279 |	R18 = R17; R17 = R17["Connect"]
+	[  72]	        Move	|   19 |   16 |    0 |	R19 = R16
+	[  73]	        Call	|   17 |    3 |    1 |	R17(R18, R19)
+	[  74]	   GetGlobal	|   17 |   26 |    0 |	R17 = print
+	[  75]	       LoadK	|   18 |   27 |    0 |	R18 = "Telekinesis Tool ready with range!"
+	[  76]	        Call	|   17 |    2 |    1 |	R17(R18)
+	[  77]	      Return	|    0 |    1 |    0 |	return
+end
+function func_4efe7115()
+	[Slots: 1, Upvalues: 3, Constants: 1]
+	[   0]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   1]	        Test	|    0 |    0 |    0 |	if not R0 then PC += 1
+	[   2]	         Jmp	|    0 |    5 |    0 |	PC += 5
+	[   3]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   4]	        Self	|    0 |    0 |  256 |	R1 = R0; R0 = R0["Destroy"]
+	[   5]	        Call	|    0 |    2 |    1 |	R0(R1)
+	[   6]	     LoadNil	|    0 |    0 |    0 |	R0 = nil
+	[   7]	    SetUpval	|    0 |    0 |    0 |	UPVALUE_0 = R0
+	[   8]	     LoadNil	|    0 |    0 |    0 |	R0 = nil
+	[   9]	    SetUpval	|    0 |    1 |    0 |	UPVALUE_1 = R0
+	[  10]	    GetUpval	|    0 |    2 |    0 |	R0 = UPVALUE_2
+	[  11]	        Test	|    0 |    0 |    0 |	if not R0 then PC += 1
+	[  12]	         Jmp	|    0 |    5 |    0 |	PC += 5
+	[  13]	    GetUpval	|    0 |    2 |    0 |	R0 = UPVALUE_2
+	[  14]	        Self	|    0 |    0 |  256 |	R1 = R0; R0 = R0["Destroy"]
+	[  15]	        Call	|    0 |    2 |    1 |	R0(R1)
+	[  16]	     LoadNil	|    0 |    0 |    0 |	R0 = nil
+	[  17]	    SetUpval	|    0 |    2 |    0 |	UPVALUE_2 = R0
+	[  18]	      Return	|    0 |    1 |    0 |	return
+end
+function func_b48cc071()
+	[Slots: 6, Upvalues: 3, Constants: 15]
+	[   0]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   1]	    GetTable	|    0 |    0 |  256 |	R0 = R0["TouchEnabled"]
+	[   2]	        Test	|    0 |    0 |    0 |	if not R0 then PC += 1
+	[   3]	         Jmp	|    0 |   32 |    0 |	PC += 32
+	[   4]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   5]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["GetTouches"]
+	[   6]	        Call	|    0 |    2 |    2 |	R0 = R0(R1)
+	[   7]	         Len	|    0 |    0 |    0 |	R0 = #R0
+	[   8]	          Lt	|    0 |  258 |    0 |	if 0 < R0 then PC += 1
+	[   9]	         Jmp	|    0 |   26 |    0 |	PC += 26
+	[  10]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[  11]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["GetTouches"]
+	[  12]	        Call	|    0 |    2 |    2 |	R0 = R0(R1)
+	[  13]	    GetTable	|    0 |    0 |  259 |	R0 = R0[1]
+	[  14]	    GetUpval	|    1 |    1 |    0 |	R1 = UPVALUE_1
+	[  15]	        Self	|    1 |    1 |  260 |	R2 = R1; R1 = R1["ScreenPointToRay"]
+	[  16]	    GetTable	|    3 |    0 |  261 |	R3 = R0["Position"]
+	[  17]	    GetTable	|    3 |    3 |  262 |	R3 = R3["X"]
+	[  18]	    GetTable	|    4 |    0 |  261 |	R4 = R0["Position"]
+	[  19]	    GetTable	|    4 |    4 |  263 |	R4 = R4["Y"]
+	[  20]	        Call	|    1 |    4 |    2 |	R1 = R1(R2, R3, R4)
+	[  21]	   GetGlobal	|    2 |    8 |    0 |	R2 = workspace
+	[  22]	        Self	|    2 |    2 |  265 |	R3 = R2; R2 = R2["Raycast"]
+	[  23]	    GetTable	|    4 |    1 |  266 |	R4 = R1["Origin"]
+	[  24]	    GetTable	|    5 |    1 |  267 |	R5 = R1["Direction"]
+	[  25]	         Mul	|    5 |    5 |  268 |	R5 = R5 * 500
+	[  26]	        Call	|    2 |    4 |    2 |	R2 = R2(R3, R4, R5)
+	[  27]	        Test	|    2 |    0 |    0 |	if not R2 then PC += 1
+	[  28]	         Jmp	|    0 |    2 |    0 |	PC += 2
+	[  29]	    GetTable	|    3 |    2 |  261 |	R3 = R2["Position"]
+	[  30]	      Return	|    3 |    2 |    0 |	return R3
+	[  31]	    GetTable	|    3 |    1 |  266 |	R3 = R1["Origin"]
+	[  32]	    GetTable	|    4 |    1 |  267 |	R4 = R1["Direction"]
+	[  33]	         Mul	|    4 |    4 |  269 |	R4 = R4 * 20
+	[  34]	         Add	|    3 |    3 |    4 |	R3 = R3 + R4
+	[  35]	      Return	|    3 |    2 |    0 |	return R3
+	[  36]	    GetUpval	|    0 |    2 |    0 |	R0 = UPVALUE_2
+	[  37]	    GetTable	|    0 |    0 |  270 |	R0 = R0["Hit"]
+	[  38]	    GetTable	|    0 |    0 |  261 |	R0 = R0["Position"]
+	[  39]	      Return	|    0 |    2 |    0 |	return R0
+end
+function func_d6cdf55b()
+	[Slots: 9, Upvalues: 10, Constants: 35]
+	[   0]	    GetUpval	|    1 |    0 |    0 |	R1 = UPVALUE_0
+	[   1]	    GetTable	|    1 |    1 |  256 |	R1 = R1["TouchEnabled"]
+	[   2]	        Test	|    1 |    0 |    0 |	if not R1 then PC += 1
+	[   3]	         Jmp	|    0 |   27 |    0 |	PC += 27
+	[   4]	    GetUpval	|    1 |    0 |    0 |	R1 = UPVALUE_0
+	[   5]	        Self	|    1 |    1 |  257 |	R2 = R1; R1 = R1["GetTouches"]
+	[   6]	        Call	|    1 |    2 |    2 |	R1 = R1(R2)
+	[   7]	         Len	|    1 |    1 |    0 |	R1 = #R1
+	[   8]	          Lt	|    0 |  258 |    1 |	if 0 < R1 then PC += 1
+	[   9]	         Jmp	|    0 |   21 |    0 |	PC += 21
+	[  10]	    GetUpval	|    1 |    0 |    0 |	R1 = UPVALUE_0
+	[  11]	        Self	|    1 |    1 |  257 |	R2 = R1; R1 = R1["GetTouches"]
+	[  12]	        Call	|    1 |    2 |    2 |	R1 = R1(R2)
+	[  13]	    GetTable	|    1 |    1 |  259 |	R1 = R1[1]
+	[  14]	    GetUpval	|    2 |    1 |    0 |	R2 = UPVALUE_1
+	[  15]	        Self	|    2 |    2 |  260 |	R3 = R2; R2 = R2["ScreenPointToRay"]
+	[  16]	    GetTable	|    4 |    1 |  261 |	R4 = R1["Position"]
+	[  17]	    GetTable	|    4 |    4 |  262 |	R4 = R4["X"]
+	[  18]	    GetTable	|    5 |    1 |  261 |	R5 = R1["Position"]
+	[  19]	    GetTable	|    5 |    5 |  263 |	R5 = R5["Y"]
+	[  20]	        Call	|    2 |    4 |    2 |	R2 = R2(R3, R4, R5)
+	[  21]	   GetGlobal	|    3 |    8 |    0 |	R3 = workspace
+	[  22]	        Self	|    3 |    3 |  265 |	R4 = R3; R3 = R3["Raycast"]
+	[  23]	    GetTable	|    5 |    2 |  266 |	R5 = R2["Origin"]
+	[  24]	    GetTable	|    6 |    2 |  267 |	R6 = R2["Direction"]
+	[  25]	         Mul	|    6 |    6 |  268 |	R6 = R6 * 500
+	[  26]	        Call	|    3 |    4 |    2 |	R3 = R3(R4, R5, R6)
+	[  27]	     TestSet	|    0 |    3 |    0 |	if not R3 then R0 = R3 else PC += 1
+	[  28]	         Jmp	|    0 |    1 |    0 |	PC += 1
+	[  29]	    GetTable	|    0 |    3 |  269 |	R0 = R3["Instance"]
+	[  30]	         Jmp	|    0 |    2 |    0 |	PC += 2
+	[  31]	    GetUpval	|    1 |    2 |    0 |	R1 = UPVALUE_2
+	[  32]	    GetTable	|    0 |    1 |  270 |	R0 = R1["Target"]
+	[  33]	        Test	|    0 |    0 |    0 |	if not R0 then PC += 1
+	[  34]	         Jmp	|    0 |   79 |    0 |	PC += 79
+	[  35]	    GetTable	|    1 |    0 |  271 |	R1 = R0["Anchored"]
+	[  36]	        Test	|    1 |    0 |    1 |	if R1 then PC += 1
+	[  37]	         Jmp	|    0 |   76 |    0 |	PC += 76
+	[  38]	        Self	|    1 |    0 |  272 |	R2 = R0; R1 = R0["FindFirstAncestorOfClass"]
+	[  39]	       LoadK	|    3 |   17 |    0 |	R3 = "Model"
+	[  40]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[  41]	        Test	|    1 |    0 |    1 |	if R1 then PC += 1
+	[  42]	         Jmp	|    0 |    1 |    0 |	PC += 1
+	[  43]	        Move	|    1 |    0 |    0 |	R1 = R0
+	[  44]	    GetTable	|    2 |    1 |  274 |	R2 = R1["PrimaryPart"]
+	[  45]	        Test	|    2 |    0 |    1 |	if R2 then PC += 1
+	[  46]	         Jmp	|    0 |    7 |    0 |	PC += 7
+	[  47]	        Self	|    2 |    1 |  275 |	R3 = R1; R2 = R1["FindFirstChildWhichIsA"]
+	[  48]	       LoadK	|    4 |   20 |    0 |	R4 = "BasePart"
+	[  49]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  50]	        Test	|    2 |    0 |    1 |	if R2 then PC += 1
+	[  51]	         Jmp	|    0 |    1 |    0 |	PC += 1
+	[  52]	        Move	|    2 |    0 |    0 |	R2 = R0
+	[  53]	    SetTable	|    1 |  274 |    2 |	R1["PrimaryPart"] = R2
+	[  54]	    GetUpval	|    2 |    3 |    0 |	R2 = UPVALUE_3
+	[  55]	    GetTable	|    2 |    2 |  277 |	R2 = R2["Character"]
+	[  56]	        Test	|    2 |    0 |    0 |	if not R2 then PC += 1
+	[  57]	         Jmp	|    0 |    5 |    0 |	PC += 5
+	[  58]	    GetUpval	|    2 |    3 |    0 |	R2 = UPVALUE_3
+	[  59]	    GetTable	|    2 |    2 |  277 |	R2 = R2["Character"]
+	[  60]	        Self	|    2 |    2 |  278 |	R3 = R2; R2 = R2["FindFirstChild"]
+	[  61]	       LoadK	|    4 |   23 |    0 |	R4 = "HumanoidRootPart"
+	[  62]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  63]	        Test	|    2 |    0 |    1 |	if R2 then PC += 1
+	[  64]	         Jmp	|    0 |    1 |    0 |	PC += 1
+	[  65]	      Return	|    0 |    1 |    0 |	return
+	[  66]	    GetTable	|    3 |    1 |  274 |	R3 = R1["PrimaryPart"]
+	[  67]	    GetTable	|    3 |    3 |  261 |	R3 = R3["Position"]
+	[  68]	    GetTable	|    4 |    2 |  261 |	R4 = R2["Position"]
+	[  69]	         Sub	|    3 |    3 |    4 |	R3 = R3 - R4
+	[  70]	    GetTable	|    3 |    3 |  280 |	R3 = R3["Magnitude"]
+	[  71]	    GetUpval	|    4 |    4 |    0 |	R4 = UPVALUE_4
+	[  72]	          Lt	|    0 |    4 |    3 |	if R4 < R3 then PC += 1
+	[  73]	         Jmp	|    0 |    1 |    0 |	PC += 1
+	[  74]	      Return	|    0 |    1 |    0 |	return
+	[  75]	    SetUpval	|    1 |    5 |    0 |	UPVALUE_5 = R1
+	[  76]	    GetUpval	|    4 |    5 |    0 |	R4 = UPVALUE_5
+	[  77]	    GetTable	|    4 |    4 |  274 |	R4 = R4["PrimaryPart"]
+	[  78]	    GetTable	|    4 |    4 |  261 |	R4 = R4["Position"]
+	[  79]	    GetTable	|    5 |    0 |  261 |	R5 = R0["Position"]
+	[  80]	         Sub	|    4 |    4 |    5 |	R4 = R4 - R5
+	[  81]	    SetUpval	|    4 |    6 |    0 |	UPVALUE_6 = R4
+	[  82]	   GetGlobal	|    4 |   13 |    0 |	R4 = Instance
+	[  83]	    GetTable	|    4 |    4 |  281 |	R4 = R4["new"]
+	[  84]	       LoadK	|    5 |   26 |    0 |	R5 = "BodyPosition"
+	[  85]	        Call	|    4 |    2 |    2 |	R4 = R4(R5)
+	[  86]	    SetUpval	|    4 |    7 |    0 |	UPVALUE_7 = R4
+	[  87]	    GetUpval	|    4 |    7 |    0 |	R4 = UPVALUE_7
+	[  88]	   GetGlobal	|    5 |   27 |    0 |	R5 = Vector3
+	[  89]	    GetTable	|    5 |    5 |  281 |	R5 = R5["new"]
+	[  90]	       LoadK	|    6 |   28 |    0 |	R6 = 100000
+	[  91]	       LoadK	|    7 |   28 |    0 |	R7 = 100000
+	[  92]	       LoadK	|    8 |   28 |    0 |	R8 = 100000
+	[  93]	        Call	|    5 |    4 |    2 |	R5 = R5(R6, R7, R8)
+	[  94]	    SetTable	|    4 |  285 |    5 |	R4["MaxForce"] = R5
+	[  95]	    GetUpval	|    4 |    7 |    0 |	R4 = UPVALUE_7
+	[  96]	    SetTable	|    4 |  286 |  287 |	R4["P"] = 50000
+	[  97]	    GetUpval	|    4 |    7 |    0 |	R4 = UPVALUE_7
+	[  98]	    SetTable	|    4 |  288 |  289 |	R4["D"] = 1000
+	[  99]	    GetUpval	|    4 |    7 |    0 |	R4 = UPVALUE_7
+	[ 100]	    GetUpval	|    5 |    5 |    0 |	R5 = UPVALUE_5
+	[ 101]	    GetTable	|    5 |    5 |  274 |	R5 = R5["PrimaryPart"]
+	[ 102]	    GetTable	|    5 |    5 |  261 |	R5 = R5["Position"]
+	[ 103]	    SetTable	|    4 |  261 |    5 |	R4["Position"] = R5
+	[ 104]	    GetUpval	|    4 |    7 |    0 |	R4 = UPVALUE_7
+	[ 105]	    GetUpval	|    5 |    5 |    0 |	R5 = UPVALUE_5
+	[ 106]	    GetTable	|    5 |    5 |  274 |	R5 = R5["PrimaryPart"]
+	[ 107]	    SetTable	|    4 |  290 |    5 |	R4["Parent"] = R5
+	[ 108]	    GetUpval	|    4 |    8 |    0 |	R4 = UPVALUE_8
+	[ 109]	        Test	|    4 |    0 |    1 |	if R4 then PC += 1
+	[ 110]	         Jmp	|    0 |    3 |    0 |	PC += 3
+	[ 111]	    GetUpval	|    4 |    9 |    0 |	R4 = UPVALUE_9
+	[ 112]	        Call	|    4 |    1 |    2 |	R4 = R4()
+	[ 113]	    SetUpval	|    4 |    8 |    0 |	UPVALUE_8 = R4
+	[ 114]	      Return	|    0 |    1 |    0 |	return
+end
+function func_4bab135a()
+	[Slots: 5, Upvalues: 0, Constants: 20]
+	[   0]	   GetGlobal	|    0 |    0 |    0 |	R0 = Instance
+	[   1]	    GetTable	|    0 |    0 |  257 |	R0 = R0["new"]
+	[   2]	       LoadK	|    1 |    2 |    0 |	R1 = "Part"
+	[   3]	        Call	|    0 |    2 |    2 |	R0 = R0(R1)
+	[   4]	   GetGlobal	|    1 |    3 |    0 |	R1 = Enum
+	[   5]	    GetTable	|    1 |    1 |  260 |	R1 = R1["PartType"]
+	[   6]	    GetTable	|    1 |    1 |  261 |	R1 = R1["Ball"]
+	[   7]	    SetTable	|    0 |  262 |    1 |	R0["Shape"] = R1
+	[   8]	   GetGlobal	|    1 |    7 |    0 |	R1 = Vector3
+	[   9]	    GetTable	|    1 |    1 |  257 |	R1 = R1["new"]
+	[  10]	       LoadK	|    2 |    8 |    0 |	R2 = 0.5
+	[  11]	       LoadK	|    3 |    8 |    0 |	R3 = 0.5
+	[  12]	       LoadK	|    4 |    8 |    0 |	R4 = 0.5
+	[  13]	        Call	|    1 |    4 |    2 |	R1 = R1(R2, R3, R4)
+	[  14]	    SetTable	|    0 |  265 |    1 |	R0["Size"] = R1
+	[  15]	    SetTable	|    0 |  266 |  267 |	R0["Anchored"] = true
+	[  16]	    SetTable	|    0 |  268 |  269 |	R0["CanCollide"] = false
+	[  17]	   GetGlobal	|    1 |   14 |    0 |	R1 = BrickColor
+	[  18]	    GetTable	|    1 |    1 |  257 |	R1 = R1["new"]
+	[  19]	       LoadK	|    2 |   15 |    0 |	R2 = "Bright green"
+	[  20]	        Call	|    1 |    2 |    2 |	R1 = R1(R2)
+	[  21]	    SetTable	|    0 |  270 |    1 |	R0["BrickColor"] = R1
+	[  22]	   GetGlobal	|    1 |    3 |    0 |	R1 = Enum
+	[  23]	    GetTable	|    1 |    1 |  272 |	R1 = R1["Material"]
+	[  24]	    GetTable	|    1 |    1 |  273 |	R1 = R1["Neon"]
+	[  25]	    SetTable	|    0 |  272 |    1 |	R0["Material"] = R1
+	[  26]	   GetGlobal	|    1 |   18 |    0 |	R1 = workspace
+	[  27]	    SetTable	|    0 |  275 |    1 |	R0["Parent"] = R1
+	[  28]	      Return	|    0 |    2 |    0 |	return R0
+end
+function func_3dc5e03e()
+	[Slots: 3, Upvalues: 5, Constants: 2]
+	[   0]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   1]	        Test	|    0 |    0 |    0 |	if not R0 then PC += 1
+	[   2]	         Jmp	|    0 |   21 |    0 |	PC += 21
+	[   3]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   4]	    GetTable	|    0 |    0 |  256 |	R0 = R0["PrimaryPart"]
+	[   5]	        Test	|    0 |    0 |    0 |	if not R0 then PC += 1
+	[   6]	         Jmp	|    0 |   17 |    0 |	PC += 17
+	[   7]	    GetUpval	|    0 |    1 |    0 |	R0 = UPVALUE_1
+	[   8]	        Call	|    0 |    1 |    2 |	R0 = R0()
+	[   9]	    GetUpval	|    1 |    2 |    0 |	R1 = UPVALUE_2
+	[  10]	         Add	|    0 |    0 |    1 |	R0 = R0 + R1
+	[  11]	    GetUpval	|    1 |    3 |    0 |	R1 = UPVALUE_3
+	[  12]	        Test	|    1 |    0 |    0 |	if not R1 then PC += 1
+	[  13]	         Jmp	|    0 |    2 |    0 |	PC += 2
+	[  14]	    GetUpval	|    1 |    3 |    0 |	R1 = UPVALUE_3
+	[  15]	    SetTable	|    1 |  257 |    0 |	R1["Position"] = R0
+	[  16]	    GetUpval	|    1 |    4 |    0 |	R1 = UPVALUE_4
+	[  17]	        Test	|    1 |    0 |    0 |	if not R1 then PC += 1
+	[  18]	         Jmp	|    0 |    5 |    0 |	PC += 5
+	[  19]	    GetUpval	|    1 |    4 |    0 |	R1 = UPVALUE_4
+	[  20]	    GetUpval	|    2 |    0 |    0 |	R2 = UPVALUE_0
+	[  21]	    GetTable	|    2 |    2 |  256 |	R2 = R2["PrimaryPart"]
+	[  22]	    GetTable	|    2 |    2 |  257 |	R2 = R2["Position"]
+	[  23]	    SetTable	|    1 |  257 |    2 |	R1["Position"] = R2
+	[  24]	      Return	|    0 |    1 |    0 |	return
+end
+function func_77ab48ef()
+	[Slots: 15, Upvalues: 0, Constants: 22]
+	[   0]	   GetGlobal	|    0 |    0 |    0 |	R0 = game
+	[   1]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["GetService"]
+	[   2]	       LoadK	|    2 |    2 |    0 |	R2 = "ReplicatedStorage"
+	[   3]	        Call	|    0 |    3 |    2 |	R0 = R0(R1, R2)
+	[   4]	   GetGlobal	|    1 |    3 |    0 |	R1 = workspace
+	[   5]	        Self	|    1 |    1 |  260 |	R2 = R1; R1 = R1["WaitForChild"]
+	[   6]	       LoadK	|    3 |    5 |    0 |	R3 = "Van"
+	[   7]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[   8]	        Self	|    1 |    1 |  260 |	R2 = R1; R1 = R1["WaitForChild"]
+	[   9]	       LoadK	|    3 |    5 |    0 |	R3 = "Van"
+	[  10]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[  11]	        Self	|    1 |    1 |  260 |	R2 = R1; R1 = R1["WaitForChild"]
+	[  12]	       LoadK	|    3 |    6 |    0 |	R3 = "Misc"
+	[  13]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[  14]	        Self	|    1 |    1 |  260 |	R2 = R1; R1 = R1["WaitForChild"]
+	[  15]	       LoadK	|    3 |    7 |    0 |	R3 = "tank"
+	[  16]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[  17]	        Self	|    1 |    1 |  260 |	R2 = R1; R1 = R1["WaitForChild"]
+	[  18]	       LoadK	|    3 |    8 |    0 |	R3 = "main"
+	[  19]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[  20]	        Self	|    1 |    1 |  260 |	R2 = R1; R1 = R1["WaitForChild"]
+	[  21]	       LoadK	|    3 |    7 |    0 |	R3 = "tank"
+	[  22]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[  23]	        Self	|    2 |    0 |  260 |	R3 = R0; R2 = R0["WaitForChild"]
+	[  24]	       LoadK	|    4 |    9 |    0 |	R4 = "Assets"
+	[  25]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  26]	        Self	|    2 |    2 |  260 |	R3 = R2; R2 = R2["WaitForChild"]
+	[  27]	       LoadK	|    4 |   10 |    0 |	R4 = "Liquids"
+	[  28]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  29]	        Self	|    2 |    2 |  260 |	R3 = R2; R2 = R2["WaitForChild"]
+	[  30]	       LoadK	|    4 |   11 |    0 |	R4 = "GasCan"
+	[  31]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  32]	        Self	|    2 |    2 |  260 |	R3 = R2; R2 = R2["WaitForChild"]
+	[  33]	       LoadK	|    4 |    8 |    0 |	R4 = "main"
+	[  34]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  35]	        Self	|    2 |    2 |  260 |	R3 = R2; R2 = R2["WaitForChild"]
+	[  36]	       LoadK	|    4 |    7 |    0 |	R4 = "tank"
+	[  37]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  38]	        Self	|    3 |    0 |  260 |	R4 = R0; R3 = R0["WaitForChild"]
+	[  39]	       LoadK	|    5 |   12 |    0 |	R5 = "fill"
+	[  40]	        Call	|    3 |    3 |    2 |	R3 = R3(R4, R5)
+	[  41]	        Test	|    1 |    0 |    0 |	if not R1 then PC += 1
+	[  42]	         Jmp	|    0 |   27 |    0 |	PC += 27
+	[  43]	        Test	|    2 |    0 |    0 |	if not R2 then PC += 1
+	[  44]	         Jmp	|    0 |   25 |    0 |	PC += 25
+	[  45]	        Test	|    3 |    0 |    0 |	if not R3 then PC += 1
+	[  46]	         Jmp	|    0 |   23 |    0 |	PC += 23
+	[  47]	       LoadK	|    4 |   13 |    0 |	R4 = 1
+	[  48]	       LoadK	|    5 |   14 |    0 |	R5 = 600
+	[  49]	       LoadK	|    6 |   13 |    0 |	R6 = 1
+	[  50]	     ForPrep	|    4 |   18 |    0 |	R4 -= R6; PC += 18
+	[  51]	   GetGlobal	|    8 |   15 |    0 |	R8 = pcall
+	[  52]	     Closure	|    9 |    0 |    3 |	R9 = func_3ae36d3f
+	[  53]	        Move	|    0 |    3 |    0 |	R0 = R3
+	[  54]	        Move	|    0 |    1 |    0 |	R0 = R1
+	[  55]	        Move	|    0 |    2 |    0 |	R0 = R2
+	[  56]	        Call	|    8 |    2 |    3 |	R8, R9 = R8(R9)
+	[  57]	        Test	|    8 |    0 |    1 |	if R8 then PC += 1
+	[  58]	         Jmp	|    0 |    6 |    0 |	PC += 6
+	[  59]	   GetGlobal	|   10 |   16 |    0 |	R10 = warn
+	[  60]	       LoadK	|   11 |   17 |    0 |	R11 = "Fill failed at attempt"
+	[  61]	        Move	|   12 |    7 |    0 |	R12 = R7
+	[  62]	       LoadK	|   13 |   18 |    0 |	R13 = ":"
+	[  63]	        Move	|   14 |    9 |    0 |	R14 = R9
+	[  64]	        Call	|   10 |    5 |    1 |	R10(R11, R12, R13, R14)
+	[  65]	   GetGlobal	|   10 |   19 |    0 |	R10 = task
+	[  66]	    GetTable	|   10 |   10 |  276 |	R10 = R10["wait"]
+	[  67]	       LoadK	|   11 |   21 |    0 |	R11 = 0.2
+	[  68]	        Call	|   10 |    2 |    1 |	R10(R11)
+	[  69]	     ForLoop	|    4 |  -19 |    0 |	R4 += R6; if loop continues then PC += -19; R7 = R4;
+	[  70]	      Return	|    0 |    1 |    0 |	return
+end
+function func_3ae36d3f()
+	[Slots: 4, Upvalues: 3, Constants: 1]
+	[   0]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   1]	        Self	|    0 |    0 |  256 |	R1 = R0; R0 = R0["FireServer"]
+	[   2]	    GetUpval	|    2 |    1 |    0 |	R2 = UPVALUE_1
+	[   3]	    GetUpval	|    3 |    2 |    0 |	R3 = UPVALUE_2
+	[   4]	        Call	|    0 |    4 |    1 |	R0(R1, R2, R3)
+	[   5]	      Return	|    0 |    1 |    0 |	return
+end
+function func_2ab291fc(R0)
+	[Slots: 16, Upvalues: 2, Constants: 3]
+	[   0]	       LoadK	|    1 |    0 |    0 |	R1 = 0
+	[   1]	   GetGlobal	|    2 |    1 |    0 |	R2 = ipairs
+	[   2]	        Move	|    3 |    0 |    0 |	R3 = R0
+	[   3]	        Call	|    2 |    2 |    4 |	R2, R3, R4 = R2(R3)
+	[   4]	         Jmp	|    0 |   14 |    0 |	PC += 14
+	[   5]	    GetUpval	|    7 |    0 |    0 |	R7 = UPVALUE_0
+	[   6]	        Move	|    8 |    6 |    0 |	R8 = R6
+	[   7]	        Call	|    7 |    2 |    2 |	R7 = R7(R8)
+	[   8]	   GetGlobal	|    8 |    1 |    0 |	R8 = ipairs
+	[   9]	        Move	|    9 |    7 |    0 |	R9 = R7
+	[  10]	        Call	|    8 |    2 |    4 |	R8, R9, R10 = R8(R9)
+	[  11]	         Jmp	|    0 |    5 |    0 |	PC += 5
+	[  12]	         Add	|    1 |    1 |  258 |	R1 = R1 + 1
+	[  13]	    GetUpval	|   13 |    1 |    0 |	R13 = UPVALUE_1
+	[  14]	        Move	|   14 |   12 |    0 |	R14 = R12
+	[  15]	        Move	|   15 |    1 |    0 |	R15 = R1
+	[  16]	        Call	|   13 |    3 |    1 |	R13(R14, R15)
+	[  17]	    TForLoop	|    8 |    0 |    2 |	R11, R12 = R8(R9, R10); if R11 ~= nil then R10 = R11 else PC += 1 end
+	[  18]	         Jmp	|    0 |   -7 |    0 |	PC += -7
+	[  19]	    TForLoop	|    2 |    0 |    2 |	R5, R6 = R2(R3, R4); if R5 ~= nil then R4 = R5 else PC += 1 end
+	[  20]	         Jmp	|    0 |  -16 |    0 |	PC += -16
+	[  21]	      Return	|    0 |    1 |    0 |	return
+end
+function func_4f754de3()
+	[Slots: 6, Upvalues: 0, Constants: 9]
+	[   0]	   GetGlobal	|    0 |    0 |    0 |	R0 = ipairs
+	[   1]	   GetGlobal	|    1 |    1 |    0 |	R1 = game
+	[   2]	        Self	|    1 |    1 |  258 |	R2 = R1; R1 = R1["GetService"]
+	[   3]	       LoadK	|    3 |    3 |    0 |	R3 = "Workspace"
+	[   4]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[   5]	        Self	|    1 |    1 |  260 |	R2 = R1; R1 = R1["GetDescendants"]
+	[   6]	        Call	|    1 |    2 |    0 |	R1->top = R1(R2)
+	[   7]	        Call	|    0 |    0 |    4 |	R0, R1, R2 = R0(R1->top)
+	[   8]	         Jmp	|    0 |    4 |    0 |	PC += 4
+	[   9]	    GetTable	|    5 |    4 |  261 |	R5 = R4["ClassName"]
+	[  10]	          Eq	|    0 |    5 |  262 |	if R5 == "ProximityPrompt" then PC += 1
+	[  11]	         Jmp	|    0 |    1 |    0 |	PC += 1
+	[  12]	    SetTable	|    4 |  263 |  264 |	R4["HoldDuration"] = 0
+	[  13]	    TForLoop	|    0 |    0 |    2 |	R3, R4 = R0(R1, R2); if R3 ~= nil then R2 = R3 else PC += 1 end
+	[  14]	         Jmp	|    0 |   -6 |    0 |	PC += -6
+	[  15]	      Return	|    0 |    1 |    0 |	return
+end
+function func_9ed0cd02()
+	[Slots: 16, Upvalues: 0, Constants: 24]
+	[   0]	   GetGlobal	|    0 |    0 |    0 |	R0 = game
+	[   1]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["GetService"]
+	[   2]	       LoadK	|    2 |    2 |    0 |	R2 = "ReplicatedStorage"
+	[   3]	        Call	|    0 |    3 |    2 |	R0 = R0(R1, R2)
+	[   4]	   GetGlobal	|    1 |    0 |    0 |	R1 = game
+	[   5]	        Self	|    1 |    1 |  257 |	R2 = R1; R1 = R1["GetService"]
+	[   6]	       LoadK	|    3 |    3 |    0 |	R3 = "Players"
+	[   7]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[   8]	    GetTable	|    2 |    1 |  260 |	R2 = R1["LocalPlayer"]
+	[   9]	        Self	|    3 |    0 |  261 |	R4 = R0; R3 = R0["WaitForChild"]
+	[  10]	       LoadK	|    5 |    6 |    0 |	R5 = "teleport"
+	[  11]	        Call	|    3 |    3 |    2 |	R3 = R3(R4, R5)
+	[  12]	   GetGlobal	|    4 |    7 |    0 |	R4 = Vector3
+	[  13]	    GetTable	|    4 |    4 |  264 |	R4 = R4["new"]
+	[  14]	       LoadK	|    5 |    9 |    0 |	R5 = -1048.7503662109375
+	[  15]	       LoadK	|    6 |   10 |    0 |	R6 = -222.73812866210938
+	[  16]	       LoadK	|    7 |   11 |    0 |	R7 = -112216.1328125
+	[  17]	        Call	|    4 |    4 |    2 |	R4 = R4(R5, R6, R7)
+	[  18]	    GetTable	|    5 |    2 |  268 |	R5 = R2["Character"]
+	[  19]	        Test	|    5 |    0 |    0 |	if not R5 then PC += 1
+	[  20]	         Jmp	|    0 |   26 |    0 |	PC += 26
+	[  21]	        Self	|    6 |    5 |  269 |	R7 = R5; R6 = R5["IsA"]
+	[  22]	       LoadK	|    8 |   14 |    0 |	R8 = "Model"
+	[  23]	        Call	|    6 |    3 |    2 |	R6 = R6(R7, R8)
+	[  24]	        Test	|    6 |    0 |    0 |	if not R6 then PC += 1
+	[  25]	         Jmp	|    0 |   21 |    0 |	PC += 21
+	[  26]	       LoadK	|    6 |   15 |    0 |	R6 = 1
+	[  27]	       LoadK	|    7 |   16 |    0 |	R7 = 10
+	[  28]	       LoadK	|    8 |   15 |    0 |	R8 = 1
+	[  29]	     ForPrep	|    6 |   16 |    0 |	R6 -= R8; PC += 16
+	[  30]	         Mul	|   10 |    9 |  272 |	R10 = R9 * 10
+	[  31]	   GetGlobal	|   11 |    7 |    0 |	R11 = Vector3
+	[  32]	    GetTable	|   11 |   11 |  264 |	R11 = R11["new"]
+	[  33]	    GetTable	|   12 |    4 |  273 |	R12 = R4["X"]
+	[  34]	    GetTable	|   13 |    4 |  274 |	R13 = R4["Y"]
+	[  35]	         Add	|   13 |   13 |   10 |	R13 = R13 + R10
+	[  36]	    GetTable	|   14 |    4 |  275 |	R14 = R4["Z"]
+	[  37]	        Call	|   11 |    4 |    2 |	R11 = R11(R12, R13, R14)
+	[  38]	        Self	|   12 |    3 |  276 |	R13 = R3; R12 = R3["FireServer"]
+	[  39]	        Move	|   14 |    5 |    0 |	R14 = R5
+	[  40]	        Move	|   15 |   11 |    0 |	R15 = R11
+	[  41]	        Call	|   12 |    4 |    1 |	R12(R13, R14, R15)
+	[  42]	   GetGlobal	|   12 |   21 |    0 |	R12 = task
+	[  43]	    GetTable	|   12 |   12 |  278 |	R12 = R12["wait"]
+	[  44]	       LoadK	|   13 |   23 |    0 |	R13 = 0.3
+	[  45]	        Call	|   12 |    2 |    1 |	R12(R13)
+	[  46]	     ForLoop	|    6 |  -17 |    0 |	R6 += R8; if loop continues then PC += -17; R9 = R6;
+	[  47]	      Return	|    0 |    1 |    0 |	return
+end
+function func_2b7f50bd()
+	[Slots: 15, Upvalues: 0, Constants: 22]
+	[   0]	   GetGlobal	|    0 |    0 |    0 |	R0 = game
+	[   1]	        Self	|    0 |    0 |  257 |	R1 = R0; R0 = R0["GetService"]
+	[   2]	       LoadK	|    2 |    2 |    0 |	R2 = "ReplicatedStorage"
+	[   3]	        Call	|    0 |    3 |    2 |	R0 = R0(R1, R2)
+	[   4]	   GetGlobal	|    1 |    3 |    0 |	R1 = workspace
+	[   5]	        Self	|    1 |    1 |  260 |	R2 = R1; R1 = R1["WaitForChild"]
+	[   6]	       LoadK	|    3 |    5 |    0 |	R3 = "Sedan"
+	[   7]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[   8]	        Self	|    1 |    1 |  260 |	R2 = R1; R1 = R1["WaitForChild"]
+	[   9]	       LoadK	|    3 |    5 |    0 |	R3 = "Sedan"
+	[  10]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[  11]	        Self	|    1 |    1 |  260 |	R2 = R1; R1 = R1["WaitForChild"]
+	[  12]	       LoadK	|    3 |    6 |    0 |	R3 = "Misc"
+	[  13]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[  14]	        Self	|    1 |    1 |  260 |	R2 = R1; R1 = R1["WaitForChild"]
+	[  15]	       LoadK	|    3 |    7 |    0 |	R3 = "tank"
+	[  16]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[  17]	        Self	|    1 |    1 |  260 |	R2 = R1; R1 = R1["WaitForChild"]
+	[  18]	       LoadK	|    3 |    8 |    0 |	R3 = "main"
+	[  19]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[  20]	        Self	|    1 |    1 |  260 |	R2 = R1; R1 = R1["WaitForChild"]
+	[  21]	       LoadK	|    3 |    7 |    0 |	R3 = "tank"
+	[  22]	        Call	|    1 |    3 |    2 |	R1 = R1(R2, R3)
+	[  23]	        Self	|    2 |    0 |  260 |	R3 = R0; R2 = R0["WaitForChild"]
+	[  24]	       LoadK	|    4 |    9 |    0 |	R4 = "Assets"
+	[  25]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  26]	        Self	|    2 |    2 |  260 |	R3 = R2; R2 = R2["WaitForChild"]
+	[  27]	       LoadK	|    4 |   10 |    0 |	R4 = "Liquids"
+	[  28]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  29]	        Self	|    2 |    2 |  260 |	R3 = R2; R2 = R2["WaitForChild"]
+	[  30]	       LoadK	|    4 |   11 |    0 |	R4 = "GasCan"
+	[  31]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  32]	        Self	|    2 |    2 |  260 |	R3 = R2; R2 = R2["WaitForChild"]
+	[  33]	       LoadK	|    4 |    8 |    0 |	R4 = "main"
+	[  34]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  35]	        Self	|    2 |    2 |  260 |	R3 = R2; R2 = R2["WaitForChild"]
+	[  36]	       LoadK	|    4 |    7 |    0 |	R4 = "tank"
+	[  37]	        Call	|    2 |    3 |    2 |	R2 = R2(R3, R4)
+	[  38]	        Self	|    3 |    0 |  260 |	R4 = R0; R3 = R0["WaitForChild"]
+	[  39]	       LoadK	|    5 |   12 |    0 |	R5 = "fill"
+	[  40]	        Call	|    3 |    3 |    2 |	R3 = R3(R4, R5)
+	[  41]	        Test	|    1 |    0 |    0 |	if not R1 then PC += 1
+	[  42]	         Jmp	|    0 |   27 |    0 |	PC += 27
+	[  43]	        Test	|    2 |    0 |    0 |	if not R2 then PC += 1
+	[  44]	         Jmp	|    0 |   25 |    0 |	PC += 25
+	[  45]	        Test	|    3 |    0 |    0 |	if not R3 then PC += 1
+	[  46]	         Jmp	|    0 |   23 |    0 |	PC += 23
+	[  47]	       LoadK	|    4 |   13 |    0 |	R4 = 1
+	[  48]	       LoadK	|    5 |   14 |    0 |	R5 = 600
+	[  49]	       LoadK	|    6 |   13 |    0 |	R6 = 1
+	[  50]	     ForPrep	|    4 |   18 |    0 |	R4 -= R6; PC += 18
+	[  51]	   GetGlobal	|    8 |   15 |    0 |	R8 = pcall
+	[  52]	     Closure	|    9 |    0 |    3 |	R9 = func_a72af8e4
+	[  53]	        Move	|    0 |    3 |    0 |	R0 = R3
+	[  54]	        Move	|    0 |    1 |    0 |	R0 = R1
+	[  55]	        Move	|    0 |    2 |    0 |	R0 = R2
+	[  56]	        Call	|    8 |    2 |    3 |	R8, R9 = R8(R9)
+	[  57]	        Test	|    8 |    0 |    1 |	if R8 then PC += 1
+	[  58]	         Jmp	|    0 |    6 |    0 |	PC += 6
+	[  59]	   GetGlobal	|   10 |   16 |    0 |	R10 = warn
+	[  60]	       LoadK	|   11 |   17 |    0 |	R11 = "Fill failed at attempt"
+	[  61]	        Move	|   12 |    7 |    0 |	R12 = R7
+	[  62]	       LoadK	|   13 |   18 |    0 |	R13 = ":"
+	[  63]	        Move	|   14 |    9 |    0 |	R14 = R9
+	[  64]	        Call	|   10 |    5 |    1 |	R10(R11, R12, R13, R14)
+	[  65]	   GetGlobal	|   10 |   19 |    0 |	R10 = task
+	[  66]	    GetTable	|   10 |   10 |  276 |	R10 = R10["wait"]
+	[  67]	       LoadK	|   11 |   21 |    0 |	R11 = 0.15
+	[  68]	        Call	|   10 |    2 |    1 |	R10(R11)
+	[  69]	     ForLoop	|    4 |  -19 |    0 |	R4 += R6; if loop continues then PC += -19; R7 = R4;
+	[  70]	      Return	|    0 |    1 |    0 |	return
+end
+function func_a72af8e4()
+	[Slots: 4, Upvalues: 3, Constants: 1]
+	[   0]	    GetUpval	|    0 |    0 |    0 |	R0 = UPVALUE_0
+	[   1]	        Self	|    0 |    0 |  256 |	R1 = R0; R0 = R0["FireServer"]
+	[   2]	    GetUpval	|    2 |    1 |    0 |	R2 = UPVALUE_1
+	[   3]	    GetUpval	|    3 |    2 |    0 |	R3 = UPVALUE_2
+	[   4]	        Call	|    0 |    4 |    1 |	R0(R1, R2, R3)
+	[   5]	      Return	|    0 |    1 |    0 |	return
+end
